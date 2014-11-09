@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.log4j.xml.CustomLevelTestCase
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.321 sec
+test1(org.apache.log4j.xml.CustomLevelTestCase)  Time elapsed: 0.256 sec
+test2(org.apache.log4j.xml.CustomLevelTestCase)  Time elapsed: 0.017 sec
+test3(org.apache.log4j.xml.CustomLevelTestCase)  Time elapsed: 0.016 sec
+test4(org.apache.log4j.xml.CustomLevelTestCase)  Time elapsed: 0.013 sec

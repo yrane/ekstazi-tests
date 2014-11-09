@@ -1,0 +1,52 @@
+#!/bin/bash
+# TODO: comment out the script
+if [ $# -eq 0 ]; then
+  echo warning: need the name of test directory, e.g., $0 changed-test-method-body
+  exit
+fi
+# TODO: extend the script to work with multiple tests # google for "bash shift"
+simple=$1
+cd ${simple}
+test=$(pwd)
+
+ekstazi_version=4.0.1
+junit_stuff=$HOME/.m2/repository/junit/junit/4.11/junit-4.11.jar:$HOME/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+
+function copy_and_compile() {
+  cp ${test}/$1/* ${out}/
+  cd ${out}
+  # echo compile $1
+  # pwd
+  javac -cp ${junit_stuff} *java
+}
+
+function run_ekstazi() {
+  echo run test"(s)" with Ekstazi in $1
+  cd ${out}
+  if [ -f ${test}/class ]; then
+    class=$(cat ${test}/class)
+  else
+    class=$(find -name "*Test*.class" | sed -e 'sX^\./XX' -e 's/.class$//' -e 'sX/X.X')
+  fi
+  java -javaagent:$HOME/.m2/repository/org/ekstazi/org.ekstazi.core/${ekstazi_version}/org.ekstazi.core-${ekstazi_version}.jar=mode=junit -cp .:${junit_stuff} org.junit.runner.JUnitCore ${class}
+}
+
+# Note: Ekstazi doesn't track files in /tmp
+notmp=$HOME/tmp
+mkdir -p ${notmp}
+out=${notmp}/${simple}
+echo -n RUNNING ${simple}" "
+rm -rf ${out}
+mkdir -p ${out}
+cd ${out}
+copy_and_compile v1
+run_ekstazi v1 >>${out}/log1
+copy_and_compile v2
+run_ekstazi v2 >>${out}/log2
+expected=$(head ${test}/expected)
+actual=$(grep OK ${out}/log2 | sed -e 's/OK (//' -e 's/ test.*)//')
+if [ "${expected}" != "${actual}" ]; then
+  echo FAILED: expected=${expected}, actual=${actual}
+else
+  echo PASSED
+fi

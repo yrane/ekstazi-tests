@@ -1,0 +1,4 @@
+15c15
+<       10: invokestatic  #4                  // Method org/hamcrest/CoreMatchers.is:(Ljava/lang/Object;)Lorg/hamcrest/Matcher;
+---
+>       10: invokestatic  #4                  // Method org/hamcrest/CoreMatchers.not:(Ljava/lang/Object;)Lorg/hamcrest/Matcher;

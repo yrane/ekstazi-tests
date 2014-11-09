@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.log4j.HTMLLayoutTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 sec
+testFormat(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0.087 sec
+testGetHeader(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0.011 sec
+testGetHeaderWithLocation(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0.001 sec
+testGetFooter(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testGetSetLocationInfo(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testActivateOptions(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testGetSetTitle(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testFormatResize(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0.005 sec
+testProblemCharacters(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0.019 sec
+testLineSep(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testLineSepLen(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testGetContentType(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec
+testIgnoresThrowable(org.apache.log4j.HTMLLayoutTest)  Time elapsed: 0 sec

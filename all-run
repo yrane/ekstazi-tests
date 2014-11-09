@@ -1,0 +1,1 @@
+for x in changed-test-method-body multiply multiply2 multiply3 nothing-changed; do ./run-test $x; done

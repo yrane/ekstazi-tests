@@ -1,0 +1,104 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.log4j.PatternLayoutTestCase
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 1.216 sec <<< FAILURE!
+test1(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.416 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test1(PatternLayoutTestCase.java:91)
+
+test2(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.099 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test2(PatternLayoutTestCase.java:105)
+
+test3(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.076 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test3(PatternLayoutTestCase.java:119)
+
+test4(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.064 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test4(PatternLayoutTestCase.java:135)
+
+test5(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.046 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test5(PatternLayoutTestCase.java:149)
+
+test6(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.051 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test6(PatternLayoutTestCase.java:164)
+
+test7(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.04 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test7(PatternLayoutTestCase.java:179)
+
+test8(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.031 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test8(PatternLayoutTestCase.java:193)
+
+test9(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.024 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test9(PatternLayoutTestCase.java:207)
+
+test10(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.049 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test10(PatternLayoutTestCase.java:221)
+
+test11(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.023 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test11(PatternLayoutTestCase.java:235)
+
+test12(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.025 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test12(PatternLayoutTestCase.java:249)
+
+test13(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.023 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test13(PatternLayoutTestCase.java:263)
+
+test14(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.028 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.PatternLayoutTestCase.test14(PatternLayoutTestCase.java:277)
+
+testMDC1(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.005 sec
+testMDCClear(org.apache.log4j.PatternLayoutTestCase)  Time elapsed: 0.016 sec

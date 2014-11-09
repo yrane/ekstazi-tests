@@ -1,0 +1,35 @@
+copy v1/* to /home/yrane/tmp/class-inheritance/
+compile /home/yrane/tmp/class-inheritance/
+running Ekstazi in /home/yrane/tmp/class-inheritance/
+JUnit version 4.11
+.A new animal has been created!
+A new animal has been created!
+A new bird has been created!
+A new animal has been created!
+A new dog has been created!
+
+An animal sleeps...
+An animal eats...
+A bird sleeps...
+A bird eats...
+A dog sleeps...
+A dog eats...
+
+Time: 0.055
+
+OK (1 test)
+
+copy v2/* to /home/yrane/tmp/class-inheritance/
+compile /home/yrane/tmp/class-inheritance/
+running Ekstazi in /home/yrane/tmp/class-inheritance/
+JUnit version 4.11
+
+Time: 0.004
+
+OK (0 tests)
+
+Expected Tests:
+1
+Actual Tests:
+0
+FAILED: class-inheritance/

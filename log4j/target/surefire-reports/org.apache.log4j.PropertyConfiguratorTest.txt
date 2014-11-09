@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.log4j.PropertyConfiguratorTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.318 sec
+testNested(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.147 sec
+testBadUnicodeEscape(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.02 sec
+testURL(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.001 sec
+testURLBadEscape(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.023 sec
+testInputStream(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0 sec
+testJarURL(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.003 sec
+testReset(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.004 sec
+testThrowableRenderer(org.apache.log4j.PropertyConfiguratorTest)  Time elapsed: 0.025 sec

@@ -1,0 +1,49 @@
+Multiply (To check whether changes in the same method but which are covered by different test methods are captured properly by Ekstazi)
+Class: MyClass.java
+    Method: multiply (int x, int y) -> To check whether passed argument is smaller than 1000 and then return the mulplication result.
+Test Class: TestMult
+ Test Method 1: Tested whether passed argument to a method is smaller than 1000 or not.
+ Test Method 2: To test whether returned result is equal to multiplication of numbers.
+ 
+Steps:
+1. In v1, instead of multiplication, I divided the numbers, which gave a failed test case as expected when ran with Ekstazi.
+2. In v2, I changed method multiply().I changed division to multiplication and ran the test again with Ekstazi.
+3. Only 1 test case i.e. method testMultiply() should be run, but Ekstazi ran 2 tests.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Multiply2 (Changes made only in 1 method)
+Class: MyClass.java
+    Method: multiply (int x, int y) -> Return the mulplication result.
+    Method: check (int x, int y) -> To check whether passed argument is smaller than 1000
+
+Test Class: TestMult
+ Test Method 1: Tested whether passed argument to a method is smaller than 1000 or not by calling method check().
+ Test Method 2: To test whether returned result is equal to multiplication of numbers by calling method multiply().
+ 
+Steps:
+1. In v1, instead of multiplication, I divided the numbers, which gave a failed test case as expected when ran with Ekstazi.
+2. In v2, I changed ONLY method multiply(). Changed division to multiplication and ran the test again with Ekstazi.
+3. Only 1 test case i.e. method testMultiply() should be run, but Ekstazi ran 2 tests.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Multiply3 (Changes made only in 1 method, 2 classes)
+Class: MyClass.java
+    Method: multiply (int x, int y) -> Return the mulplication result.
+    Method: check (int x, int y) -> To check whether passed argument is smaller than 1000
+    
+Class: NewClass.java (No changes made to method of this class)    
+    Method: check_again (int x, int y) -> To check whether passed argument is smaller than 1000
+        
+Test Class: TestMult
+ Test Method 1: Tested whether passed argument to a method is smaller than 1000 or not using method check() of class MyClass
+ Test Method 2: To test whether returned result is equal to multiplication of numbers.
+ Test Method 3: To test whether passed argument to a method is smaller than 1000 or not using method check_again() of class NewClass
+  
+Steps:
+1. In v1, instead of multiplication, I divided the numbers, which gave a failed test case as expected when ran with Ekstazi.
+2. In v2, I changed ONLY method multiply() in class MyClass. I changed division to multiplication and ran the test again with Ekstazi.
+3. Only 1 test case i.e. method testMultiply() should be run, but Ekstazi ran 3 tests.
+

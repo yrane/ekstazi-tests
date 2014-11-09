@@ -1,0 +1,18 @@
+Compiled from "MyMatcherTest.java"
+public class MyMatcherTest {
+  public MyMatcherTest();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public void testWithMatchers();
+    Code:
+       0: ldc           #2                  // int 123456789
+       2: invokestatic  #3                  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       5: ldc           #2                  // int 123456789
+       7: invokestatic  #3                  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      10: invokestatic  #4                  // Method org/hamcrest/CoreMatchers.not:(Ljava/lang/Object;)Lorg/hamcrest/Matcher;
+      13: invokestatic  #5                  // Method org/junit/Assert.assertThat:(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V
+      16: return
+}

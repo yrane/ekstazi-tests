@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.log4j.xml.DOMTestCase
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.661 sec <<< FAILURE!
+testReset(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.114 sec
+testConfigureAndWatch(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.08 sec
+testOverrideSubst(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.012 sec
+testThrowableRenderer1(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.012 sec
+testJarURL(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.019 sec
+test1(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.146 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.xml.DOMTestCase.test1(DOMTestCase.java:116)
+
+test4(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.094 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.log4j.xml.DOMTestCase.test4(DOMTestCase.java:147)
+
+testCategoryFactory1(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.013 sec
+testCategoryFactory2(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.01 sec
+testLoggerFactory1(org.apache.log4j.xml.DOMTestCase)  Time elapsed: 0.017 sec

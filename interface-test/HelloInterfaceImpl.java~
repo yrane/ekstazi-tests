@@ -1,0 +1,14 @@
+public class HelloInterfaceImpl implements HelloInterface {
+private PrintStream target = System.out;
+
+
+@Override
+public void sayHello() {
+	    target.print("Hello World");
+
+	}
+
+public void setTarget(PrintStream target){
+	    this.target = target;
+	}
+}
