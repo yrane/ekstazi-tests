@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.077" tests="27" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.082" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,31 +57,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testResetRemovedProperties" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.03"/>
-  <testcase name="testLogListener" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.004"/>
-  <testcase name="testProperties" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
+  <testcase name="testResetRemovedProperties" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.037"/>
+  <testcase name="testLogListener" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.007"/>
+  <testcase name="testProperties" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testFloat" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
   <testcase name="testShort" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
-  <testcase name="testByte" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
+  <testcase name="testByte" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testLong" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
   <testcase name="testContainsKeyError" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testLongDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
   <testcase name="testShortDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
-  <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
+  <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testBoolean" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
-  <testcase name="testGetKeysError" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
+  <testcase name="testGetKeysError" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testBooleanDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
-  <testcase name="testDoubleDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
+  <testcase name="testDoubleDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testListMissing" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testChangePrefix" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
   <testcase name="testGetPropertyError" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
   <testcase name="testFloatDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
-  <testcase name="testGetKeysWithCycles" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.017"/>
+  <testcase name="testGetKeysWithCycles" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.003"/>
   <testcase name="testDouble" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
   <testcase name="testIntegerDefaultValue" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
-  <testcase name="testInteger" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0"/>
-  <testcase name="testGetKeysNoData" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0"/>
+  <testcase name="testInteger" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
+  <testcase name="testGetKeysNoData" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
   <testcase name="testSubset" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
-  <testcase name="testConstructor" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.002"/>
+  <testcase name="testConstructor" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.003"/>
   <testcase name="testIsEmptyError" classname="org.apache.commons.configuration2.TestJNDIConfiguration" time="0.001"/>
 </testsuite>

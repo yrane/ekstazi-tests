@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.034" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.036" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,11 +57,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testConfigurationChangedAutoSave" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.015"/>
+  <testcase name="testConfigurationChangedAutoSave" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.018"/>
   <testcase name="testConfigurationChangedAutoSaveException" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.001"/>
   <testcase name="testConfigurationChangedAfterLoading" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0"/>
   <testcase name="testUpdateFileHandler" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.017"/>
-  <testcase name="testConfigurationChangedWhileLoading" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0.001"/>
+  <testcase name="testConfigurationChangedWhileLoading" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0"/>
   <testcase name="testUpdateFileHandlerNull" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0"/>
   <testcase name="testConfigurationChangedBeforeUpdateNoSave" classname="org.apache.commons.configuration2.builder.TestAutoSaveListener" time="0"/>
 </testsuite>

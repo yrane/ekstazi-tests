@@ -36,7 +36,7 @@ import org.junit.Test;
  * nodes. Concrete sub classes have to implement a method which creates a new
  * handler object for a given nodes structure.
  *
- * @version $Id: AbstractImmutableNodeHandlerTest.java 1624601 2014-09-12 18:04:36Z oheger $
+ * @version $Id: AbstractImmutableNodeHandlerTest.java 1636034 2014-11-01 20:48:25Z oheger $
  */
 public abstract class AbstractImmutableNodeHandlerTest
 {
@@ -356,5 +356,79 @@ public abstract class AbstractImmutableNodeHandlerTest
                 new ImmutableNode.Builder().name(NodeStructureHelper.author(1))
                         .create();
         assertFalse("Defined", handler.isDefined(node));
+    }
+
+    /**
+     * Tests a filter operation on child nodes.
+     */
+    @Test
+    public void testNodeHandlerGetMatchingChildren()
+    {
+        final NodeHandler<ImmutableNode> handler =
+                createHandler(ROOT_AUTHORS_TREE);
+        final ImmutableNode target =
+                NodeStructureHelper.nodeForKey(ROOT_AUTHORS_TREE,
+                        NodeStructureHelper.author(1));
+        final Set<String> encounteredAuthors = new HashSet<String>();
+
+        NodeMatcher<ImmutableNode> matcher = new NodeMatcher<ImmutableNode>()
+        {
+            @Override
+            public <T> boolean matches(T node, NodeHandler<T> paramHandler,
+                    ImmutableNode criterion)
+            {
+                encounteredAuthors.add(paramHandler.nodeName(node));
+                return node == target;
+            }
+        };
+
+        List<ImmutableNode> result =
+                handler.getMatchingChildren(handler.getRootNode(), matcher,
+                        target);
+        assertEquals("Wrong number of matched nodes", 1, result.size());
+        assertSame("Wrong result", target, result.get(0));
+        assertEquals("Wrong number of encountered nodes",
+                NodeStructureHelper.authorsLength(), encounteredAuthors.size());
+        for (int i = 0; i < NodeStructureHelper.authorsLength(); i++)
+        {
+            assertTrue("Author not found: " + NodeStructureHelper.author(i),
+                    encounteredAuthors.contains(NodeStructureHelper.author(i)));
+        }
+    }
+
+    /**
+     * Tests that the list returned by getMatchingChildren() cannot be modified.
+     */
+    @Test(expected = UnsupportedOperationException.class)
+    public void testNodeHandlerGetMatchingChildrenImmutable()
+    {
+        NodeHandler<ImmutableNode> handler = createHandler(ROOT_AUTHORS_TREE);
+        List<ImmutableNode> result =
+                handler.getMatchingChildren(handler.getRootNode(),
+                        new DummyNodeMatcher(), this);
+        result.clear();
+    }
+
+    /**
+     * Tests whether filtered nodes can be counted.
+     */
+    @Test
+    public void testNodeHandlerGetMatchingChildrenCount()
+    {
+        NodeHandler<ImmutableNode> handler = createHandler(ROOT_AUTHORS_TREE);
+        assertEquals("Wrong result", NodeStructureHelper.authorsLength(),
+                handler.getMatchingChildrenCount(handler.getRootNode(),
+                        new DummyNodeMatcher(), this));
+    }
+
+    /**
+     * A dummy NodeMatcher implementation that will simply accept all passed in nodes.
+     */
+    private static class DummyNodeMatcher implements NodeMatcher<Object>
+    {
+        @Override
+        public <T> boolean matches(T node, NodeHandler<T> handler, Object criterion) {
+            return true;
+        }
     }
 }

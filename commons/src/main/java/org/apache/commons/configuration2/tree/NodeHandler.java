@@ -30,7 +30,7 @@ import java.util.Set;
  * querying the internal state of a node in a read-only way.
  * </p>
  *
- * @version $Id: NodeHandler.java 1624601 2014-09-12 18:04:36Z oheger $
+ * @version $Id: NodeHandler.java 1636033 2014-11-01 20:47:47Z oheger $
  * @param <T> the type of the nodes this handler deals with
  */
 public interface NodeHandler<T>
@@ -78,6 +78,20 @@ public interface NodeHandler<T>
     List<T> getChildren(T node, String name);
 
     /**
+     * Returns an unmodifiable list of all children of the specified node which
+     * are matched by the passed in {@code NodeMatcher} against the provided
+     * criterion. This method allows for advanced queries on a node's children.
+     *
+     * @param node the node
+     * @param matcher the {@code NodeMatcher} defining filter criteria
+     * @param criterion the criterion to be matched against; this object is
+     *        passed to the {@code NodeMatcher}
+     * @param <C> the type of the criterion
+     * @return a list with all children matched by the matcher
+     */
+    <C> List<T> getMatchingChildren(T node, NodeMatcher<C> matcher, C criterion);
+
+    /**
      * Returns the child with the given index of the specified node.
      *
      * @param node the node
@@ -116,6 +130,20 @@ public interface NodeHandler<T>
      * @return the number of the selected children
      */
     int getChildrenCount(T node, String name);
+
+    /**
+     * Returns the number of children of the specified node which are matched by
+     * the given {@code NodeMatcher}. This is a more generic version of
+     * {@link #getChildrenCount(Object, String)}. It allows checking for
+     * arbitrary filter conditions.
+     *
+     * @param node the node
+     * @param matcher the {@code NodeMatcher}
+     * @param criterion the criterion to be passed to the {@code NodeMatcher}
+     * @param <C> the type of the criterion
+     * @return the number of matched children
+     */
+    <C> int getMatchingChildrenCount(T node, NodeMatcher<C> matcher, C criterion);
 
     /**
      * Returns an unmodifiable set with the names of all attributes of the

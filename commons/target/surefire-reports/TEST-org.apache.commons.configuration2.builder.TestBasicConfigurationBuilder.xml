@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.024" tests="27" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.027" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -59,22 +59,22 @@
   </properties>
   <testcase name="testAddParameters" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testInitNoClass" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
-  <testcase name="testResetResult" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
+  <testcase name="testResetResult" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
   <testcase name="testSetParameters" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testInitializationErrorAllowed" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testReservedParameter" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
   <testcase name="testGetParametersModify" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
-  <testcase name="testReset" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
+  <testcase name="testReset" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
   <testcase name="testGetResultDeclarationInvalidBeanClass" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
-  <testcase name="testAddConfigurationListener" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
+  <testcase name="testAddConfigurationListener" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testConnectToReloadingControllerNull" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testGetConfiguration" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testConfigure" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
   <testcase name="testBeanHelperInConfiguration" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
-  <testcase name="testEventListenerConfiguration" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
+  <testcase name="testEventListenerConfiguration" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
   <testcase name="testRemoveConfigurationListenersOnReset" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
-  <testcase name="testRemoveConfigurationListener" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
-  <testcase name="testGetConfigurationConcurrently" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.015"/>
+  <testcase name="testRemoveConfigurationListener" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
+  <testcase name="testGetConfigurationConcurrently" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.016"/>
   <testcase name="testInitWithParameters" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testAddParametersNull" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testConnectToReloadingController" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.002"/>
@@ -83,5 +83,5 @@
   <testcase name="testInitializableCalled" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.002"/>
   <testcase name="testInitWithParametersNull" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
   <testcase name="testInitWithParametersDefensiveCopy" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
-  <testcase name="testCopyEventListeners" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0"/>
+  <testcase name="testCopyEventListeners" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilder" time="0.001"/>
 </testsuite>

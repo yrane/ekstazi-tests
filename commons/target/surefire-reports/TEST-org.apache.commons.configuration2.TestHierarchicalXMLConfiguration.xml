@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.057" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.041" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,13 +58,13 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testSetRootElementNameWhenLoadedFromFile" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.001"/>
-  <testcase name="testSave" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.009"/>
-  <testcase name="testXmlNodeTypes" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.027"/>
+  <testcase name="testSave" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.006"/>
+  <testcase name="testXmlNodeTypes" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.004"/>
   <testcase name="testLoadURL" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.002"/>
-  <testcase name="testSaveModified" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.007"/>
-  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.002"/>
-  <testcase name="testLoadBasePath1" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.003"/>
-  <testcase name="testLoadBasePath2" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.002"/>
-  <testcase name="testSaveNew" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.004"/>
+  <testcase name="testSaveModified" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.009"/>
+  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.005"/>
+  <testcase name="testLoadBasePath1" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.001"/>
+  <testcase name="testLoadBasePath2" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.006"/>
+  <testcase name="testSaveNew" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0.007"/>
   <testcase name="testRootElement" classname="org.apache.commons.configuration2.TestHierarchicalXMLConfiguration" time="0"/>
 </testsuite>

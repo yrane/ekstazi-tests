@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.004" tests="36" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.006" tests="38" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,34 +58,36 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testCanonicalKeyRootNoParentKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testInitNoSymbols" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddWithSameAttributeDelimiter" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
+  <testcase name="testInitNoSymbols" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
+  <testcase name="testPrepareAddWithSameAttributeDelimiter" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddWithIndex" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddInvalidKeyAttribute" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testNodeKeyWithRoot" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddWithPath" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testQueryRootNodeEmptyKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
+  <testcase name="testQueryRootNodeEmptyKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
   <testcase name="testCanonicalKeyNoDuplicates" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testQueryAttributeEmulation" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
+  <testcase name="testQueryAttributeEmulation" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testAttributeKeyRoot" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testAttributeKeyWithAlternativeSyntax" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testQueryRootNodeNullKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testNodeKeyWithEscapedDelimiters" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testQueryKeys" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testQueryEscapedKeys" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
-  <testcase name="testDefaultSymbols" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
+  <testcase name="testQueryKeys" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
+  <testcase name="testQueryEscapedKeys" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
+  <testcase name="testDefaultSymbols" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
   <testcase name="testPrepareAddInvalidKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testQueryNodes" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testCanonicalKeyRootWithParentKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddDirectly" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testQueryNonExistingKeys" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
-  <testcase name="testCanonicalKeyWithDuplicates" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
+  <testcase name="testPrepareAddWithAlternativeMatcher" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
+  <testcase name="testCanonicalKeyWithDuplicates" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testAttributeKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testAttributeKeyNoParent" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddEmptyKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testCanonicalKeyNoParentKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddWithAlternativeSyntax" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testQueryAlternativeSyntax" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
+  <testcase name="testQueryKeyWithAlternativeMatcher" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0.001"/>
   <testcase name="testNodeKeyWithAlternativeSyntax" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testPrepareAddAttribute" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>
   <testcase name="testNodeKey" classname="org.apache.commons.configuration2.tree.TestDefaultExpressionEngine" time="0"/>

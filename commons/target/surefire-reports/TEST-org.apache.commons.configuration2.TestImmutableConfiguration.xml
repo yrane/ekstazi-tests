@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.018" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.022" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,12 +57,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testUnmodifiableConfigurationAccess" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.007"/>
-  <testcase name="testUnmodifiableConfigurationLiveUpdate" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.001"/>
-  <testcase name="testUnmodifiableHierarchicalConfiguration" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.001"/>
-  <testcase name="testImmutableSubset" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.002"/>
+  <testcase name="testUnmodifiableConfigurationAccess" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.011"/>
+  <testcase name="testUnmodifiableConfigurationLiveUpdate" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.002"/>
+  <testcase name="testUnmodifiableHierarchicalConfiguration" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0"/>
+  <testcase name="testImmutableSubset" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.001"/>
   <testcase name="testUnmodifiableConfigurationIterate" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.002"/>
-  <testcase name="testUnmodifiableConfigurationCast" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.001"/>
+  <testcase name="testUnmodifiableConfigurationCast" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.002"/>
   <testcase name="testUnmodifiableConfigurationNull" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0"/>
   <testcase name="testUnmodifiableConfigurationIteratorRemove" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.002"/>
   <testcase name="testUnmodifiableConfigurationOtherTypes" classname="org.apache.commons.configuration2.TestImmutableConfiguration" time="0.002"/>

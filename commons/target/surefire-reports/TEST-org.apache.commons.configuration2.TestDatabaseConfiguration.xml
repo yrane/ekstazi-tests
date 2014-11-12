@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.823" tests="36" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.685" tests="36" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,40 +57,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetKeysMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.388"/>
-  <testcase name="testGetListWithDelimiter" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.024"/>
-  <testcase name="testClearPropertyCommit" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.018"/>
-  <testcase name="testClearError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.016"/>
-  <testcase name="testContainsKeySingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.016"/>
-  <testcase name="testClearPropertySingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.015"/>
-  <testcase name="testSetPropertyWithDelimiter" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.016"/>
-  <testcase name="testAddNonStringProperty" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.022"/>
-  <testcase name="testContainsKeyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.014"/>
-  <testcase name="testAddWithDelimiter" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.014"/>
-  <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.013"/>
-  <testcase name="testGetList" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.013"/>
+  <testcase name="testGetKeysMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.252"/>
+  <testcase name="testGetListWithDelimiter" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.022"/>
+  <testcase name="testClearPropertyCommit" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.016"/>
+  <testcase name="testClearError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.015"/>
+  <testcase name="testContainsKeySingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.015"/>
+  <testcase name="testClearPropertySingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.014"/>
+  <testcase name="testSetPropertyWithDelimiter" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.015"/>
+  <testcase name="testAddNonStringProperty" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.015"/>
+  <testcase name="testContainsKeyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.012"/>
+  <testcase name="testAddWithDelimiter" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.013"/>
+  <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.012"/>
+  <testcase name="testGetList" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.012"/>
   <testcase name="testIsEmptyMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.014"/>
   <testcase name="testGetKeysError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.012"/>
   <testcase name="testExtractPropertyValueCLOBEmpty" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.023"/>
   <testcase name="testLogErrorListener" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
-  <testcase name="testGetPropertyDirectMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.012"/>
-  <testcase name="testGetListWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
-  <testcase name="testContainsKeyMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
-  <testcase name="testAddPropertyDirectCommit" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
-  <testcase name="testClearPropertyMultipleOtherConfig" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.012"/>
-  <testcase name="testClearPropertyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testGetPropertyDirectMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
+  <testcase name="testGetListWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
+  <testcase name="testContainsKeyMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.013"/>
+  <testcase name="testAddPropertyDirectCommit" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.016"/>
+  <testcase name="testClearPropertyMultipleOtherConfig" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.015"/>
+  <testcase name="testClearPropertyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
   <testcase name="testClearPropertyMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
-  <testcase name="testGetPropertyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
-  <testcase name="testAddPropertyDirectSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
+  <testcase name="testGetPropertyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
+  <testcase name="testAddPropertyDirectSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.011"/>
   <testcase name="testExtractPropertyValueCLOB" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
   <testcase name="testGetPropertyDirectSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
-  <testcase name="testAddPropertyDirectMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testAddPropertyDirectMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
   <testcase name="testClearCommit" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
-  <testcase name="testIsEmptySingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
-  <testcase name="testGetKeysSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
-  <testcase name="testClearMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.008"/>
-  <testcase name="testClearSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.007"/>
-  <testcase name="testClearSubset" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.007"/>
-  <testcase name="testIsEmptyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.008"/>
-  <testcase name="testAddPropertyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testIsEmptySingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
+  <testcase name="testGetKeysSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.008"/>
+  <testcase name="testClearMultiple" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testClearSingle" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testClearSubset" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testIsEmptyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.009"/>
+  <testcase name="testAddPropertyError" classname="org.apache.commons.configuration2.TestDatabaseConfiguration" time="0.01"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.021" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.026" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,17 +57,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testParseIterable" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
+  <testcase name="testParseIterable" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.001"/>
   <testcase name="testParseIterator" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
-  <testcase name="testParseArray" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
+  <testcase name="testParseArray" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.001"/>
   <testcase name="testEscapeNonStringValue" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
-  <testcase name="testParseNull" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
-  <testcase name="testEscapeStringValueTransformer" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.015"/>
+  <testcase name="testParseNull" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.001"/>
+  <testcase name="testEscapeStringValueTransformer" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.022"/>
   <testcase name="testEscapeList" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
   <testcase name="testFlattenCollectionWithLimit" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
-  <testcase name="testEscapeNonStringValueTransformer" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
+  <testcase name="testEscapeNonStringValueTransformer" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.001"/>
   <testcase name="testParseSimpleValue" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
   <testcase name="testEscapeStringValue" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
   <testcase name="testFlattenCollectionWithArrayWithLimit" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
-  <testcase name="testFlattenArrayWithLimit" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0.006"/>
+  <testcase name="testFlattenArrayWithLimit" classname="org.apache.commons.configuration2.convert.TestDisabledListDelimiterHandler" time="0"/>
 </testsuite>

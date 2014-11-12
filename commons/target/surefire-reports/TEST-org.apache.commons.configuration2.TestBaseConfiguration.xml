@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestBaseConfiguration" time="0.026" tests="58" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestBaseConfiguration" time="0.011" tests="58" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -61,20 +61,20 @@
   <testcase name="testGetByteUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testInterpolationUnknownProperty" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testInterpolation" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testNumberConversions" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testNumberConversions" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetShortUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetFloat" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetShort" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testCommaSeparatedStringEscaped" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetHexadecimalValue" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testCommaSeparatedString" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testCommaSeparatedString" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testNoInterpolator" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetFloatUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBigIntegerIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testClone" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.013"/>
-  <testcase name="testInterpolationSubset" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testClone" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testInterpolationSubset" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testInterpolationEscaped" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testCloneModify" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testCloneModify" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetInterpolator" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetByte" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
   <testcase name="testGetList" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
@@ -82,37 +82,37 @@
   <testcase name="testGetInterpolatedList" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetStringForListValue" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetByteIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testInterpolationConstants" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testInterpolationConstants" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBooleanUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBooleanIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testCloneListProperty" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBigDecimalUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testGetBigIntegerUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
+  <testcase name="testGetBigIntegerUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
   <testcase name="testGetDoubleIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testSetInterpolator" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testGetBoolean" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testSetInterpolator" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.005"/>
+  <testcase name="testGetBoolean" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetLongUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testInterpolatedConfiguration" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testInterpolatedConfiguration" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testPropertyAccess" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBigDecimalIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testMultipleInterpolation" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testMultipleInterpolation" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBinaryValue" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testInterpolationLoop" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetDouble" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBigDecimal" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testInterpolationSystemProperties" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.002"/>
+  <testcase name="testInterpolationSystemProperties" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetBigInteger" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetString" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testInstallInterpolator" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testAddProperty" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testSubset" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testGetFloatIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testGetFloatIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testGetDoubleUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testInterpolationEnvironment" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
+  <testcase name="testInterpolationEnvironment" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.002"/>
   <testcase name="testGetLongIncompatibleTypes" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
-  <testcase name="testGetStringUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
+  <testcase name="testGetStringUnknown" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0.001"/>
   <testcase name="testGetShortIncompatibleType" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
   <testcase name="testCloneInterpolation" classname="org.apache.commons.configuration2.TestBaseConfiguration" time="0"/>
 </testsuite>

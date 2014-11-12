@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.013" tests="42" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.024" tests="42" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,30 +57,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetDescriptorArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testGetDescriptorLong" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetSimpleBoolean" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
-  <testcase name="testGetSimpleArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testGetDescriptorArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.002"/>
+  <testcase name="testGetDescriptorLong" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testSetSimpleBoolean" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testGetSimpleArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testGetDescriptorInt" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetNonIndexedProperties" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testSetNonIndexedProperties" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testGetSimpleInt" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
-  <testcase name="testNestedPropeties" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
-  <testcase name="testSetSimpleFloat" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetSimpleShort" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testMappedRemove" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testNestedPropeties" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testSetSimpleFloat" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testSetSimpleShort" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testMappedRemove" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetIndexedString" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetIndexedValues" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
-  <testcase name="testGetSimpleDouble" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testGetSimpleDouble" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testMappedContains" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testGetDescriptorFloat" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
-  <testcase name="testGetDescriptorShort" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testGetDescriptorFloat" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.002"/>
+  <testcase name="testGetDescriptorShort" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.003"/>
   <testcase name="testGetSimpleBoolean" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetMappedValues" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetSimpleString" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testGetSimpleLong" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.003"/>
-  <testcase name="testSetSimpleInt" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetIndexedArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetSimpleDouble" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testGetSimpleLong" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testSetSimpleInt" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testSetIndexedArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.002"/>
+  <testcase name="testSetSimpleDouble" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testGetDescriptorDouble" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetDescriptors" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetMappedArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
@@ -88,15 +88,15 @@
   <testcase name="testGetSimpleFloat" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetSimpleShort" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testSetMappedValues" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetSimpleString" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
-  <testcase name="testGetNonIndexedProperties" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testSetSimpleString" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testGetNonIndexedProperties" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testGetDescriptorSecond" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetDescriptorString" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetArrayValue" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
+  <testcase name="testSetArrayValue" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testGetDescriptorBoolean" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testAddNullPropertyValue" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetIndexedNonExisting" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
   <testcase name="testGetNonExistentProperty" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
   <testcase name="testGetIndexedArguments" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
-  <testcase name="testSetIndexedValues" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0.001"/>
+  <testcase name="testSetIndexedValues" classname="org.apache.commons.configuration2.beanutils.TestConfigurationDynaBean" time="0"/>
 </testsuite>

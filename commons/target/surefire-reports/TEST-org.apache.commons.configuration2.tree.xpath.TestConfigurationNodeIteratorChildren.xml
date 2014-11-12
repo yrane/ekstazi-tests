@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.011" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.008" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -60,12 +60,12 @@
   <testcase name="testIterateStartsWith" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
   <testcase name="testIterateWithNodeType" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
   <testcase name="testIterateStartsWithInvalid" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
-  <testcase name="testIterateWithWildcardTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
-  <testcase name="testIterateWithPrefixTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
-  <testcase name="testIterateWithNameTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
-  <testcase name="testIterateWithUnknownTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
+  <testcase name="testIterateWithWildcardTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0"/>
+  <testcase name="testIterateWithPrefixTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0"/>
+  <testcase name="testIterateWithNameTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0"/>
+  <testcase name="testIterateWithUnknownTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0"/>
   <testcase name="testIterateWithUnknownType" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0"/>
-  <testcase name="testIterateWithWildcardTestPrefix" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0"/>
+  <testcase name="testIterateWithWildcardTestPrefix" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
   <testcase name="testIterateReverse" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
   <testcase name="testIterateAllChildren" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>
   <testcase name="testIterateWithMatchingPrefixTest" classname="org.apache.commons.configuration2.tree.xpath.TestConfigurationNodeIteratorChildren" time="0.001"/>

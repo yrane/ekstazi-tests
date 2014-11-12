@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.029" tests="19" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.03" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,23 +57,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testDatabase" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.003"/>
+  <testcase name="testDatabase" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.002"/>
   <testcase name="testProperties" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.002"/>
-  <testcase name="testRegisterDefaultsHandlerNoStartClass" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.009"/>
-  <testcase name="testApplyDefaults" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
-  <testcase name="testXml" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
+  <testcase name="testRegisterDefaultsHandlerNoStartClass" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.007"/>
+  <testcase name="testApplyDefaults" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.001"/>
+  <testcase name="testXml" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.001"/>
   <testcase name="testBasic" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
   <testcase name="testDefaultParametersManager" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
   <testcase name="testJndi" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.004"/>
   <testcase name="testFileBasedInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
   <testcase name="testProxyObjectMethods" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
   <testcase name="testFileBased" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.001"/>
-  <testcase name="testMultiFile" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.003"/>
+  <testcase name="testMultiFile" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.004"/>
   <testcase name="testPropertiesInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
-  <testcase name="testCombined" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.003"/>
-  <testcase name="testXmlInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
-  <testcase name="testRegisterDefaultsHandlerWithStartClass" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.001"/>
-  <testcase name="testInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.001"/>
-  <testcase name="testHierarchical" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.002"/>
+  <testcase name="testCombined" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.004"/>
+  <testcase name="testXmlInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.001"/>
+  <testcase name="testRegisterDefaultsHandlerWithStartClass" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
+  <testcase name="testInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
+  <testcase name="testHierarchical" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0.003"/>
   <testcase name="testHierarchicalInheritance" classname="org.apache.commons.configuration2.builder.fluent.TestParameters" time="0"/>
 </testsuite>

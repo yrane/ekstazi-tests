@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.003" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.004" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,12 +58,12 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testWithPrefixLookupNoLookup" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
-  <testcase name="testGetPrefixLookupsModify" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
+  <testcase name="testGetPrefixLookupsModify" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.001"/>
   <testcase name="testWithPrefixLookupNoPrefix" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
-  <testcase name="testGetDefaultLookupsModify" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.001"/>
-  <testcase name="testCreateInstance" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.001"/>
-  <testcase name="testBuilderReuse" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
-  <testcase name="testCreateInstanceCollections" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.001"/>
+  <testcase name="testGetDefaultLookupsModify" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
+  <testcase name="testCreateInstance" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
+  <testcase name="testBuilderReuse" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0.003"/>
+  <testcase name="testCreateInstanceCollections" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
   <testcase name="testWithDefaultLookupNull" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
   <testcase name="testWithPrefixLookupsNull" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>
   <testcase name="testWithDefaultLookupsNull" classname="org.apache.commons.configuration2.interpol.TestInterpolatorSpecification" time="0"/>

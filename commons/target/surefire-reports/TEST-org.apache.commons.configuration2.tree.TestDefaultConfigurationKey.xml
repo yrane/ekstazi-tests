@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.005" tests="33" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.003" tests="33" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -62,17 +62,17 @@
   <testcase name="testAttributeKeyWithIndex" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testAppendDelimiters" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testIsAttributeKeyWithoutEndMarkers" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
-  <testcase name="testAppendDelimitersWithoutEscaping" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
+  <testcase name="testAppendDelimitersWithoutEscaping" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testIterateAttributeEqualsPropertyDelimiter" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testTrim" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
-  <testcase name="testIterateAlternativeEscapeDelimiter" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
-  <testcase name="testIterateEscapedDelimiters" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
+  <testcase name="testIterateAlternativeEscapeDelimiter" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
+  <testcase name="testIterateEscapedDelimiters" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testIterateWithoutEscapeDelimiter" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testDifferenceKey" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testCommonKey" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
   <testcase name="testConstructAttributeKeyWithoutEndMarkers" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testTrimRight" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
-  <testcase name="testDifferenceKeySame" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
+  <testcase name="testDifferenceKeySame" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testAppendAttribute" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testAttributeName" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testAppendDecoratedAttributeKey" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
@@ -84,9 +84,9 @@
   <testcase name="testConstructAttributeKey" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testEquals" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testSetNullExpressionEngine" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
-  <testcase name="testLength" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
+  <testcase name="testLength" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
   <testcase name="testIterateWithRemove" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
-  <testcase name="testIterate" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0.001"/>
+  <testcase name="testIterate" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testAppendIndex" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testIterateWithBrackets" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>
   <testcase name="testAppendNullAttributeKey" classname="org.apache.commons.configuration2.tree.TestDefaultConfigurationKey" time="0"/>

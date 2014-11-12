@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.107" tests="23" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.092" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,27 +57,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetKeys2PreservesOrder" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.006"/>
-  <testcase name="testCantRemoveMemoryConfig" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.021"/>
-  <testcase name="testGetPropertyMissing" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.005"/>
+  <testcase name="testGetKeys2PreservesOrder" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.005"/>
+  <testcase name="testCantRemoveMemoryConfig" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
+  <testcase name="testGetPropertyMissing" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testSubsetCanResolve" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testAddRemoveConfigurations" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
-  <testcase name="testGetKeysPreservesOrder" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
-  <testcase name="testList" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
-  <testcase name="testGetList" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
+  <testcase name="testGetKeysPreservesOrder" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
+  <testcase name="testList" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.005"/>
+  <testcase name="testGetList" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.005"/>
   <testcase name="testGettingSubset" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
-  <testcase name="testMultipleTypesOfConfigs" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.008"/>
+  <testcase name="testMultipleTypesOfConfigs" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testAddingProperty" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testPropertyExistsInOnlyOneConfig" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
-  <testcase name="testGetStringWithDefaults" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
-  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
+  <testcase name="testGetStringWithDefaults" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
+  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testCheckingInMemoryConfiguration" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
-  <testcase name="testGettingConfiguration" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
+  <testcase name="testGettingConfiguration" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testClearingProperty" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testDefaultValueWhenKeyMissing" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
-  <testcase name="testSettingMissingProperty" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
+  <testcase name="testSettingMissingProperty" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
   <testcase name="testGetVector" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
-  <testcase name="testGetPropertyWIncludes" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
-  <testcase name="testStringArray" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.002"/>
+  <testcase name="testGetPropertyWIncludes" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.004"/>
+  <testcase name="testStringArray" classname="org.apache.commons.configuration2.TestNullCompositeConfiguration" time="0.003"/>
 </testsuite>

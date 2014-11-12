@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.003" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.004" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -61,12 +61,12 @@
   <testcase name="testGetBeanFactoryNameUndefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
   <testcase name="testGetBeanFactoryNameDefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
   <testcase name="testGetConstructorArgsUndefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
-  <testcase name="testGetNestedBeanDeclarationsNull" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.001"/>
-  <testcase name="testGetBeanProperties" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
+  <testcase name="testGetNestedBeanDeclarationsNull" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
+  <testcase name="testGetBeanProperties" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.001"/>
   <testcase name="testGetBeanFactoryParameterDefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.001"/>
   <testcase name="testGetBeanClassNameUndefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
-  <testcase name="testGetConstructorArgsDefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
+  <testcase name="testGetConstructorArgsDefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.001"/>
   <testcase name="testGetBeanFactoryParameterUndefined" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
-  <testcase name="testGetNestedBeanDeclarations" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
-  <testcase name="testGetBeanPropertiesNull" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.001"/>
+  <testcase name="testGetNestedBeanDeclarations" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0.001"/>
+  <testcase name="testGetBeanPropertiesNull" classname="org.apache.commons.configuration2.beanutils.TestCombinedBeanDeclaration" time="0"/>
 </testsuite>

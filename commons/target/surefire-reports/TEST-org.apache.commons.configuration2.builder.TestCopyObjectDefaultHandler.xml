@@ -58,7 +58,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testInitializeDefaultsBaseType" classname="org.apache.commons.configuration2.builder.TestCopyObjectDefaultHandler" time="0.003"/>
-  <testcase name="testInitNull" classname="org.apache.commons.configuration2.builder.TestCopyObjectDefaultHandler" time="0.001"/>
+  <testcase name="testInitNull" classname="org.apache.commons.configuration2.builder.TestCopyObjectDefaultHandler" time="0"/>
   <testcase name="testInitializeDefaultsException" classname="org.apache.commons.configuration2.builder.TestCopyObjectDefaultHandler" time="0.003"/>
-  <testcase name="testInitializeDefaultsSameType" classname="org.apache.commons.configuration2.builder.TestCopyObjectDefaultHandler" time="0"/>
+  <testcase name="testInitializeDefaultsSameType" classname="org.apache.commons.configuration2.builder.TestCopyObjectDefaultHandler" time="0.001"/>
 </testsuite>

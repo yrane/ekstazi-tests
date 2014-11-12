@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="5.675" tests="49" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="5.475" tests="49" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,53 +57,53 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testSetConfigurationBasePath" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.195"/>
-  <testcase name="testLoadAdditional" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.012"/>
+  <testcase name="testSetConfigurationBasePath" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.072"/>
+  <testcase name="testLoadAdditional" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.011"/>
   <testcase name="testConfigurationBuilderProviderInheritBasicProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.016"/>
-  <testcase name="testLoadOptional" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.016"/>
-  <testcase name="testMultiTenentConfigurationReloading" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="5.068"/>
-  <testcase name="testReloadingBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.006"/>
-  <testcase name="testEnvironmentProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.009"/>
-  <testcase name="testGetChildBuilders" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.012"/>
-  <testcase name="testGetNamedBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.011"/>
+  <testcase name="testLoadOptional" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.017"/>
+  <testcase name="testMultiTenentConfigurationReloading" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="5.03"/>
+  <testcase name="testReloadingBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
+  <testcase name="testEnvironmentProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.013"/>
+  <testcase name="testGetChildBuilders" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.016"/>
+  <testcase name="testGetNamedBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.012"/>
   <testcase name="testGetNamedBuilderBeforeConfigurationAccess" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
-  <testcase name="testConfigurationBuilderProviderInheritEventListeners" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.015"/>
-  <testcase name="testMultiTenentConfigurationProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.013"/>
-  <testcase name="testINIConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.035"/>
-  <testcase name="testCombinedConfigurationAttributes" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.014"/>
-  <testcase name="testDefaultBasePathFromDefinitionBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.012"/>
-  <testcase name="testReactOnSubBuilderChange" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
+  <testcase name="testConfigurationBuilderProviderInheritEventListeners" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.016"/>
+  <testcase name="testMultiTenentConfigurationProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.011"/>
+  <testcase name="testINIConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.013"/>
+  <testcase name="testCombinedConfigurationAttributes" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.01"/>
+  <testcase name="testDefaultBasePathFromDefinitionBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
+  <testcase name="testReactOnSubBuilderChange" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.005"/>
   <testcase name="testNoDefinitionBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
-  <testcase name="testBasePathForChildConfigurations" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.002"/>
-  <testcase name="testProviderInDefinitionConfig" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.003"/>
-  <testcase name="testCustomEntityResolver" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
-  <testcase name="testCombinedConfigurationNoAdditional" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.011"/>
-  <testcase name="testSystemProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
-  <testcase name="testConcurrentReadAccessWithoutSynchronizer" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.039"/>
-  <testcase name="testCustomFileSystemForSubConfig" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.002"/>
-  <testcase name="testMultiTenentConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.016"/>
-  <testcase name="testConfigurationBuilderProviderInheritCustomProviders" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.002"/>
-  <testcase name="testConfigurationBuilderProvider" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
-  <testcase name="testConfigurationBuilderProviderInheritBasePath" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.004"/>
+  <testcase name="testBasePathForChildConfigurations" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
+  <testcase name="testProviderInDefinitionConfig" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.004"/>
+  <testcase name="testCustomEntityResolver" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.006"/>
+  <testcase name="testCombinedConfigurationNoAdditional" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
+  <testcase name="testSystemProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.005"/>
+  <testcase name="testConcurrentReadAccessWithoutSynchronizer" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.025"/>
+  <testcase name="testCustomFileSystemForSubConfig" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.004"/>
+  <testcase name="testMultiTenentConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.019"/>
+  <testcase name="testConfigurationBuilderProviderInheritCustomProviders" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.003"/>
+  <testcase name="testConfigurationBuilderProvider" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.01"/>
+  <testcase name="testConfigurationBuilderProviderInheritBasePath" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.005"/>
   <testcase name="testBuilderNamesBeforeConfigurationAccess" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
-  <testcase name="testConfigureResult" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
-  <testcase name="testInitChildBuilderParametersDefaultChildProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.013"/>
-  <testcase name="testCustomBuilderProvider" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
-  <testcase name="testCustomResultConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.006"/>
-  <testcase name="testResetBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.006"/>
-  <testcase name="testJndiConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.015"/>
-  <testcase name="testDefaultBasePathInParameters" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.01"/>
-  <testcase name="testBuilderNames" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.01"/>
-  <testcase name="testConfigureEntityResolverWithProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0"/>
-  <testcase name="testCustomFileSystem" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.004"/>
-  <testcase name="testRootNodeInitializedAfterCreation" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
-  <testcase name="testLoadConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
+  <testcase name="testConfigureResult" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.001"/>
+  <testcase name="testInitChildBuilderParametersDefaultChildProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.009"/>
+  <testcase name="testCustomBuilderProvider" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.001"/>
+  <testcase name="testCustomResultConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.005"/>
+  <testcase name="testResetBuilder" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
+  <testcase name="testJndiConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.012"/>
+  <testcase name="testDefaultBasePathInParameters" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.005"/>
+  <testcase name="testBuilderNames" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.009"/>
+  <testcase name="testConfigureEntityResolverWithProperties" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.001"/>
+  <testcase name="testCustomFileSystem" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.006"/>
+  <testcase name="testRootNodeInitializedAfterCreation" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.011"/>
+  <testcase name="testLoadConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.009"/>
   <testcase name="testLoadOptionalForceCreate" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.001"/>
-  <testcase name="testBuilderNamesManipulate" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.009"/>
+  <testcase name="testBuilderNamesManipulate" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
   <testcase name="testCustomLookup" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
   <testcase name="testGetNamedBuilderUnknown" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
-  <testcase name="testCombinedConfigurationListNodes" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.01"/>
-  <testcase name="testRemoveSubBuilderListener" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.006"/>
-  <testcase name="testInterpolationOverMultipleSources" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
-  <testcase name="testLoadOptionalWithException" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.004"/>
+  <testcase name="testCombinedConfigurationListNodes" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.008"/>
+  <testcase name="testRemoveSubBuilderListener" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.007"/>
+  <testcase name="testInterpolationOverMultipleSources" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.009"/>
+  <testcase name="testLoadOptionalWithException" classname="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilderVFS" time="0.005"/>
 </testsuite>

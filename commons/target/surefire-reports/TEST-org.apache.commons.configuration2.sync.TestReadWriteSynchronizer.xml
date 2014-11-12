@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testReentrance" classname="org.apache.commons.configuration2.sync.TestReadWriteSynchronizer" time="0.001"/>
-  <testcase name="testSynchronizerInAction" classname="org.apache.commons.configuration2.sync.TestReadWriteSynchronizer" time="0.036"/>
-  <testcase name="testInitLock" classname="org.apache.commons.configuration2.sync.TestReadWriteSynchronizer" time="0.005"/>
+  <testcase name="testReentrance" classname="org.apache.commons.configuration2.sync.TestReadWriteSynchronizer" time="0.003"/>
+  <testcase name="testSynchronizerInAction" classname="org.apache.commons.configuration2.sync.TestReadWriteSynchronizer" time="0.035"/>
+  <testcase name="testInitLock" classname="org.apache.commons.configuration2.sync.TestReadWriteSynchronizer" time="0.004"/>
 </testsuite>

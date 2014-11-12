@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+import org.apache.commons.io.FileUtils;
 import javax.tools.DiagnosticCollector;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
@@ -45,7 +45,7 @@ public class JunitRunTest2 {
     	//make sure source exists
     	if(!srcFolder.exists()){
 
-           System.out.println("Directory does not exist.");
+           System.out.println("Directory does not exist!");
            //just exit
            System.exit(0);
 
@@ -134,7 +134,12 @@ public class JunitRunTest2 {
         //Now run the compiled files
         filetype = ".class";
         String classfiles[] = get_files(dest, filetype);
-
+    
+// for (String classFile : classFiles){
+            
+        //System.out.println("Found: " + classFile + "\n");
+    //    }
+        
         // We have all the class files. Now execute these one by one
         // DID NOT WORK = "'.class' expected error"
         // JUnitCore junit = new JUnitCore();
@@ -144,11 +149,55 @@ public class JunitRunTest2 {
         // Class<?> namedClass = Class.forName(classfiles[1]);
         // Class namedClass = Class.forName("[Lclassfiles;");
         // System.out.println(namedClass);
-        // org.junit.runner.JUnitCore.main(new String[] {classfiles[1]});
+        // String runthis = classfiles[1];
+        // System.out.println(runthis);
+
+
+
+
+        // String cd = "pushd " + dest;
+        // try{
+        //     runProcess(cd);
+        // } catch (Exception e) {
+        //   e.printStackTrace();
+        // }
+        // System.out.println(cd);
+
+        FileUtils.setCurrentDirectory(dest);
+
+        String junit_path = home_path + "/.m2/repository/junit/junit/4.11/junit-4.11.jar:" + home_path +"/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar";
+        try
+        {
+            for (int i = 1; i < classfiles.length; i++)
+            {
+                // classfiles[i] = classfiles[i].substring(0, classfiles[i].lastIndexOf('/'));
+                int index = classfiles[i].lastIndexOf("/");
+                classfiles[i] = classfiles[i].substring(index + 1);
+
+                classfiles[i] = classfiles[i].substring(0, classfiles[i].lastIndexOf('.'));
+                System.out.println(classfiles[i]);
+                String eks_run = "java -javaagent:" + home_path +"/.m2/repository/org/ekstazi/org.ekstazi.core/4.1.0/org.ekstazi.core-4.1.0.jar=mode=junit -cp .:"
+                                + junit_path + " org.junit.runner.JUnitCore " + classfiles[i];
+
+                System.out.println(eks_run);
+                runProcess(eks_run);
+                eks_run = "";
+            }
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+
+        // String cd2 = "popd";
+        // try{
+        //     runProcess(cd2);
+        // } catch (Exception e) {
+        //   e.printStackTrace();
+        // }
+                // org.junit.runner.JUnitCore.main(new String[] {classfiles[0]});
         // org.junit.runner.JUnitCore.run(classfiles);
     }
 
-    public static String[] get_files(String dest, String filetype)
+    public static String[] get_files(String dest, final String filetype)
     {
         // Get all .java files from the folder
         File dir = new File(dest);
@@ -169,5 +218,37 @@ public class JunitRunTest2 {
             System.out.println(destfiles[i]);
         }
         return destfiles;
+    }
+
+    private static int runProcess(String command) throws Exception {
+      Process pro = Runtime.getRuntime().exec(command);
+    //   printLines(command + " stdout:", pro.getInputStream());
+    //   printLines(command + " stderr:", pro.getErrorStream());
+         pro.waitFor();
+         System.out.println(command + " exitValue() " + pro.exitValue());
+         return pro.exitValue();
+    }
+
+    private static void printLines(String name, InputStream ins) throws Exception {
+      String line = null;
+      BufferedReader in = new BufferedReader(new InputStreamReader(ins));
+      while ((line = in.readLine()) != null) {
+          System.out.println(name + " " + line);
+      }
+  }
+
+
+    public static boolean setCurrentDirectory(String directory_name)
+    {
+        boolean result = false;  // Boolean indicating whether directory was set
+        File    directory;       // Desired current working directory
+
+        directory = new File(directory_name).getAbsoluteFile();
+        if (directory.exists() || directory.mkdirs())
+        {
+            result = (System.setProperty("user.dir", directory.getAbsolutePath()) != null);
+        }
+
+        return result;
     }
 }

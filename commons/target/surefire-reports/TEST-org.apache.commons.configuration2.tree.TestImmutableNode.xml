@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.TestImmutableNode" time="0" tests="32" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.TestImmutableNode" time="0.001" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -84,7 +84,7 @@
   <testcase name="testSetName" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>
   <testcase name="testRemoveChildNodeNotExisting" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>
   <testcase name="testReplaceChildExisting" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>
-  <testcase name="testReplaceChildNull" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>
+  <testcase name="testReplaceChildNull" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0.001"/>
   <testcase name="testReplaceChildren" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>
   <testcase name="testNodeWithChildrenManipulateLater" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>
   <testcase name="testAddChildrenNull" classname="org.apache.commons.configuration2.tree.TestImmutableNode" time="0"/>

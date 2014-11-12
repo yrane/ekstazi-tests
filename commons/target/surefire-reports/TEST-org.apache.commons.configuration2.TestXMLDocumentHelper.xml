@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.034" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.036" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -59,13 +59,13 @@
   </properties>
   <testcase name="testElementMappingForNewDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.001"/>
   <testcase name="testInitForNewDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0"/>
-  <testcase name="testTransformException" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.007"/>
-  <testcase name="testInitForSourceDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.006"/>
+  <testcase name="testTransformException" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.013"/>
+  <testcase name="testInitForSourceDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.003"/>
   <testcase name="testCreateTransformerFactory" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0"/>
-  <testcase name="testCopyDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.005"/>
+  <testcase name="testCopyDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.002"/>
   <testcase name="testCopyElementMappingForComplexDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.002"/>
-  <testcase name="testCreateDocumentBuilderFromFactoryException" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.007"/>
+  <testcase name="testCreateDocumentBuilderFromFactoryException" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.008"/>
   <testcase name="testCreateTransformerFactoryException" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.004"/>
-  <testcase name="testElementMappingForSourceDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.001"/>
+  <testcase name="testElementMappingForSourceDocument" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.002"/>
   <testcase name="testCopyElementMapping" classname="org.apache.commons.configuration2.TestXMLDocumentHelper" time="0.001"/>
 </testsuite>

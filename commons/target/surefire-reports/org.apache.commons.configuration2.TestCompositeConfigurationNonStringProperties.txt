@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties
 -------------------------------------------------------------------------------
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties

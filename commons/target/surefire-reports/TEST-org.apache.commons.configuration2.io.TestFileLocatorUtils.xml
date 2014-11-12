@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.022" tests="36" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.021" tests="36" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -62,33 +62,33 @@
   <testcase name="testConvertToURIException" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testPutNoMap" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testLocateNullLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testDefaultFileLocationStrategy" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
+  <testcase name="testDefaultFileLocationStrategy" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testFromMapNoMap" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testObtainLocationStrategySetInLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testGetFile" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testObtainLocationStrategyNotSetInLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testFileFromURLWithEncodedPercent" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testObtainFileSystemNullLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testGetBasePath" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
+  <testcase name="testGetBasePath" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testIsLocationDefinedFalse" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testPutNoLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testFullyInitializedLocatorFileName" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.011"/>
+  <testcase name="testFullyInitializedLocatorFileName" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.008"/>
   <testcase name="testObtainFileSystemSetInLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testFullyInitializedLocatorUndefined" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testConvertFileToURL" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.002"/>
+  <testcase name="testConvertFileToURL" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.003"/>
   <testcase name="testGetFileName" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testFileFromURLNull" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testIsLocationDefinedFileName" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testFullyInitializedLocatorURL" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.005"/>
-  <testcase name="testFullyInitializedLocatorLocateFails" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
-  <testcase name="testLocateSuccessWithStrategyAndFileSystem" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
+  <testcase name="testFullyInitializedLocatorLocateFails" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
+  <testcase name="testLocateSuccessWithStrategyAndFileSystem" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
   <testcase name="testIsLocationDefinedNull" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testFullyInitializedLocatorAlreadyComplete" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testLocateOrThrowFailed" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
+  <testcase name="testFullyInitializedLocatorAlreadyComplete" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
+  <testcase name="testLocateOrThrowFailed" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testLocateSuccessWithDefaults" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testIsLocationDefinedURL" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testIsFullyInitializedNoBasePath" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
-  <testcase name="testStoreFileLocatorInMap" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
+  <testcase name="testIsFullyInitializedNoBasePath" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.002"/>
+  <testcase name="testStoreFileLocatorInMap" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0.001"/>
   <testcase name="testLocateWithNullTCCL" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testObtainFileSystemNotSetInLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>
   <testcase name="testObtainLocationStrategyNullLocator" classname="org.apache.commons.configuration2.io.TestFileLocatorUtils" time="0"/>

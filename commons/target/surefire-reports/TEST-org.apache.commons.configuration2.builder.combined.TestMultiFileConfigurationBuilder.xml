@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.484" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.239" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,19 +57,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testFileNotFoundAllowFailOnInit" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.001"/>
-  <testcase name="testRecursiveInterpolation" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.003"/>
+  <testcase name="testFileNotFoundAllowFailOnInit" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.002"/>
+  <testcase name="testRecursiveInterpolation" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.002"/>
   <testcase name="testGetManagedBuilderClonedParameters" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0"/>
-  <testcase name="testAddConfigurationListener" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.007"/>
-  <testcase name="testSchemaValidationError" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.433"/>
+  <testcase name="testAddConfigurationListener" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.004"/>
+  <testcase name="testSchemaValidationError" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.197"/>
   <testcase name="testGetConfiguration" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.008"/>
-  <testcase name="testRemoveBuilderListenerOnReset" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.003"/>
-  <testcase name="testCaching" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.006"/>
+  <testcase name="testRemoveBuilderListenerOnReset" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.002"/>
+  <testcase name="testCaching" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.004"/>
   <testcase name="testManagedConfigurationSettings" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.003"/>
-  <testcase name="testNoPattern" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.001"/>
-  <testcase name="testInterpolatorFromParameters" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.003"/>
+  <testcase name="testNoPattern" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0"/>
+  <testcase name="testInterpolatorFromParameters" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.004"/>
   <testcase name="testFileNotFound" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.001"/>
-  <testcase name="testCachingWithReset" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.008"/>
+  <testcase name="testCachingWithReset" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.005"/>
   <testcase name="testBuilderListenerReset" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.005"/>
   <testcase name="testInterpolatorReset" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0"/>
   <testcase name="testBuilderListenerOtherTypes" classname="org.apache.commons.configuration2.builder.combined.TestMultiFileConfigurationBuilder" time="0.002"/>

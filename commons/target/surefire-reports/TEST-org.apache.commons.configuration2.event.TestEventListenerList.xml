@@ -60,7 +60,7 @@
   <testcase name="testReceiveEventDifferentType" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testGetEventListenersIteratorRemove" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testRemoveEventListenerNonExistingListener" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
-  <testcase name="testGetEventListenersIteratorNextNoElement" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
+  <testcase name="testGetEventListenersIteratorNextNoElement" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0.002"/>
   <testcase name="testClear" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testGetRegistrations" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testListenerRegistrationWithNullListenerData" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
@@ -76,8 +76,8 @@
   <testcase name="testReceiveEventOfExactType" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testGetEventListenersNull" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testGetEventListenersMatchingType" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
-  <testcase name="testEventListenerIteratorWrongEvent" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0.004"/>
-  <testcase name="testRegisterListenerNull" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
+  <testcase name="testEventListenerIteratorWrongEvent" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
+  <testcase name="testRegisterListenerNull" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0.001"/>
   <testcase name="testRemoveEventListenerNonExistingEventType" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testGetRegistrationsModify" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testGetEventListenersNoMatch" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
@@ -87,5 +87,5 @@
   <testcase name="testReceiveEventMultipleListeners" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testMultipleListenerRegistration" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
   <testcase name="testRegisterEventTypeNull" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
-  <testcase name="testGetEventListenerRegistrationsForSuperType" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0"/>
+  <testcase name="testGetEventListenerRegistrationsForSuperType" classname="org.apache.commons.configuration2.event.TestEventListenerList" time="0.001"/>
 </testsuite>

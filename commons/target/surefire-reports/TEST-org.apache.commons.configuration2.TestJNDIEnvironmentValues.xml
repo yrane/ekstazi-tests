@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.01" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.013" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -60,13 +60,13 @@
   <testcase name="testGetKeysWithExistingPrefix" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testSimpleGet" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
-  <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0"/>
+  <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testClearProperty" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testGetMissingKeyWithDefault" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testMoreGets" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testGetKeysWithUnknownPrefix" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
   <testcase name="testGetMissingKey" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
-  <testcase name="testIsEmpty" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0"/>
+  <testcase name="testIsEmpty" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.002"/>
   <testcase name="testGetKeysWithKeyAsPrefix" classname="org.apache.commons.configuration2.TestJNDIEnvironmentValues" time="0.001"/>
 </testsuite>

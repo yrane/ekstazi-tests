@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.002" tests="21" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.008" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -60,18 +60,18 @@
   <testcase name="testFromParametersDefaultInstance" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testFromParametersExtract" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testSetEncoding" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
-  <testcase name="testClone" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
+  <testcase name="testClone" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.001"/>
   <testcase name="testFromMap" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testSetBasePath" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testInitDefaults" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
-  <testcase name="testFromParametersNull" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
+  <testcase name="testFromParametersNull" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.001"/>
   <testcase name="testFromParametersNotFound" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
-  <testcase name="testSetFileSystem" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
+  <testcase name="testSetFileSystem" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.001"/>
   <testcase name="testSetReloadingDetectorFactory" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testFromMapNull" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
-  <testcase name="testSetFileName" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.001"/>
+  <testcase name="testSetFileName" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testInitFileHandler" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
-  <testcase name="testSetLocationStrategy" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
+  <testcase name="testSetLocationStrategy" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0.004"/>
   <testcase name="testSetFile" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testSetPath" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>
   <testcase name="testSetReloadingRefreshDelay" classname="org.apache.commons.configuration2.builder.TestFileBasedBuilderParameters" time="0"/>

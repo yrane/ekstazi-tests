@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.035" tests="34" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.034" tests="34" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -59,23 +59,23 @@
   </properties>
   <testcase name="testCanonicalKeyRootNoParentKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testNodeKeyForRootChild" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddNode" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.025"/>
-  <testcase name="testPrepareAddPath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
+  <testcase name="testPrepareAddNode" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.018"/>
+  <testcase name="testPrepareAddPath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
   <testcase name="testCanonicalKeyNoDuplicates" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testPrepareAddInvalidPathWithSlash" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddInvalidAttributePath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
+  <testcase name="testPrepareAddInvalidAttributePath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
   <testcase name="testNodeKeyNormal" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testCanonicalKeyRootWithParentKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testQueryWithEmptyKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testDefaultContextFactory" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testNodeKeyAttribute" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
+  <testcase name="testNodeKeyAttribute" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
   <testcase name="testCanonicalKeyWithDuplicates" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testPrepareAddInvalidPath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testQueryNodeExpression" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testPrepareAddInvalidAttributePath2" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testPrepareAddRootAttribute" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddEmptyPath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddEmptyKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
+  <testcase name="testPrepareAddEmptyPath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
+  <testcase name="testPrepareAddEmptyKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testNodeKeyForRootNode" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testPrepareAddRootChild" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testQueryAttributeExpression" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
@@ -84,11 +84,11 @@
   <testcase name="testPrepareAddInvalidPathMultipleAttributes" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testPrepareAddToAttributeResult" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
   <testcase name="testNodePointerFactory" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.007"/>
-  <testcase name="testPrepareAddAttribute" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
+  <testcase name="testPrepareAddAttribute" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.002"/>
   <testcase name="testAttributeKeyOfRootNode" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddAttributePath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
+  <testcase name="testPrepareAddAttributePath" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
   <testcase name="testNodeKeyNoNodeName" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddInvalidParent" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
+  <testcase name="testPrepareAddInvalidParent" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
   <testcase name="testQueryWithNullKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
-  <testcase name="testPrepareAddNullKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0.001"/>
+  <testcase name="testPrepareAddNullKey" classname="org.apache.commons.configuration2.tree.xpath.TestXPathExpressionEngine" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.029" tests="43" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.026" tests="43" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,47 +57,47 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testIsDetachedTrue" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.004"/>
-  <testcase name="testSelectAndTrackNodesNoSelection" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testIsDetachedTrue" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testSelectAndTrackNodesNoSelection" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testIsDetachedAfterClear" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testTrackChildNodeWithCreationNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.003"/>
+  <testcase name="testTrackChildNodeWithCreationNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testTrackChildNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testSetPropertyOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testTrackNodeMultipleTimes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testAddPropertyOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
-  <testcase name="testAddPropertyOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.003"/>
-  <testcase name="testIsDetachedAfterSetRoot" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
-  <testcase name="testGetTrackedNodeHandlerActive" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testTrackChildNodeWithCreationNoResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testAddPropertyOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testIsDetachedAfterSetRoot" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testGetTrackedNodeHandlerActive" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.002"/>
+  <testcase name="testTrackChildNodeWithCreationNoResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.003"/>
   <testcase name="testClearTreeOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testReplaceTrackedNodeNull" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testReplaceTrackedNodeNull" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.004"/>
   <testcase name="testTrackNodeKeyNoResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testTrackedNodeClearedInOperation" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
-  <testcase name="testGetTrackedNodeAfterUpdateNoLongerExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
-  <testcase name="testGetTrackedNodeAfterSetRootNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testTrackedNodeClearedInOperation" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testGetTrackedNodeAfterUpdateNoLongerExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testGetTrackedNodeAfterSetRootNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testTrackChildNodeWithCreationExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testSelectAndTrackNodesNodeAlreadyTracked" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testSelectAndTrackNodesNodeAlreadyTracked" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.004"/>
   <testcase name="testReplaceTrackedNodeForDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testUntrackNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testGetTrackedNodeExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testTrackChildNodesMultipleResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testTrackChildNodesMultipleResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testTrackChildNodesNodeWithNoChildren" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testSetPropertyOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testGetTrackedNodeAfterUpdate" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testClearPropertyOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testClearPropertyOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testTrackNodeKeyMultipleResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testGetTrackedNodeNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testAddNodesOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
-  <testcase name="testClearPropertyOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testGetTrackedNodeNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testAddNodesOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testClearPropertyOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testIsDetachedFalseNoUpdates" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testAddNodesOnDetachedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testClearTreeOnTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
   <testcase name="testReplaceTrackedNodeForActiveTrackedNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testTrackChildNodeWithCreationMultipleResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
-  <testcase name="testGetTrackedNodeAfterClear" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testSelectAndTrackNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testTrackChildNodeWithCreationMultipleResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
+  <testcase name="testGetTrackedNodeAfterClear" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testSelectAndTrackNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testUntrackNodeNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
-  <testcase name="testGetTrackedNodeHandlerDetached" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.001"/>
+  <testcase name="testGetTrackedNodeHandlerDetached" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0.002"/>
   <testcase name="testIsDetachedFalseAfterUpdate" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
   <testcase name="testTrackChildNodesNoResults" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModelTrackedNodes" time="0"/>
 </testsuite>

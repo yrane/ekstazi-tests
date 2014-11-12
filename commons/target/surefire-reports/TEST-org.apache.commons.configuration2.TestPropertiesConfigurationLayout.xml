@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.007" tests="37" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.017" tests="37" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -59,14 +59,14 @@
   </properties>
   <testcase name="testCombineComments" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testEventAddMultiple" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
-  <testcase name="testHeaderComment" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
-  <testcase name="testRecursiveLoadCall" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testHeaderComment" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testRecursiveLoadCall" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testBlancLines" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testInitCopyModify" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
-  <testcase name="testReadAndWrite" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testReadAndWrite" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.003"/>
   <testcase name="testReadSimple" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
-  <testcase name="testInit" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
-  <testcase name="testSave" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testInit" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.005"/>
+  <testcase name="testSave" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testTrimComment" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testSetNullComment" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testSaveForceSingleLine" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
@@ -74,20 +74,20 @@
   <testcase name="testEventAddBefore" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testTrimCommentTrainlingCR" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testSetGlobalSeparator" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
-  <testcase name="testSaveCommentForUnexistingProperty" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
-  <testcase name="testHeaderCommentNull" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testSaveCommentForUnexistingProperty" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testHeaderCommentNull" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testEventAddExisting" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testIsSingleLine" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
-  <testcase name="testSetSeparator" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
-  <testcase name="testGetNullLayouttData" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testSetSeparator" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testGetNullLayouttData" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testSetLineSeparator" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testHeaderCommentWithBlancsAndPropComment" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testEventSetNonExisting" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
-  <testcase name="testEventClearConfig" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testEventClearConfig" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testHeaderCommentWithBlancs" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testInitCopy" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testInitNull" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
-  <testcase name="testEventAdd" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
+  <testcase name="testEventAdd" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0.001"/>
   <testcase name="testSetLineSeparatorInComments" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testLineWithBlank" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>
   <testcase name="testGetNonExistingLayouData" classname="org.apache.commons.configuration2.TestPropertiesConfigurationLayout" time="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.313" tests="32" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.287" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,21 +57,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testCombinedFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.095"/>
+  <testcase name="testCombinedFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.074"/>
   <testcase name="testFileBasedURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.015"/>
-  <testcase name="testINIBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.003"/>
-  <testcase name="testCombinedBuilderFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.041"/>
-  <testcase name="testCombinedBuilderFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.029"/>
-  <testcase name="testCombinedFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.026"/>
-  <testcase name="testCombinedFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.024"/>
+  <testcase name="testINIBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
+  <testcase name="testCombinedBuilderFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.03"/>
+  <testcase name="testCombinedBuilderFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.028"/>
+  <testcase name="testCombinedFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.028"/>
+  <testcase name="testCombinedFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.027"/>
   <testcase name="testPropertiesFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.003"/>
   <testcase name="testDefaultParameters" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0"/>
-  <testcase name="testPropertiesBuilderFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0"/>
+  <testcase name="testPropertiesBuilderFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
   <testcase name="testPropertiesBuilderFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
   <testcase name="testXMLBuilderFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.006"/>
   <testcase name="testXMLBuilderFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.005"/>
-  <testcase name="testCombinedBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.024"/>
-  <testcase name="testXMLFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.006"/>
+  <testcase name="testCombinedBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.026"/>
+  <testcase name="testXMLFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.005"/>
   <testcase name="testXMLFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.006"/>
   <testcase name="testFileBasedFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.003"/>
   <testcase name="testFileBasedPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.003"/>
@@ -79,14 +79,14 @@
   <testcase name="testINIBuilderFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.001"/>
   <testcase name="testXMLFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.005"/>
   <testcase name="testINIFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.001"/>
-  <testcase name="testPropertiesBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.003"/>
+  <testcase name="testPropertiesBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
   <testcase name="testPropertiesFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
   <testcase name="testPropertiesFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
-  <testcase name="testFileBasedBuilderWithFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.001"/>
-  <testcase name="testFileBasedBuilderWithPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0"/>
+  <testcase name="testFileBasedBuilderWithFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0"/>
+  <testcase name="testFileBasedBuilderWithPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.001"/>
   <testcase name="testInitWithParameters" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0"/>
   <testcase name="testINIFromFile" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.001"/>
-  <testcase name="testINIFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.001"/>
+  <testcase name="testINIFromPath" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.002"/>
   <testcase name="testFileBasedBuilderWithURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0"/>
   <testcase name="testXMLBuilderFromURL" classname="org.apache.commons.configuration2.builder.fluent.TestConfigurations" time="0.004"/>
 </testsuite>

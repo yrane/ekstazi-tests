@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.035" tests="18" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.02" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,20 +57,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetKeysPrefixSynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.008"/>
-  <testcase name="testContainsKeySychronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
+  <testcase name="testGetKeysPrefixSynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
+  <testcase name="testContainsKeySychronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0"/>
   <testcase name="testLockNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
   <testcase name="testLockRead" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
   <testcase name="testUnlockRead" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
-  <testcase name="testIsEmptySychronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
-  <testcase name="testUnlockWrite" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
-  <testcase name="testClearSynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
+  <testcase name="testIsEmptySychronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
+  <testcase name="testUnlockWrite" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
+  <testcase name="testClearSynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
   <testcase name="testAddPropertySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
-  <testcase name="testGetPropertySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
-  <testcase name="testLockWrite" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
-  <testcase name="testGetKeysSychronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
-  <testcase name="testCopySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
-  <testcase name="testDefaultSynchronizer" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
+  <testcase name="testGetPropertySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.001"/>
+  <testcase name="testLockWrite" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0"/>
+  <testcase name="testGetKeysSychronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0"/>
+  <testcase name="testCopySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0"/>
+  <testcase name="testDefaultSynchronizer" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0"/>
   <testcase name="testClearPropertySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
   <testcase name="testSubsetSynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>
   <testcase name="testSetPropertySynchronized" classname="org.apache.commons.configuration2.TestAbstractConfigurationSynchronization" time="0.002"/>

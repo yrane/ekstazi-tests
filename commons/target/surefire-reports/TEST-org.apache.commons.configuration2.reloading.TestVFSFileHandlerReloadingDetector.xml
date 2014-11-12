@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.016" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.008" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,9 +58,9 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testLastModificationDateFileSystemEx" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.006"/>
-  <testcase name="testLastModificationDateUndefinedHandler" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.001"/>
+  <testcase name="testLastModificationDateUndefinedHandler" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0"/>
   <testcase name="testLastModificationDateUnresolvableURI" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0"/>
-  <testcase name="testLastModificationDateNonExisting" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.004"/>
-  <testcase name="testGetRefreshDelay" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.005"/>
-  <testcase name="testLastModificationDateExisting" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0"/>
+  <testcase name="testLastModificationDateNonExisting" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.001"/>
+  <testcase name="testGetRefreshDelay" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0"/>
+  <testcase name="testLastModificationDateExisting" classname="org.apache.commons.configuration2.reloading.TestVFSFileHandlerReloadingDetector" time="0.001"/>
 </testsuite>

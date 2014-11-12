@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0.034" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0.002" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -61,8 +61,8 @@
   <testcase name="testLookupPrivate" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0"/>
   <testcase name="testLookupInvalidSyntax" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0"/>
   <testcase name="testLookupNull" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0"/>
-  <testcase name="testLookupUnknownClass" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0.033"/>
+  <testcase name="testLookupUnknownClass" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0.002"/>
   <testcase name="testLookupCache" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0"/>
-  <testcase name="testLookupNonStringFromCache" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0.001"/>
+  <testcase name="testLookupNonStringFromCache" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0"/>
   <testcase name="testLookupConstant" classname="org.apache.commons.configuration2.interpol.TestConstantLookup" time="0"/>
 </testsuite>

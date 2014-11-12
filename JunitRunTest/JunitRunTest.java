@@ -34,9 +34,11 @@ public class JunitRunTest {
   public void compile_code() {
     String file_name = "TestT.java";
     String class_name = "TestT";
+    String junit_path = home_path + "/.m2/repository/junit/junit/4.11/junit-4.11.jar:" + home_path +"/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
     String home_path = System.getProperty("user.home");
-    String command = "javac -cp " + home_path + "/.m2/repository/junit/junit/4.11/junit-4.11.jar:" + home_path + "/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar " + file_name;
-    String run_command = "java -cp .:" + home_path + "/.m2/repository/junit/junit/4.11/junit-4.11.jar:"+ home_path +"/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar org.junit.runner.JUnitCore " + class_name;
+    String command = "javac -cp " + junit_path + file_name;
+    // String run_command = "java -cp .:" + home_path + "/.m2/repository/junit/junit/4.11/junit-4.11.jar:"+ home_path +"/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar org.junit.runner.JUnitCore " + class_name;
+    String eks_run = "java -javaagent:" + home_path +"/.m2/repository/org/ekstazi/org.ekstazi.core/4.1.0/org.ekstazi.core-4.1.0.jar=mode=junit -cp .:" + junit_path + " org.junit.runner.JUnitCore" + class_name;
     try {
     //   int del_class = runProcess("rm -rf *.class");
       int result = runProcess("javac Main.java");
@@ -44,7 +46,7 @@ public class JunitRunTest {
       int result2 = runProcess(command);
       if (result2 == 0)
       {
-        runProcess(run_command);
+        runProcess(eks_run);
       }
     } catch (Exception e) {
       e.printStackTrace();

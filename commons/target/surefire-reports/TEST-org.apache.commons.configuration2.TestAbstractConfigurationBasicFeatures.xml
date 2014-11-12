@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.02" tests="56" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.012" tests="56" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,59 +58,59 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testInterpolationUnknownVariable" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testCopyEvents" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testCopyEvents" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testGetCollectionNullTarget" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
-  <testcase name="testGetArrayPrimitive" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testGetArrayPrimitive" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testAppendDelimiterHandling" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testInterpolateEnvironmentVariables" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
-  <testcase name="testSetPrefixLookupsNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
-  <testcase name="testGetArray" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testSetPrefixLookupsNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testGetArray" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testSetDefaultConversionHandler" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testAddPropertyListNoDelimiterParsing" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testAddPropertyListNoDelimiterParsing" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testDefaultConversionHandlerSharedInstance" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGet" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetUnknownWithDefaultValue" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testDefaultListDelimiterHandler" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testDefaultListDelimiterHandler" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetArrayDefaultValueWrongComponentClass" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testCopy" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testCopy" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testInterpolateRecursive" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testSetDefaultLookupsNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testSetDefaultLookupsNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testCopyDelimiterHandling" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testGetArrayUnknownWithDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testGetArrayUnknownWithDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testSetPrefixLookupsExistingInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetUnknownWithThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testGetList" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.002"/>
-  <testcase name="testCyclicInterpolation" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testGetList" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testCyclicInterpolation" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetStringArrayUnknown" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testGetCollection" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testGetCollection" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testGetArrayUnknownNoDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testSetDefaultConversionHandlerNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testSetParentInterpolatorNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
-  <testcase name="testGetStringArrayNonString" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testClearIteratorNoRemove" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testSetParentInterpolatorNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testGetStringArrayNonString" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testClearIteratorNoRemove" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetArrayDefaultValueNotAnArray" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetUnownWithDefaultValueThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testCopyNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testCopyNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetCollectionUnknownWithDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testInterpolateEscape" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testGetCollectionSingleValue" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testInterpolateString" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testGetCollectionSingleValue" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testInterpolateString" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testSetListDelimiterHandlerNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testInterpolationNoInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testGetListUnknownWithDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
-  <testcase name="testAddPropertyList" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testGetListUnknownWithDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testAddPropertyList" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testInstallInterpolatorNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetUnknownNoDefaultValue" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testAppend" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testAppend" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testAppendWithLists" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testCopyWithLists" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testCopyWithLists" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testGetCollectionUnknownNoDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testAppendNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testAppendNull" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetListNonString" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testSetDefaultLookupsExistingInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
   <testcase name="testAppendEvents" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testDefaultConversionHandler" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testNestedVariableInterpolation" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
+  <testcase name="testNestedVariableInterpolation" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
   <testcase name="testGetListUnknownNoDefault" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
-  <testcase name="testSetParentInterpolatorExistingInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0"/>
+  <testcase name="testSetParentInterpolatorExistingInterpolator" classname="org.apache.commons.configuration2.TestAbstractConfigurationBasicFeatures" time="0.001"/>
 </testsuite>

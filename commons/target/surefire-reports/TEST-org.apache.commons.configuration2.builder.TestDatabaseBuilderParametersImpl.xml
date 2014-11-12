@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0.001" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0.002" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -59,7 +59,7 @@
   </properties>
   <testcase name="testSetConfigurationNameColumn" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0"/>
   <testcase name="testSetValueColumn" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0"/>
-  <testcase name="testSetDataSource" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0"/>
+  <testcase name="testSetDataSource" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0.001"/>
   <testcase name="testSetConfigurationName" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0"/>
   <testcase name="testSetKeyColumn" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0"/>
   <testcase name="testSetAutoCommit" classname="org.apache.commons.configuration2.builder.TestDatabaseBuilderParametersImpl" time="0"/>

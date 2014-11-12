@@ -57,6 +57,7 @@
 /home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/TestAbstractHierarchicalConfiguration.java
 /home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/event/TestConfigurationEventTypes.java
 /home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/tree/TestDefaultExpressionEngine.java
+/home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/tree/TestNodeNameMatchers.java
 /home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/io/TestFileHandler.java
 /home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/TestConfigurationConverter.java
 /home/yrane/pchauha2_sadkhin2_yrane2/trunk/ekstazi-tests/commons/src/test/java/org/apache/commons/configuration2/TestBaseConfiguration.java

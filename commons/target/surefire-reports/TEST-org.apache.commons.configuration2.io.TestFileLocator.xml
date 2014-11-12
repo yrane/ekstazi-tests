@@ -58,10 +58,10 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testFileLocatorEqualsFalse" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
-  <testcase name="testCreateFileLocatorUndefined" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
+  <testcase name="testCreateFileLocatorUndefined" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0.001"/>
   <testcase name="testFileLocatorEqualsNull" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
   <testcase name="testFileLocatorEqualsTrue" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
-  <testcase name="testFileLocatorToString" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0.001"/>
+  <testcase name="testFileLocatorToString" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
   <testcase name="testFileLocatorEqualsOtherClass" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
   <testcase name="testCreateFileLocatorFromSource" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>
   <testcase name="testCreateFileLocator" classname="org.apache.commons.configuration2.io.TestFileLocator" time="0"/>

@@ -86,6 +86,7 @@ org/apache/commons/configuration2/builder/combined/MultiWrapDynaBean.class
 org/apache/commons/configuration2/resolver/CatalogResolver.class
 org/apache/commons/configuration2/BaseConfigurationXMLReader.class
 org/apache/commons/configuration2/DynamicCombinedConfiguration$CurrentConfigHolder.class
+org/apache/commons/configuration2/tree/NodeMatcher.class
 org/apache/commons/configuration2/builder/CopyObjectDefaultHandler.class
 org/apache/commons/configuration2/plist/ParseException.class
 org/apache/commons/configuration2/resolver/DefaultEntityResolver.class
@@ -102,6 +103,7 @@ org/apache/commons/configuration2/tree/DefaultExpressionEngineSymbols$1.class
 org/apache/commons/configuration2/io/FileHandler.class
 org/apache/commons/configuration2/tree/InMemoryNodeModel$5.class
 org/apache/commons/configuration2/reloading/CombinedReloadingController.class
+org/apache/commons/configuration2/tree/NodeNameMatchers.class
 org/apache/commons/configuration2/io/ClasspathLocationStrategy.class
 org/apache/commons/configuration2/tree/ConfigurationNodeVisitorAdapter.class
 org/apache/commons/configuration2/tree/TreeUtils.class
@@ -180,6 +182,7 @@ org/apache/commons/configuration2/builder/BuilderParameters.class
 org/apache/commons/configuration2/XMLConfiguration$XMLBuilderVisitor.class
 org/apache/commons/configuration2/io/FileHandler$5.class
 org/apache/commons/configuration2/JNDIConfiguration.class
+org/apache/commons/configuration2/tree/NodeNameMatchers$2.class
 org/apache/commons/configuration2/convert/PropertyConverter.class
 org/apache/commons/configuration2/io/FileHandler$3.class
 org/apache/commons/configuration2/plist/PropertyListConfiguration$DateTimeZoneParser.class
@@ -252,6 +255,7 @@ org/apache/commons/configuration2/tree/DefaultExpressionEngineSymbols$Builder.cl
 org/apache/commons/configuration2/builder/FileBasedConfigurationBuilder.class
 org/apache/commons/configuration2/interpol/SystemPropertiesLookup.class
 org/apache/commons/configuration2/beanutils/BeanHelper$BeanCreationContextImpl.class
+org/apache/commons/configuration2/tree/NodeNameMatchers$1.class
 org/apache/commons/configuration2/ConfigurationMap$ConfigurationSet.class
 org/apache/commons/configuration2/io/BasePathLocationStrategy.class
 org/apache/commons/configuration2/CompositeConfiguration.class

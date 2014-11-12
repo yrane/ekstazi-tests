@@ -21,8 +21,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.commons.lang3.StringUtils;
-
 /**
  * <p>
  * An abstract base class for a {@link NodeHandler} implementation for
@@ -35,38 +33,50 @@ import org.apache.commons.lang3.StringUtils;
  * sub classes.
  * </p>
  *
- * @version $Id: AbstractImmutableNodeHandler.java 1624601 2014-09-12 18:04:36Z oheger $
+ * @version $Id: AbstractImmutableNodeHandler.java 1636040 2014-11-01 20:51:09Z oheger $
  * @since 2.0
  */
 abstract class AbstractImmutableNodeHandler implements
         NodeHandler<ImmutableNode>
 {
+    @Override
     public String nodeName(ImmutableNode node)
     {
         return node.getNodeName();
     }
 
+    @Override
     public Object getValue(ImmutableNode node)
     {
         return node.getValue();
     }
 
+    @Override
     public List<ImmutableNode> getChildren(ImmutableNode node)
     {
         return node.getChildren();
     }
 
+    @Override
+    public <C> int getMatchingChildrenCount(ImmutableNode node,
+            NodeMatcher<C> matcher, C criterion)
+    {
+        return getMatchingChildren(node, matcher, criterion).size();
+    }
+
     /**
      * {@inheritDoc} This implementation returns an immutable list with all
-     * child nodes that have the specified name.
+     * child nodes accepted by the specified matcher.
      */
-    public List<ImmutableNode> getChildren(ImmutableNode node, String name)
+    @Override
+    public <C> List<ImmutableNode> getMatchingChildren(ImmutableNode node,
+            NodeMatcher<C> matcher, C criterion)
     {
         List<ImmutableNode> result =
                 new ArrayList<ImmutableNode>(node.getChildren().size());
         for (ImmutableNode c : node.getChildren())
         {
-            if (StringUtils.equals(name, c.getNodeName()))
+            if (matcher.matches(c, this, criterion))
             {
                 result.add(c);
             }
@@ -74,16 +84,29 @@ abstract class AbstractImmutableNodeHandler implements
         return Collections.unmodifiableList(result);
     }
 
+    /**
+     * {@inheritDoc} This implementation returns an immutable list with all
+     * child nodes that have the specified name.
+     */
+    @Override
+    public List<ImmutableNode> getChildren(ImmutableNode node, String name)
+    {
+        return getMatchingChildren(node, NodeNameMatchers.EQUALS, name);
+    }
+
+    @Override
     public ImmutableNode getChild(ImmutableNode node, int index)
     {
         return node.getChildren().get(index);
     }
 
+    @Override
     public int indexOfChild(ImmutableNode parent, ImmutableNode child)
     {
         return parent.getChildren().indexOf(child);
     }
 
+    @Override
     public int getChildrenCount(ImmutableNode node, String name)
     {
         if (name == null)
@@ -92,20 +115,23 @@ abstract class AbstractImmutableNodeHandler implements
         }
         else
         {
-            return getChildren(node, name).size();
+            return getMatchingChildrenCount(node, NodeNameMatchers.EQUALS, name);
         }
     }
 
+    @Override
     public Set<String> getAttributes(ImmutableNode node)
     {
         return node.getAttributes().keySet();
     }
 
+    @Override
     public boolean hasAttributes(ImmutableNode node)
     {
         return !node.getAttributes().isEmpty();
     }
 
+    @Override
     public Object getAttributeValue(ImmutableNode node, String name)
     {
         return node.getAttributes().get(name);
@@ -115,6 +141,7 @@ abstract class AbstractImmutableNodeHandler implements
      * {@inheritDoc} This implementation assumes that a node is defined if it
      * has a value or has children or has attributes.
      */
+    @Override
     public boolean isDefined(ImmutableNode node)
     {
         return AbstractImmutableNodeHandler.checkIfNodeDefined(node);

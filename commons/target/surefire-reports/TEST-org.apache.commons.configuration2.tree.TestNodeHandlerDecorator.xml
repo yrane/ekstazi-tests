@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.006" tests="22" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.009" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,26 +57,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+  <testcase name="testNodeHandlerGetMatchingChildrenCount" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
   <testcase name="testNodeHandlerGetAttributeValue" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerIsDefinedAttributes" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerGetAttributesImmutable" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerIndexOfChild" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerIndexOfUnknownChild" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerGetChildrenCountAll" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
+  <testcase name="testNodeHandlerGetChildrenCountAll" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
   <testcase name="testNodeHandlerGetChildren" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerHasAttributesFalse" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
+  <testcase name="testNodeHandlerHasAttributesFalse" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerGetChildrenByName" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerValue" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
+  <testcase name="testNodeHandlerValue" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerGetChildrenByNameImmutable" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testGetParentInvalidNode" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerHasAttributesTrue" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerIsDefinedFalse" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
+  <testcase name="testNodeHandlerGetMatchingChildrenImmutable" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
+  <testcase name="testNodeHandlerHasAttributesTrue" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
+  <testcase name="testNodeHandlerIsDefinedFalse" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerIsDefinedValue" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerGetChildAtIndex" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
+  <testcase name="testNodeHandlerGetChildAtIndex" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
   <testcase name="testNodeHandlerGetChildrenCountSpecific" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testGetParentNode" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.002"/>
+  <testcase name="testGetParentNode" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
   <testcase name="testNodeHandlerIsDefinedChildren" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerGetAttributes" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
-  <testcase name="testNodeHandlerName" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
+  <testcase name="testNodeHandlerGetMatchingChildren" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.002"/>
+  <testcase name="testNodeHandlerGetAttributes" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.002"/>
+  <testcase name="testNodeHandlerName" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0.001"/>
   <testcase name="testGetParentForRoot" classname="org.apache.commons.configuration2.tree.TestNodeHandlerDecorator" time="0"/>
 </testsuite>

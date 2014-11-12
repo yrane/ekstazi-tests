@@ -213,6 +213,7 @@
     </contributors>
 
   <dependencies>
+    <dependency> <groupId>org.ekstazi</groupId> <artifactId>ekstazi-maven-plugin</artifactId> <version>4.1.0</version> </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
@@ -484,6 +485,10 @@
       </plugins>
     </pluginManagement>
       <plugins>
+        <plugin> <dependencies> <dependency> <groupId>org.ekstazi</groupId> <artifactId>org.ekstazi.core</artifactId> <version>4.1.0</version> </dependency> </dependencies> <groupId>org.ekstazi</groupId> <artifactId>ekstazi-maven-plugin</artifactId> <version>4.1.0</version> <executions> <execution> <id>select</id>
+        <goals> <goal>select</goal>
+        <goal>restore</goal> </goals> </execution> </executions> </plugin>
+
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -494,6 +499,7 @@
             <excludes>
               <exclude>**/TestWebdavConfigurationBuilder.java</exclude>
             </excludes>
+            <excludesFile>myExcludes</excludesFile>
             <systemPropertyVariables>
               <java.awt.headless>true</java.awt.headless>
               <org.apache.commons.logging.Log>org.apache.commons.configuration2.Logging</org.apache.commons.logging.Log>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestDataConfiguration" time="0.24" tests="55" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestDataConfiguration" time="0.116" tests="55" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,57 +57,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetDoubleList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.04"/>
-  <testcase name="testGetBigDecimalArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testClearPropertyDirect" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetColor" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetCalendarArrayWithFormat" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetColorArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testConversionException" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.006"/>
-  <testcase name="testGetLocaleList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetColorList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetDoubleList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.006"/>
+  <testcase name="testGetBigDecimalArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.003"/>
+  <testcase name="testClearPropertyDirect" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetColor" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.005"/>
+  <testcase name="testGetCalendarArrayWithFormat" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetColorArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testConversionException" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.008"/>
+  <testcase name="testGetLocaleList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetColorList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetShortArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetPropertyWithoutConversion" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetPropertyWithoutConversion" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetIntegerList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetFloatList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetFloatList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
   <testcase name="testGetDateList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.003"/>
-  <testcase name="testGetDateNoFormatPropertyConversionHandler" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetByteArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetDateNoFormatPropertyConversionHandler" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetByteArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.003"/>
   <testcase name="testGetShortList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetInetAddressInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.063"/>
-  <testcase name="testGetURLList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.049"/>
-  <testcase name="testGetLongList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetBigDecimalList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetDate" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetInetAddressInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.011"/>
+  <testcase name="testGetURLList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.006"/>
+  <testcase name="testGetLongList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetBigDecimalList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetDate" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
   <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetByteList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetConfiguration" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetCalendarArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetLocaleArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetInternetAddressInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetConfiguration" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetCalendarArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.003"/>
+  <testcase name="testGetLocaleArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetInternetAddressInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetUnknown" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testClearPropertyDirectNoAbstractConf" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testClearProperty" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetArrayInvalidDefaultType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetBooleanArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetIntegerArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetFloatArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.003"/>
-  <testcase name="testGetBooleanList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0"/>
+  <testcase name="testGetIntegerArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetFloatArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetBooleanList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetDateArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetDateNoFormatPropertyDirectlySpecified" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetDateNoFormatPropertyDirectlySpecified" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetDoubleArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
   <testcase name="testGetUnknownException" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetCalendarList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.003"/>
-  <testcase name="testGetLongArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetLongArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetURLArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetInetAddress" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetCalendar" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetLocale" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetBigIntegerArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
-  <testcase name="testGetURL" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.004"/>
-  <testcase name="testGetInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
-  <testcase name="testGetBigIntegerList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetCalendar" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetLocale" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetBigIntegerArray" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
+  <testcase name="testGetURL" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.008"/>
+  <testcase name="testGetInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
+  <testcase name="testGetBigIntegerList" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testIsEmpty" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>
   <testcase name="testGetPrimitiveArrayInvalidType" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.002"/>
   <testcase name="testGetInternetAddress" classname="org.apache.commons.configuration2.TestDataConfiguration" time="0.001"/>

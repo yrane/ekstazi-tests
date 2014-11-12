@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.06" tests="22" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.075" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,26 +57,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testAutoSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.014"/>
-  <testcase name="testGetConfigurationNoLocation" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.018"/>
-  <testcase name="testGetConfigurationLoadFromFile" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
-  <testcase name="testResetLocation" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testAutoSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.018"/>
+  <testcase name="testGetConfigurationNoLocation" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.019"/>
+  <testcase name="testGetConfigurationLoadFromFile" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
+  <testcase name="testResetLocation" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
   <testcase name="testDisableAutoSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
-  <testcase name="testSetLocationNoFileHandler" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
-  <testcase name="testChangeLocationAfterCreation" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.003"/>
-  <testcase name="testInitFileHandlerSetDefaultEncoding" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testAutoSaveWithReset" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.003"/>
-  <testcase name="testSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
+  <testcase name="testSetLocationNoFileHandler" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
+  <testcase name="testChangeLocationAfterCreation" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testInitFileHandlerSetDefaultEncoding" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testAutoSaveWithReset" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
+  <testcase name="testSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
   <testcase name="testGetDefaultEncodingInterface" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
-  <testcase name="testLocationSurvivesResetResult" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
-  <testcase name="testInitFileHandlerOverrideDefaultEncoding" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
+  <testcase name="testLocationSurvivesResetResult" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
+  <testcase name="testInitFileHandlerOverrideDefaultEncoding" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
   <testcase name="testGetDefaultEncodingSubClass" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testGetDefaultEncodingXmlProperties" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testChangeLocationAfterReset" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
-  <testcase name="testCreateConfigurationNonExistingFileAndThenSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.009"/>
-  <testcase name="testGetDefaultEncodingProperties" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
+  <testcase name="testGetDefaultEncodingXmlProperties" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testChangeLocationAfterReset" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.003"/>
+  <testcase name="testCreateConfigurationNonExistingFileAndThenSave" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.012"/>
+  <testcase name="testGetDefaultEncodingProperties" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
   <testcase name="testInitAllowFailOnInitFlag" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testSetDefaultEncodingNull" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testSaveNewFile" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testSetDefaultEncodingNull" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testSaveNewFile" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.002"/>
   <testcase name="testLocationIsFullyDefined" classname="org.apache.commons.configuration2.builder.TestFileBasedConfigurationBuilder" time="0.001"/>
 </testsuite>

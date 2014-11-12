@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.06" tests="39" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.076" tests="39" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,9 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testConcurrentUpdate" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.022"/>
-  <testcase name="testCompactReplacementMapping" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.026"/>
-  <testcase name="testAddNodesToAttribute" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
+  <testcase name="testConcurrentUpdate" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.028"/>
+  <testcase name="testCompactReplacementMapping" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.041"/>
+  <testcase name="testAddNodesToAttribute" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testClearPropertyAttribute" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testClearTreeAttribute" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testSetPropertyNoChanges" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
@@ -67,32 +67,32 @@
   <testcase name="testClearTreeNodesAndAttributes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testClearTreeNodeRemovedFromParentMapping" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
   <testcase name="testClear" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testClearTreeRootNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.005"/>
-  <testcase name="testClearTreeRemoveUndefinedNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
+  <testcase name="testClearTreeRootNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
+  <testcase name="testClearTreeRemoveUndefinedNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testGetInMemoryRepresentation" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testAddNodesToExistingNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
+  <testcase name="testAddNodesToExistingNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
   <testcase name="testAddPropertyNoValues" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testGetNodeHandler" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
+  <testcase name="testGetNodeHandler" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testClearPropertyNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testAddNodesEmptyCollection" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
+  <testcase name="testAddNodesEmptyCollection" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
   <testcase name="testClearTreeNonExistingKey" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testClearTreeChildrenRemovedFromParentMapping" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testAddPropertyAttributeWithPathNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testAddNodesNullCollection" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
+  <testcase name="testAddNodesNullCollection" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
   <testcase name="testAddNodesToNewAttributeKey" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testClearTreeResultIsEmpty" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
+  <testcase name="testClearTreeResultIsEmpty" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testSetPropertyNewValues" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testAddPropertyUpdateParentReferences" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
+  <testcase name="testAddPropertyUpdateParentReferences" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
   <testcase name="testClearTreeUpdateParentReferences" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testSetPropertyChangedValues" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testAddPropertyNoPathNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
+  <testcase name="testAddPropertyNoPathNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
   <testcase name="testSetRootNull" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testAddPropertyWithPathNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testAddPropertyAttributeNoPathNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testSetRoot" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testClearTreeNodes" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testGetRootNodeFromConstructor" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
-  <testcase name="testClearPropertyNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0.001"/>
+  <testcase name="testClearPropertyNonExisting" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testInitDefaultRoot" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testAddPropertyAttributeWithSinglePathNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>
   <testcase name="testAddNodesToNewNode" classname="org.apache.commons.configuration2.tree.TestInMemoryNodeModel" time="0"/>

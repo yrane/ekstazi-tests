@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.004" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.023" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,14 +57,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testClearProperty" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.002"/>
-  <testcase name="testAddPropertyDirect" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
+  <testcase name="testClearProperty" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.01"/>
+  <testcase name="testAddPropertyDirect" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.001"/>
   <testcase name="testListEscaped" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
   <testcase name="testList" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
-  <testcase name="testGetBigIntegerConversion" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.001"/>
-  <testcase name="testGetKeys" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
+  <testcase name="testGetBigIntegerConversion" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.002"/>
+  <testcase name="testGetKeys" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.005"/>
   <testcase name="testContainsKey" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.001"/>
-  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
-  <testcase name="testSetLogger" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
-  <testcase name="testIsEmpty" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0"/>
+  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.001"/>
+  <testcase name="testSetLogger" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.002"/>
+  <testcase name="testIsEmpty" classname="org.apache.commons.configuration2.web.TestServletConfiguration" time="0.001"/>
 </testsuite>

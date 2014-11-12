@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.03" tests="23" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.032" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,11 +57,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testDoubleArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0"/>
-  <testcase name="testShortArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
-  <testcase name="testBooleanArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
+  <testcase name="testDoubleArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
+  <testcase name="testShortArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
+  <testcase name="testBooleanArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testFloat" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
-  <testcase name="testShort" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
+  <testcase name="testShort" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testByte" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testLong" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
   <testcase name="testLongDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
@@ -70,13 +70,13 @@
   <testcase name="testShortDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testBoolean" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
   <testcase name="testFloatArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
-  <testcase name="testBooleanDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
-  <testcase name="testDoubleDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
-  <testcase name="testListMissing" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
+  <testcase name="testBooleanDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
+  <testcase name="testDoubleDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
+  <testcase name="testListMissing" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
   <testcase name="testFloatDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
-  <testcase name="testDouble" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
+  <testcase name="testDouble" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testByteArrayValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
-  <testcase name="testIntegerDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
+  <testcase name="testIntegerDefaultValue" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.002"/>
   <testcase name="testInteger" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testIsEmpty" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>
   <testcase name="testSubset" classname="org.apache.commons.configuration2.TestCompositeConfigurationNonStringProperties" time="0.001"/>

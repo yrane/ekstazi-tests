@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.012" tests="27" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.01" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -60,25 +60,25 @@
   <testcase name="testDefaultInstance" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testRegisterBeanFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testDeregisterBeanFactoryNonExisting" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
-  <testcase name="testCreateBeanWithException" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
+  <testcase name="testCreateBeanWithException" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testCreateWrapDynaBean" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testCreateBeanWithNullDeclaration" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
-  <testcase name="testInitWithBeanFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
-  <testcase name="testCreateBeanWithParameter" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.003"/>
-  <testcase name="testCreateBeanWithFactoryDefaultClass" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
-  <testcase name="testCreateBeanWithListChildBean" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.002"/>
+  <testcase name="testInitWithBeanFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.002"/>
+  <testcase name="testCreateBeanWithParameter" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
+  <testcase name="testCreateBeanWithFactoryDefaultClass" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
+  <testcase name="testCreateBeanWithListChildBean" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.003"/>
   <testcase name="testRegisteredFactoriesEmptyForNewInstance" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testDeregisterBeanFactoryNull" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testCreateBean" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testDefaultBeanFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
-  <testcase name="testCreateBeanWithDefaultFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
-  <testcase name="testCreateBeanWithDefaultClass" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
-  <testcase name="testInitBean" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
+  <testcase name="testCreateBeanWithDefaultFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
+  <testcase name="testCreateBeanWithDefaultClass" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
+  <testcase name="testInitBean" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testCreateBeanWithNoClass" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testInitBeanWithNoData" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testRegisterBeanFactoryNull" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testCreateWrapDynaBeanNull" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
-  <testcase name="testRegisterBeanFactoryNullName" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>
+  <testcase name="testRegisterBeanFactoryNullName" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testDeregisterBeanFactory" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testInitBeanWithInvalidProperty" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0"/>
   <testcase name="testCopyProperties" classname="org.apache.commons.configuration2.beanutils.TestBeanHelper" time="0.001"/>

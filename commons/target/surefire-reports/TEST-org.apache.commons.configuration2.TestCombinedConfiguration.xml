@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.382" tests="58" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.4" tests="58" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,62 +57,62 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testAccessPropertyEmpty" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testAccessPropertyMulti" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetSourceMulti" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetConfigurationNameListSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testAccessPropertyEmpty" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testAccessPropertyMulti" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetSourceMulti" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetConfigurationNameListSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testGetSourcesUnknownKey" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetSourceWithCombinedChildConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.003"/>
+  <testcase name="testGetSourceWithCombinedChildConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testInvalidateSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testEscapeListDelimiters" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testSetNodeCombinerSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testSetNodeCombinerSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testGetConfigurationsSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testGetSourceSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testCloneSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testConversionExpressionEngine" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testConversionExpressionEngine" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.004"/>
   <testcase name="testRemoveNonContainedConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testClear" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testClone" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.003"/>
+  <testcase name="testClone" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testInit" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testClearRemoveChildListener" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testClearRemoveChildListener" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testGetConversionExpressionEngineSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testCloneModify" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testCloneModify" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.002"/>
   <testcase name="testConfigurationsAt" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testGetSourceNonHierarchical" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetConfigurationNamesSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetSourceNonHierarchical" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetConfigurationNamesSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testRemoveNamedConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testAddConfigurationAt" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetConfigurationByNameSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testGetNodeCombinerSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetSourceCombined" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testLockHandlingWithExceptionWhenConstructingRootNode" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetConfigurationByNameSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testGetNodeCombinerSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetSourceCombined" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testLockHandlingWithExceptionWhenConstructingRootNode" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testSubConfigurationWithUpdates" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testAddConfigurationWithNameTwice" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testAddNullConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testRemoveConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.004"/>
-  <testcase name="testGetSourceMultiSources" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetNumberOfConfigurationsSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.002"/>
+  <testcase name="testAddNullConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testRemoveConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testGetSourceMultiSources" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testGetNumberOfConfigurationsSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testAddConfigurationComplexAt" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testRemoveConfigurationByName" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testRemoveConfigurationByName" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testGetSourceNull" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testInvalidateEventBeforeAndAfterChange" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testInvalidateEventBeforeAndAfterChange" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testGetSourceHierarchical" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testAddConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testSetNodeCombiner" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testRemoveConfigurationByUnknownName" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.002"/>
+  <testcase name="testRemoveConfigurationByUnknownName" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testAddConfigurationSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testRemoveConfigurationAt" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testRemoveConfigurationAt" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testAddConfigurationWithName" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testRemoveNamedConfigurationAt" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testCombinedCopyToXML" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.006"/>
+  <testcase name="testCombinedCopyToXML" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.004"/>
   <testcase name="testGetConfigurations" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
-  <testcase name="testSetConversionExpressionEngineSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.002"/>
-  <testcase name="testConcurrentAccess" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.345"/>
-  <testcase name="testGetSourcesMultiSources" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testSetConversionExpressionEngineSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testConcurrentAccess" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.364"/>
+  <testcase name="testGetSourcesMultiSources" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testConfigurationsAtWithUpdates" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testGetConfigurationByIdxSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
+  <testcase name="testGetConfigurationByIdxSynchronized" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
   <testcase name="testGetSourceUnknown" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
   <testcase name="testUpdateContainedConfiguration" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
-  <testcase name="testSetNullNodeCombiner" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.001"/>
+  <testcase name="testSetNullNodeCombiner" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0.002"/>
   <testcase name="testGetConfigurationNameList" classname="org.apache.commons.configuration2.TestCombinedConfiguration" time="0"/>
 </testsuite>

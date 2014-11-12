@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.io.TestFileHandler" time="0.092" tests="85" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.io.TestFileHandler" time="0.069" tests="85" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,89 +57,89 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testLocateUnknownFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLocateUnknownFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadFromFileNoContent" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testSettingFileNames" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testSettingFileNames" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSaveToFileNameURLException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLocationChangedEncoding" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSaveFileLocatorAwareToStream" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
+  <testcase name="testSaveFileLocatorAwareToStream" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testAssignNullHandler" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveFileLocatorAwareToWriter" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testLoadFromURL" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLoadFromURL" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSetFileSystemNull" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testResetFileSystem" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testResetFileSystem" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSetURLFileScheme" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testLocateSuccess" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLocateSuccess" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.002"/>
   <testcase name="testLoadNoLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testGetFileSystemDefault" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSetFileLocator" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadEvents" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSetURLWithParams" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.012"/>
+  <testcase name="testSetURLWithParams" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.002"/>
   <testcase name="testClearLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadFileLocatorAware" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLocationChangedFileSystem" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testPathWithPlus" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLocationChangedBasePath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testLoadInputStreamSupportIOException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.003"/>
+  <testcase name="testLoadInputStreamSupportIOException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.004"/>
   <testcase name="testSetFileNameFileScheme" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveToStream" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveToWriter" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testPathWithSpaces" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.002"/>
+  <testcase name="testPathWithSpaces" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testAssignWithFileBased" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveToWriterNoContent" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadDirectoryFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSetBasePath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadFromFilePath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testLoadFileLocatorAwareReader" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
+  <testcase name="testLoadFileLocatorAwareReader" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadFileLocatorAwareStream" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testIsLocationDefinedFalse" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLocationChangedFileName" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveEvents" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadInputStreamSupport" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveNoLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testInitFromMap" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testLocationChangedLocator" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testInitFromMap" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLocationChangedLocator" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSaveSynchronized" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testLoadNoContent" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testSaveToFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLoadNoContent" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testSaveToFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLocateUndefinedLocator" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSetBasePathFileScheme" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testLocatorAwareEncoding" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testSetBasePathFileScheme" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLocatorAwareEncoding" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSaveToFileName" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSetFileName" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testGetBasePathUndefined" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testSetFileName" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testGetBasePathUndefined" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSaveToURL" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testIsLocationDefinedFileName" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
+  <testcase name="testIsLocationDefinedFileName" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testGetFileNameUndefined" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLocationChangedURL" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSaveToFileNameLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testLoadFromReaderIOException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testSaveToFileNameLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLoadFromReaderIOException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadFromFilePathWithURLDefined" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadFromFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testSaveFileLocatorAware" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testLoadFromClassPath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.015"/>
-  <testcase name="testSetURLNull" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLoadFromClassPath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
+  <testcase name="testSetURLNull" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testGetLocationStrategyDefault" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadFromURLLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testIsLocationDefinedBasePathOnly" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testIsLocationDefinedFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testIsLocationDefinedPath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadSynchronized" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testLocationChangedFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
+  <testcase name="testLocationChangedFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLocationChangedPath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSetLocationStrategy" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSetFileLocatorNull" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testSetFileLocatorNull" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testIsLocationDefinedURL" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSetFile" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testSetPath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
+  <testcase name="testSetPath" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSetURL" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadDirectoryString" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
-  <testcase name="testLoadFromReader" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testInitPropertiesMultiThreaded" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.029"/>
-  <testcase name="testSaveToWriterIOException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testLoadFromReader" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
+  <testcase name="testInitPropertiesMultiThreaded" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.031"/>
+  <testcase name="testSaveToWriterIOException" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testLoadFromStream" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testSaveToURLLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
   <testcase name="testAddFileHandlerListenerNull" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
   <testcase name="testLoadFromFileNameLocation" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.001"/>
-  <testcase name="testSaveToFileNameURLNotResolved" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0.004"/>
+  <testcase name="testSaveToFileNameURLNotResolved" classname="org.apache.commons.configuration2.io.TestFileHandler" time="0"/>
 </testsuite>

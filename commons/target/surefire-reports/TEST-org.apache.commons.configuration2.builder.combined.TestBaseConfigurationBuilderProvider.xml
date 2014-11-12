@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.008" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.015" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,10 +57,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetBuilderNotReloading" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.002"/>
+  <testcase name="testGetBuilderNotReloading" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.009"/>
   <testcase name="testGetBuilderNoFailOnInit" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.001"/>
-  <testcase name="testGetBuilderAllowFailOnInit" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.001"/>
-  <testcase name="testGetBuilderReloading" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.003"/>
+  <testcase name="testGetBuilderAllowFailOnInit" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.002"/>
+  <testcase name="testGetBuilderReloading" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0.002"/>
   <testcase name="testInitNoParameterClasses" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0"/>
   <testcase name="testInitNoBuilderClass" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0"/>
   <testcase name="testGetParameterClassesModify" classname="org.apache.commons.configuration2.builder.combined.TestBaseConfigurationBuilderProvider" time="0"/>

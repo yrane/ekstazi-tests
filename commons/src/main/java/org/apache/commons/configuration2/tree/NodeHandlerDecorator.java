@@ -31,72 +31,101 @@ import java.util.Set;
  * provide the underlying handler.
  * </p>
  *
- * @author Oliver Heger
- * @version $Id: NodeHandlerDecorator.java 1624601 2014-09-12 18:04:36Z oheger $
+ * @version $Id: NodeHandlerDecorator.java 1636036 2014-11-01 20:49:13Z oheger $
+ * @since 2.0
  * @param <T> the type of the nodes supported by this handler
  */
 public abstract class NodeHandlerDecorator<T> implements NodeHandler<T>
 {
+    @Override
     public String nodeName(T node)
     {
         return getDecoratedNodeHandler().nodeName(node);
     }
 
+    @Override
     public Object getValue(T node)
     {
         return getDecoratedNodeHandler().getValue(node);
     }
 
+    @Override
     public T getParent(T node)
     {
         return getDecoratedNodeHandler().getParent(node);
     }
 
+    @Override
     public List<T> getChildren(T node)
     {
         return getDecoratedNodeHandler().getChildren(node);
     }
 
+    @Override
+    public <C> List<T> getMatchingChildren(T node, NodeMatcher<C> matcher,
+            C criterion)
+    {
+        return getDecoratedNodeHandler().getMatchingChildren(node, matcher,
+                criterion);
+    }
+
+    @Override
+    public <C> int getMatchingChildrenCount(T node, NodeMatcher<C> matcher,
+            C criterion)
+    {
+        return getDecoratedNodeHandler().getMatchingChildrenCount(node,
+                matcher, criterion);
+    }
+
+    @Override
     public List<T> getChildren(T node, String name)
     {
         return getDecoratedNodeHandler().getChildren(node, name);
     }
 
+    @Override
     public T getChild(T node, int index)
     {
         return getDecoratedNodeHandler().getChild(node, index);
     }
 
+    @Override
     public int indexOfChild(T parent, T child)
     {
         return getDecoratedNodeHandler().indexOfChild(parent, child);
     }
 
+    @Override
     public int getChildrenCount(T node, String name)
     {
         return getDecoratedNodeHandler().getChildrenCount(node, name);
     }
 
+    @Override
     public Set<String> getAttributes(T node)
     {
         return getDecoratedNodeHandler().getAttributes(node);
     }
 
+    @Override
     public boolean hasAttributes(T node)
     {
         return getDecoratedNodeHandler().hasAttributes(node);
     }
 
+    @Override
     public Object getAttributeValue(T node, String name)
     {
         return getDecoratedNodeHandler().getAttributeValue(node, name);
     }
 
+    @Override
     public boolean isDefined(T node)
     {
         return getDecoratedNodeHandler().isDefined(node);
     }
 
+    @Override
     public T getRootNode()
     {
         return getDecoratedNodeHandler().getRootNode();

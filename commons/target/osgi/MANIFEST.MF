@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1415395627311
+Bnd-LastModified: 1415591751643
 Build-Jdk: 1.8.0_25
 Built-By: yrane
 Bundle-Description: Tools to assist in the reading of configuration/pref

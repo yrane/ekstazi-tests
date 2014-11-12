@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.029" tests="23" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.033" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,26 +58,26 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testToArrayNullInput" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToCalendarWithDefaultFormat" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.02"/>
+  <testcase name="testToCalendarWithDefaultFormat" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.024"/>
   <testcase name="testSetDateFormat" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToFromEmptyCollection" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToCollectionNullInput" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToNoInterpolator" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
+  <testcase name="testToNoInterpolator" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.001"/>
   <testcase name="testToFromCollection" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToArrayPrimitiveSameType" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.006"/>
-  <testcase name="testToFromArray" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
+  <testcase name="testToArrayPrimitiveSameType" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.002"/>
+  <testcase name="testToFromArray" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.001"/>
   <testcase name="testToCollectionSuccess" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToFailedConversion" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
+  <testcase name="testToFailedConversion" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.001"/>
   <testcase name="testToWithInterpolator" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToCollectionEmptyString" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToArrayEmptyString" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToFromIterator" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToPrimitive" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
   <testcase name="testToCollectionNullCollection" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToArrayPrimitiveOtherType" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.003"/>
+  <testcase name="testToArrayPrimitiveOtherType" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.001"/>
   <testcase name="testGetDateFormatNotSet" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToArrayObject" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
+  <testcase name="testToArrayObject" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.001"/>
   <testcase name="testToNull" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
-  <testcase name="testToDateWithFormat" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
+  <testcase name="testToDateWithFormat" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0.002"/>
   <testcase name="testToArrayPrimitiveWrapperType" classname="org.apache.commons.configuration2.convert.TestDefaultConversionHandler" time="0"/>
 </testsuite>

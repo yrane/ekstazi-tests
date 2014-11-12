@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testList1" classname="org.apache.commons.configuration2.TestThreesomeConfiguration" time="0.004"/>
+  <testcase name="testList1" classname="org.apache.commons.configuration2.TestThreesomeConfiguration" time="0.003"/>
   <testcase name="testList2" classname="org.apache.commons.configuration2.TestThreesomeConfiguration" time="0"/>
-  <testcase name="testList3" classname="org.apache.commons.configuration2.TestThreesomeConfiguration" time="0"/>
+  <testcase name="testList3" classname="org.apache.commons.configuration2.TestThreesomeConfiguration" time="0.001"/>
 </testsuite>

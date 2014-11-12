@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.039" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.046" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,12 +57,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testConfigurationBuilderWrapper" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.016"/>
-  <testcase name="testEventSourceSupportNone" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0"/>
+  <testcase name="testConfigurationBuilderWrapper" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.015"/>
+  <testcase name="testEventSourceSupportNone" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.003"/>
   <testcase name="testEventSourceSupportMockBuilder" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.012"/>
-  <testcase name="testEventSourceSupportBuilder" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.01"/>
-  <testcase name="testEventSourceSupportDummy" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.001"/>
+  <testcase name="testEventSourceSupportBuilder" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.009"/>
+  <testcase name="testEventSourceSupportDummy" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0"/>
   <testcase name="testDefaultEventSourceSupport" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0"/>
-  <testcase name="testCreateBuilderConfigurationWrapperNoBuilder" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0"/>
+  <testcase name="testCreateBuilderConfigurationWrapperNoBuilder" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0.007"/>
   <testcase name="testCreateBuilderConfigurationWrapperNoClass" classname="org.apache.commons.configuration2.builder.TestBuilderConfigurationWrapperFactory" time="0"/>
 </testsuite>

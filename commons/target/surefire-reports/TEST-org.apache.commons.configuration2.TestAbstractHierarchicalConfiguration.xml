@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.016" tests="52" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.018" tests="52" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,56 +57,56 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testNodeKeyCachePopulated" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testNodeKeyCachePopulated" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testClearTreeComplex" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testInterpolationUnknownProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testInterpolation" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testGetKeysWithKeyAsPrefixMultiple" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testNodeKeyEmptyCache" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testInitCopyNull" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testInitCopyNull" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testInterpolationBasic" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testResolveNodeKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testResolveNodeKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testNodeKeyCacheHit" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testClear" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testClear" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testClone" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testInterpolator" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testIsEmptyRootOnly" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testInterpolationSubset" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testIsEmptyRootOnly" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testInterpolationSubset" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testNodeKeyRootNode" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testSetExpressionEngine" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testInterpolationEscaped" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testGetKeysAttribute" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testGetKeysAttribute" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testInterpolationSysProperties" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testGetKeysAttributePrefix" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testClearTree" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testAddNodes" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testInterpolationSubsetMultipleLayers" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testCloneWithEventListeners" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testContainsKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testNodeKeyCacheUsage" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testAddNodesForNonExistingKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testAddNodesWithAttributeKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testInterpolationConstants" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testInterpolationConstants" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testGetKeysOrder" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testClearTreeHierarchy" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testClearProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testSetProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.002"/>
+  <testcase name="testClearProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testSetProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testInterpolatedConfiguration" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.002"/>
   <testcase name="testGetPropertyKeyWithBrackets" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testAddPropertyWithListHandling" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testInterpolationLoop" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testInterpolationLoop" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testIsEmptyNodesWithNoValues" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testAddPropertyInvalidKey" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testAddNodesCopy" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testAddNodesCopy" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testGetNodeModel" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testResolveNodeKeyAttribute" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testAddProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testResolveNodeKeyAttribute" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testAddProperty" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testInterpolationMultipleLevels" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
   <testcase name="testGetKeysString" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testGetMaxIndex" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
-  <testcase name="testGetKeysWithKeyAsPrefix" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testCloneInterpolation" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testGetKeysWithKeyAsPrefix" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
+  <testcase name="testCloneInterpolation" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0.001"/>
   <testcase name="testIsEmptyFalse" classname="org.apache.commons.configuration2.TestAbstractHierarchicalConfiguration" time="0"/>
 </testsuite>

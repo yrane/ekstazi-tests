@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.407" tests="14" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.607" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,18 +57,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testConfigurationAtSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.213"/>
-  <testcase name="testGetRootElementNameSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.012"/>
-  <testcase name="testChildConfigurationsAtSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.011"/>
-  <testcase name="testConfigurationsAtSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.009"/>
-  <testcase name="testCloneSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.012"/>
-  <testcase name="testReadOnlyAccessToSubConfigurations" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.087"/>
+  <testcase name="testConfigurationAtSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.349"/>
+  <testcase name="testGetRootElementNameSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.017"/>
+  <testcase name="testChildConfigurationsAtSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.014"/>
+  <testcase name="testConfigurationsAtSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.015"/>
+  <testcase name="testCloneSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.016"/>
+  <testcase name="testReadOnlyAccessToSubConfigurations" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.111"/>
   <testcase name="testCopyConstructorSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.01"/>
-  <testcase name="testSubnodeUpdateBySubnode" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.011"/>
-  <testcase name="testAddNodesSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.009"/>
-  <testcase name="testGetMaxIndexSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.007"/>
-  <testcase name="testClearTreeSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.005"/>
-  <testcase name="testCloneCopySubnodeData" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.009"/>
-  <testcase name="testSubsetSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.005"/>
-  <testcase name="testSubnodeUpdate" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.007"/>
+  <testcase name="testSubnodeUpdateBySubnode" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.014"/>
+  <testcase name="testAddNodesSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.013"/>
+  <testcase name="testGetMaxIndexSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.009"/>
+  <testcase name="testClearTreeSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.01"/>
+  <testcase name="testCloneCopySubnodeData" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.01"/>
+  <testcase name="testSubsetSynchronized" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.009"/>
+  <testcase name="testSubnodeUpdate" classname="org.apache.commons.configuration2.TestBaseHierarchicalConfigurationSynchronization" time="0.01"/>
 </testsuite>

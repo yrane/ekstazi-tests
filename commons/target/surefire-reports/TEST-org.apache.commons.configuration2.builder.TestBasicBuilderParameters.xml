@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.019" tests="30" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.021" tests="30" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -67,24 +67,24 @@
   <testcase name="testSetListDelimiter" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testFetchBeanHelperNoSet" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testCloneValues" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.003"/>
-  <testcase name="testSetPrefixLookups" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
+  <testcase name="testSetPrefixLookups" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testFetchInterpolatorSpecificationInvalidDataType" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
-  <testcase name="testSetLookupsAndInterpolator" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
+  <testcase name="testSetLookupsAndInterpolator" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.005"/>
   <testcase name="testSetInterpolator" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testFetchInterpolatorSpecification" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
-  <testcase name="testFetchInterpolatorSpecificationInvalidMapKey" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
+  <testcase name="testFetchInterpolatorSpecificationInvalidMapKey" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testSetBeanHelper" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testFetchInterpolatorSpecificationInvalidCollectionValue" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testClonePrefixLookups" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testSetSynchronizer" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
   <testcase name="testFetchInterpolatorSpecificationEmpty" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
-  <testcase name="testSetPrefixLookupsNull" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
+  <testcase name="testSetPrefixLookupsNull" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testSetLogger" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testGetParametersDefensiveCopy" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testFetchBeanHelperNullMap" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testDefaults" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testFetchInterpolatorSpecificationNull" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
   <testcase name="testSetDefaultLookupsNull" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
-  <testcase name="testFetchInterpolatorSpecificationWithInterpolator" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
-  <testcase name="testSetThrowExceptionOnMissing" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
+  <testcase name="testFetchInterpolatorSpecificationWithInterpolator" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0"/>
+  <testcase name="testSetThrowExceptionOnMissing" classname="org.apache.commons.configuration2.builder.TestBasicBuilderParameters" time="0.001"/>
 </testsuite>

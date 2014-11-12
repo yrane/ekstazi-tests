@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestConfigurationUtils" time="0.041" tests="35" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestConfigurationUtils" time="0.031" tests="35" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,39 +57,39 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testLoadClassFromCCL" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testLoadClassFromCCL" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testCloneSynchronizerNoOp" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testCloneSynchronizerNull" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testCloneIfPossibleError" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testConvertToHierarchicalEngine" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.008"/>
+  <testcase name="testCloneIfPossibleError" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testConvertToHierarchicalEngine" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
   <testcase name="testAsEventSourceUnsupportedMock" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
   <testcase name="testAsEventSourceNonSupportedEx" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testLoadClassCCLNull" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testLoadClassNoExFound" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testCloneSynchronizerNewInstance" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testConvertHierarchicalToHierarchicalEngine" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testCloneSynchronizerNewInstance" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testConvertHierarchicalToHierarchicalEngine" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testCloneConfigurationNull" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testEnableRuntimeExceptionsInvalid" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.011"/>
+  <testcase name="testEnableRuntimeExceptionsInvalid" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.009"/>
   <testcase name="testCloneConfigurationNotSupported" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
-  <testcase name="testEnableRuntimeExceptions" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
-  <testcase name="testCopy" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.002"/>
+  <testcase name="testEnableRuntimeExceptions" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
+  <testcase name="testCopy" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testToString" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
   <testcase name="testCloneIfPossibleNull" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testCloneConfiguration" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
-  <testcase name="testCloneIfPossibleNotSupported" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
+  <testcase name="testCloneConfiguration" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
+  <testcase name="testCloneIfPossibleNotSupported" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
   <testcase name="testLoadClassCCLNotFound" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
   <testcase name="testConvertNullToHierarchical" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testConvertToHierarchicalDelimiters" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.002"/>
-  <testcase name="testLoadClassNoExNotFound" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testConvertToHierarchical" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.002"/>
-  <testcase name="testCloneIfPossibleSupported" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testLoadClassNoExNotFound" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.002"/>
+  <testcase name="testConvertToHierarchical" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.008"/>
+  <testcase name="testCloneIfPossibleSupported" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testAsEventSourceSupported" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testCloneSynchronizerClone" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testCloneSynchronizerClone" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testEnableRuntimeExceptionsNull" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testCloneSynchronizerFailed" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testCloneSynchronizerFailed" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testAppend" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.002"/>
   <testcase name="testConvertHierarchicalToHierarchicalNullEngine" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testConvertHierarchicalToHierarchical" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.001"/>
+  <testcase name="testConvertHierarchicalToHierarchical" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
   <testcase name="testLoadClassNotFound" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
-  <testcase name="testConvertToHierarchicalMultiValues" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0.002"/>
+  <testcase name="testConvertToHierarchicalMultiValues" classname="org.apache.commons.configuration2.TestConfigurationUtils" time="0"/>
 </testsuite>

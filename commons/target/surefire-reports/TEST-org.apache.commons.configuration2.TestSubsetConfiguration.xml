@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestSubsetConfiguration" time="0.016" tests="21" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestSubsetConfiguration" time="0" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,13 +58,13 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testGetChildKey" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
-  <testcase name="testClear" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0.001"/>
+  <testcase name="testClear" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetParentKey" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testInterpolator" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetList" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testInitNoParent" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
-  <testcase name="testThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0.001"/>
+  <testcase name="testThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testSetProperty" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testSetPrefix" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
@@ -72,10 +72,10 @@
   <testcase name="testInterpolationForKeysOfTheParent" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetParent" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetPrefix" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
-  <testcase name="testNested" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0.013"/>
+  <testcase name="testNested" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testLocalLookupsInInterpolatorAreInherited" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testSetListDelimiterHandlerInParent" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testListDelimiterHandling" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
   <testcase name="testGetKeysWithPrefix" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
-  <testcase name="testGetListDelimiterHandlerFromParent" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0.001"/>
+  <testcase name="testGetListDelimiterHandlerFromParent" classname="org.apache.commons.configuration2.TestSubsetConfiguration" time="0"/>
 </testsuite>

@@ -57,13 +57,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetMappedProperty" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0.008"/>
+  <testcase name="testGetMappedProperty" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0.007"/>
   <testcase name="testGetDynaClass" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
   <testcase name="testSetIndexedProperty" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
   <testcase name="testContains" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
-  <testcase name="testSetSimpleProperty" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
-  <testcase name="testOrderOfProperties" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0.001"/>
-  <testcase name="testGetPropertyUnknown" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
+  <testcase name="testSetSimpleProperty" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0.001"/>
+  <testcase name="testOrderOfProperties" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
+  <testcase name="testGetPropertyUnknown" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0.001"/>
   <testcase name="testGetDynaClassName" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
   <testcase name="testSetMappedProperty" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>
   <testcase name="testGetDynaClassNewInstance" classname="org.apache.commons.configuration2.builder.combined.TestMultiWrapDynaBean" time="0"/>

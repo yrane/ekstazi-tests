@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.018" tests="23" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.02" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,27 +57,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testInterpolation" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
-  <testcase name="testInterpolationFromConfigurationAtWithUpdateSupport" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
+  <testcase name="testInterpolation" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
+  <testcase name="testInterpolationFromConfigurationAtWithUpdateSupport" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
   <testcase name="testSetThrowExceptionOnMissingAffectsParent" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
   <testcase name="testClone" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
-  <testcase name="testClose" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.01"/>
-  <testcase name="testInterpolator" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
-  <testcase name="testSetExpressionEngine" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
+  <testcase name="testClose" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.007"/>
+  <testcase name="testInterpolator" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
+  <testcase name="testSetExpressionEngine" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
   <testcase name="testGetKeys" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
   <testcase name="testSetListDelimiterHandler" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
-  <testcase name="testConfiguarationAtNoUpdates" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
+  <testcase name="testConfiguarationAtNoUpdates" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
   <testcase name="testInterpolationFromConfigurationAtNoUpdateSupport" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
   <testcase name="testSetProperty" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
   <testcase name="testParentChangeDetach" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
   <testcase name="testConfigurationAtWithUpdateSupport" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
-  <testcase name="testGetProperties" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
-  <testcase name="testInitSubNodeConfig" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
+  <testcase name="testGetProperties" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
+  <testcase name="testInitSubNodeConfig" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
   <testcase name="testInitSubNodeConfigWithNullParent" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
   <testcase name="testLocalInterpolationFromConfigurationAt" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
   <testcase name="testLocalLookupsInInterpolatorAreInherited" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
   <testcase name="testAddProperty" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
-  <testcase name="testSetThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.001"/>
-  <testcase name="testParentChangeDetatchException" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.004"/>
+  <testcase name="testSetThrowExceptionOnMissing" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
+  <testcase name="testParentChangeDetatchException" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0.005"/>
   <testcase name="testInitSubNodeConfigWithNullNode" classname="org.apache.commons.configuration2.TestSubnodeConfiguration" time="0"/>
 </testsuite>

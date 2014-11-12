@@ -60,8 +60,8 @@
   <testcase name="testEqualsFalse" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0.002"/>
   <testcase name="testGetAttributeValueNoAttributeResult" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>
   <testcase name="testToStringNodeResult" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>
-  <testcase name="testEqualsTrue" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>
-  <testcase name="testGetAttributeValue" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0.001"/>
+  <testcase name="testEqualsTrue" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0.001"/>
+  <testcase name="testGetAttributeValue" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>
   <testcase name="testToStringAttributeResult" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>
   <testcase name="testEqualsOtherObjects" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>
   <testcase name="testIsAttributeResultFalse" classname="org.apache.commons.configuration2.tree.TestQueryResult" time="0"/>

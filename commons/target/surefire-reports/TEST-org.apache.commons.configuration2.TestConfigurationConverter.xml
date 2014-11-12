@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestConfigurationConverter" time="0.002" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestConfigurationConverter" time="0.001" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -62,5 +62,5 @@
   <testcase name="testPropertiesToConfiguration" classname="org.apache.commons.configuration2.TestConfigurationConverter" time="0"/>
   <testcase name="testConfigurationToPropertiesScalarValue" classname="org.apache.commons.configuration2.TestConfigurationConverter" time="0"/>
   <testcase name="testConfigurationToPropertiesListDelimiterHandler" classname="org.apache.commons.configuration2.TestConfigurationConverter" time="0"/>
-  <testcase name="testConfigurationToPropertiesNoAbstractConfiguration" classname="org.apache.commons.configuration2.TestConfigurationConverter" time="0.001"/>
+  <testcase name="testConfigurationToPropertiesNoAbstractConfiguration" classname="org.apache.commons.configuration2.TestConfigurationConverter" time="0"/>
 </testsuite>

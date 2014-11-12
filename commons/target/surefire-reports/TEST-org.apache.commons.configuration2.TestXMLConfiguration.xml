@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestXMLConfiguration" time="0.698" tests="88" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestXMLConfiguration" time="0.64" tests="88" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,92 +57,92 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testDelimiterParsingDisabledXPath" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testLoadInvalidXML" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
-  <testcase name="testPreserveSpace" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testGetComplexProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
-  <testcase name="testSetAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
+  <testcase name="testDelimiterParsingDisabledXPath" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
+  <testcase name="testLoadInvalidXML" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.008"/>
+  <testcase name="testPreserveSpace" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
+  <testcase name="testGetComplexProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testSetAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
   <testcase name="testSaveWithDoctypeIDs" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.013"/>
-  <testcase name="testAddObjectProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testAutoSaveWithSubnodeConfig" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
+  <testcase name="testAddObjectProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testAutoSaveWithSubnodeConfig" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.014"/>
   <testcase name="testCopyRootNameNoDocument" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
-  <testcase name="testAddList" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testLoadWithEncoding" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.016"/>
-  <testcase name="testAttributeKeyWithMultipleValues" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
-  <testcase name="testDtd" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.021"/>
-  <testcase name="testClearPropertyNonText" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0"/>
-  <testcase name="testCopyRootName" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
-  <testcase name="testSaveAfterCreateWithCopyConstructor" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.014"/>
-  <testcase name="testgetProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0"/>
-  <testcase name="testClone" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0"/>
+  <testcase name="testAddList" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testLoadWithEncoding" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.008"/>
+  <testcase name="testAttributeKeyWithMultipleValues" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.012"/>
+  <testcase name="testDtd" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.008"/>
+  <testcase name="testClearPropertyNonText" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testCopyRootName" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
+  <testcase name="testSaveAfterCreateWithCopyConstructor" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
+  <testcase name="testgetProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testClone" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
   <testcase name="testSaveWindowsPath" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
-  <testcase name="testSave" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.012"/>
-  <testcase name="testClearPropertySingleElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
-  <testcase name="testCloneWithSave" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.008"/>
+  <testcase name="testSave" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.013"/>
+  <testcase name="testClearPropertySingleElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testCloneWithSave" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
   <testcase name="testEmptyElements" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
-  <testcase name="testListWithAttributesMultiValue" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
+  <testcase name="testListWithAttributesMultiValue" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testSplitLists" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
-  <testcase name="testXPathExpressionEngine" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.002"/>
-  <testcase name="testSaveToStreamWithEncoding" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
+  <testcase name="testXPathExpressionEngine" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testSaveToStreamWithEncoding" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
   <testcase name="testListWithAttributes" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testAutoSaveAddNodes" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
-  <testcase name="testSetTextRootElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
+  <testcase name="testAutoSaveAddNodes" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
+  <testcase name="testSetTextRootElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
   <testcase name="testPublicIdSynchronized" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testSaveToStream" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
-  <testcase name="testValidating" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
+  <testcase name="testValidating" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
   <testcase name="testOverrideAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testClearAttributeNonExisting" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testSaveWithInvalidTransformerFactory" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testSaveWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.022"/>
-  <testcase name="testAutoSaveWithSubSubnodeConfig" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.013"/>
-  <testcase name="testSaveWithDoctype" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
-  <testcase name="testSaveWithValidation" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.065"/>
-  <testcase name="testGetPropertyWithXMLEntity" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
-  <testcase name="testClearPropertyNotExisting" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testSaveWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.02"/>
+  <testcase name="testAutoSaveWithSubSubnodeConfig" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.012"/>
+  <testcase name="testSaveWithDoctype" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
+  <testcase name="testSaveWithValidation" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.057"/>
+  <testcase name="testGetPropertyWithXMLEntity" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testClearPropertyNotExisting" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testPreserveSpaceInvalid" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testNoDelimiterParsingInAttrValues" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
+  <testcase name="testNoDelimiterParsingInAttrValues" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
   <testcase name="testPreserveSpaceOnElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testSetPropertyListWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
+  <testcase name="testSetPropertyListWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
   <testcase name="testDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
-  <testcase name="testClearPropertyMultipleSiblings" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testClearPropertyMultipleSiblings" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testClearPropertySingleElementWithAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testLoadAndSaveFromFile" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.008"/>
-  <testcase name="testCopyNull" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testAddPropertyListWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
-  <testcase name="testSetProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testValidatingInvalidFile" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
-  <testcase name="testAddNodesAndSave" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.013"/>
-  <testcase name="testClearAttributeSingle" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
-  <testcase name="testEmptyReload" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
-  <testcase name="testCustomDocBuilder" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.008"/>
-  <testcase name="testEmptyAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
+  <testcase name="testLoadAndSaveFromFile" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
+  <testcase name="testCopyNull" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testAddPropertyListWithDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
+  <testcase name="testSetProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testValidatingInvalidFile" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
+  <testcase name="testAddNodesAndSave" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.014"/>
+  <testcase name="testClearAttributeSingle" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testGetProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testEmptyReload" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
+  <testcase name="testCustomDocBuilder" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
+  <testcase name="testEmptyAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
   <testcase name="testCustomDocBuilderValidationError" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
-  <testcase name="testPreserveSpaceOverride" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
+  <testcase name="testPreserveSpaceOverride" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
   <testcase name="testComplexNames" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testSaveWithValidationFailure" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.015"/>
-  <testcase name="testSaveToURL" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
+  <testcase name="testSaveWithValidationFailure" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.017"/>
+  <testcase name="testSaveToURL" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
   <testcase name="testClearPropertyCData" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testInitCopy" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
+  <testcase name="testInitCopy" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
   <testcase name="testSaveWithNullEncoding" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
   <testcase name="testGetAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testListWithMultipleAttributesMultiValue" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testAppend" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.012"/>
+  <testcase name="testAppend" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.009"/>
   <testcase name="testSystemIdSynchronized" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testAddNodesToSubnodeConfiguration" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
-  <testcase name="testAddNodesCopy" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.015"/>
-  <testcase name="testSaveDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.015"/>
-  <testcase name="testSetRootAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.02"/>
-  <testcase name="testGetCommentedProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testAddNodesCopy" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.014"/>
+  <testcase name="testSaveDelimiterParsingDisabled" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.013"/>
+  <testcase name="testSetRootAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.016"/>
+  <testcase name="testGetCommentedProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
   <testcase name="testSaveWithEncoding" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
   <testcase name="testAddProperty" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testSaveAttributes" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.013"/>
-  <testcase name="testSubset" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
+  <testcase name="testSaveAttributes" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.011"/>
+  <testcase name="testSubset" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
   <testcase name="testCustomDocBuilderValidationSuccess" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
   <testcase name="testClearPropertyMultipleDisjoined" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testClearTextRootElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.01"/>
-  <testcase name="testConcurrentGetAndReload" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.033"/>
-  <testcase name="testAddObjectAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
-  <testcase name="testLoadFromStream" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.006"/>
+  <testcase name="testClearTextRootElement" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.007"/>
+  <testcase name="testConcurrentGetAndReload" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.023"/>
+  <testcase name="testAddObjectAttribute" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.004"/>
+  <testcase name="testLoadFromStream" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.005"/>
   <testcase name="testClearAttributeMultipleDisjoined" classname="org.apache.commons.configuration2.TestXMLConfiguration" time="0.003"/>
 </testsuite>

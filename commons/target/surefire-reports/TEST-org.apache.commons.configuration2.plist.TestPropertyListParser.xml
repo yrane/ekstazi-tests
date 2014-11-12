@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0.004" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,7 +58,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testParseDate" classname="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0"/>
-  <testcase name="testUnescapeQuotes" classname="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0.004"/>
+  <testcase name="testUnescapeQuotes" classname="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0"/>
   <testcase name="testRemoveQuotes" classname="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0"/>
   <testcase name="testFilterData" classname="org.apache.commons.configuration2.plist.TestPropertyListParser" time="0"/>
 </testsuite>

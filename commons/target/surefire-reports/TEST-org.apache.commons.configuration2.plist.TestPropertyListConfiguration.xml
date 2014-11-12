@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.036" tests="23" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.082" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,27 +57,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testAddDataProperty" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.003"/>
-  <testcase name="testEmptyArray" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
-  <testcase name="testParseDateNoNumber" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.002"/>
-  <testcase name="testSetDataProperty" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.002"/>
-  <testcase name="testParseDateNull" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.002"/>
+  <testcase name="testAddDataProperty" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.008"/>
+  <testcase name="testEmptyArray" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.005"/>
+  <testcase name="testParseDateNoNumber" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.009"/>
+  <testcase name="testSetDataProperty" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.012"/>
+  <testcase name="testParseDateNull" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
   <testcase name="testArray" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
-  <testcase name="testData" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.002"/>
-  <testcase name="testDate" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
+  <testcase name="testData" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
+  <testcase name="testDate" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.012"/>
   <testcase name="testLoad" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
   <testcase name="testSave" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.002"/>
-  <testcase name="testSaveEmptyDictionary" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.003"/>
+  <testcase name="testSaveEmptyDictionary" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.004"/>
   <testcase name="testDictionaryArray" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
-  <testcase name="testFormatDate" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
-  <testcase name="testLoadWithError" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.006"/>
-  <testcase name="testDictionary" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0"/>
-  <testcase name="testQuotedString" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
+  <testcase name="testFormatDate" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.004"/>
+  <testcase name="testLoadWithError" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
+  <testcase name="testDictionary" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
+  <testcase name="testQuotedString" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.012"/>
   <testcase name="testQuoteString" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
   <testcase name="testInitCopy" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
   <testcase name="testParseDateTooShort" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
   <testcase name="testNestedDictionaries" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
   <testcase name="testNestedArrays" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
-  <testcase name="testString" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.002"/>
-  <testcase name="testParseDateInvalidChar" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0"/>
+  <testcase name="testString" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
+  <testcase name="testParseDateInvalidChar" classname="org.apache.commons.configuration2.plist.TestPropertyListConfiguration" time="0.001"/>
 </testsuite>

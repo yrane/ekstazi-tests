@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.009" tests="28" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.017" tests="28" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,32 +57,32 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetBeanPropertiesEmpty" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
+  <testcase name="testGetBeanPropertiesEmpty" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetBeanFactoryNameUndefined" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testInitFromNullConfiguration" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testInitFromUndefinedKey" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
+  <testcase name="testInitFromUndefinedKey" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
   <testcase name="testGetBeanClassName" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetBeanFactoryParameterUndefinedWithEx" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetBeanFactoryParameter" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="tetGetBeanClassNameDefaultOverride" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
+  <testcase name="tetGetBeanClassNameDefaultOverride" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
   <testcase name="testGetInterpolatedBeanProperties" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetBeanClassNameUndefinedWithEx" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testGetNestedBeanDeclarationsEmpty" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
+  <testcase name="testGetNestedBeanDeclarationsEmpty" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testInterpolateNoInterpolator" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetConstructorArgs" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
   <testcase name="testInitFromMultiValueKey" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testGetBeanFactoryName" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testGetBeanPropertiesWithReservedAttributes" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testGetBeanProperties" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
-  <testcase name="testGetNestedBeanDeclarationsReservedCharacter" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
+  <testcase name="testGetBeanFactoryName" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
+  <testcase name="testGetBeanPropertiesWithReservedAttributes" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
+  <testcase name="testGetBeanProperties" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
+  <testcase name="testGetNestedBeanDeclarationsReservedCharacter" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.004"/>
   <testcase name="testGetBeanClassNameUndefined" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testGetNestedBeanDeclarationsFactoryMethod" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
+  <testcase name="testGetNestedBeanDeclarationsFactoryMethod" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.007"/>
   <testcase name="testGetBeanFactoryNameUndefinedWithEx" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetBeanClassNameFromDefault" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testGetBeanFactoryParameterUndefined" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testGetNestedBeanDeclarations" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
-  <testcase name="testGetInterpolatedConstructorArgs" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.003"/>
+  <testcase name="testGetNestedBeanDeclarations" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
+  <testcase name="testGetInterpolatedConstructorArgs" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
   <testcase name="testInitFromNullConfigurationAndKey" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
-  <testcase name="testInitFromUndefinedKeyOptional" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
+  <testcase name="testInitFromUndefinedKeyOptional" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0.001"/>
   <testcase name="testGetConstructorArgsNullArg" classname="org.apache.commons.configuration2.beanutils.TestXMLBeanDeclaration" time="0"/>
 </testsuite>

@@ -57,15 +57,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testRemoveEventListenerNotExisting" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
-  <testcase name="testResultCreatedEventNoConfiguration" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0.004"/>
-  <testcase name="testConfigurationRequestEvent" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
+  <testcase name="testRemoveEventListenerNotExisting" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0.001"/>
+  <testcase name="testResultCreatedEventNoConfiguration" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
+  <testcase name="testConfigurationRequestEvent" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0.001"/>
   <testcase name="testConfigurationRequestEventType" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
   <testcase name="testResultCreatedEventType" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
   <testcase name="testBuilderResetEvent" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
-  <testcase name="testResultCreatedEvent" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
+  <testcase name="testResultCreatedEvent" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0.001"/>
   <testcase name="testBuilderResetEventType" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
   <testcase name="testResetOnConfigurationRequestEvent" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
-  <testcase name="testBuilderEventType" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
+  <testcase name="testBuilderEventType" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0.001"/>
   <testcase name="testRemoveEventListener" classname="org.apache.commons.configuration2.builder.TestBasicConfigurationBuilderEvents" time="0"/>
 </testsuite>

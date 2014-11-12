@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.053" tests="37" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.029" tests="37" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -61,37 +61,37 @@
   <testcase name="testConfigurationAtUnknownSubTree" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testChildConfigurationsAtWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testInitCopyNull" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testConfigurationsAtAttributeKey" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testConfigurationsAtAttributeKey" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testClone" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testInitCopyUpdate" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testConfigurationAtUpdateSubConfigConnected" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testInterpolationSubset" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.033"/>
+  <testcase name="testInitCopyUpdate" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testConfigurationAtUpdateSubConfigConnected" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testInterpolationSubset" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.002"/>
   <testcase name="testConfigurationsAtNoUpdate" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testConfigurationAtUnknownSubTreeWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testChildConfigurationsAtNoUniqueKey" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testConfigurationAtClearAndDetach" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testConfigurationAtAttributeNodeWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testConfigurationAtAttributeNodeWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testSubsetMultipleNodesWithValues" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testInterpolationSubsetMultipleLayers" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testInterpolatedConfigurationEmpty" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testInterpolationSubsetMultipleLayers" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testInterpolatedConfigurationEmpty" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testConfigurationsAtEmpty" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testConfigurationAtUpdateParentConnected" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testSubsetNodeWithValue" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testConfigurationAtUpdateParentConnected" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testSubsetNodeWithValue" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testConfigurationAtUpdateSubConfigIndependent" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testConfigurationAtAttributeNode" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testInterpolatedConfiguration" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.003"/>
-  <testcase name="testSubsetAttributeResult" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testImmutableConfigurationsAt" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.007"/>
+  <testcase name="testInterpolatedConfiguration" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.007"/>
+  <testcase name="testSubsetAttributeResult" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testImmutableConfigurationsAt" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.01"/>
   <testcase name="testInitCopy" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testConfigurationAtUpdateParentIndependent" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testConfigurationAtUpdateParentIndependent" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testConfigurationAtReadAccess" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testConfigurationAtMultipleNodes" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testImmutableConfigurationAt" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testImmutableChildConfigurationsAt" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testImmutableConfigurationAtSupportUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
-  <testcase name="testSubset" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testConfigurationsAtWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
-  <testcase name="testChildConfigurationsAtNoUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testImmutableConfigurationAtSupportUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
+  <testcase name="testSubset" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testConfigurationsAtWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
+  <testcase name="testChildConfigurationsAtNoUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0.001"/>
   <testcase name="testConfigurationAtMultipleNodesWithUpdates" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
   <testcase name="testConfigurationAtWithUpdateInitialized" classname="org.apache.commons.configuration2.TestHierarchicalConfiguration" time="0"/>
 </testsuite>

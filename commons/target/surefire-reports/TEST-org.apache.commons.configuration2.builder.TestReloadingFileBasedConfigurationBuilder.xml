@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.006" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.007" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -57,13 +57,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetConfigurationNoLocation" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.002"/>
-  <testcase name="testCreateReloadingDetectoryCustomFactory" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.004"/>
+  <testcase name="testGetConfigurationNoLocation" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testCreateReloadingDetectoryCustomFactory" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.003"/>
   <testcase name="testCreateReloadingDetectorDefaultFactory" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
   <testcase name="testReloadingControllerEvents" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
   <testcase name="testReloadingDetectorNoFileHandler" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testResetReloadingStateInGetConfiguration" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testReloadingDetectorReloadingPerformed" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
+  <testcase name="testResetReloadingStateInGetConfiguration" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.001"/>
+  <testcase name="testReloadingDetectorReloadingPerformed" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.001"/>
   <testcase name="testInitAllowFailOnInitFlag" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
-  <testcase name="testReloadingDetectorIsReloadingRequired" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0"/>
+  <testcase name="testReloadingDetectorIsReloadingRequired" classname="org.apache.commons.configuration2.builder.TestReloadingFileBasedConfigurationBuilder" time="0.001"/>
 </testsuite>

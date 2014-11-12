@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.006" tests="37" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.001" tests="37" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_25/jre/lib/amd64"/>
@@ -58,7 +58,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testEnableSubstitutionInVariables" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
-  <testcase name="testResolveDefault" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.001"/>
+  <testcase name="testResolveDefault" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testGetDefaultPrefixLookups" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveWithPrefix" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testRegisterLookup" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
@@ -72,18 +72,18 @@
   <testcase name="testInit" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testNullSafeLookupExisting" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveNoDefault" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
-  <testcase name="testRemoveDefaultLookup" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.001"/>
+  <testcase name="testRemoveDefaultLookup" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testGetDefaultLookupsModify" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testFromSpecificationNull" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
-  <testcase name="testResolveParentVariableFound" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.001"/>
+  <testcase name="testResolveParentVariableFound" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveEmptyVarName" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testDeregisterLookupNonExisting" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testRegisterLookups" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveDefaultEmptyVarName" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveEmptyPrefix" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
-  <testcase name="testPrefixSetModify" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.001"/>
+  <testcase name="testPrefixSetModify" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testDeregisterLookup" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
-  <testcase name="testInterpolateObject" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.002"/>
+  <testcase name="testInterpolateObject" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testNullSafeLookupNull" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testRemoveDefaultLookupNonExisting" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testInterpolateString" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
@@ -93,5 +93,5 @@
   <testcase name="testGetDefaultPrefixLookupsModify" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveDefaultAfterPrefixFails" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
   <testcase name="testResolveWithUnknownPrefix" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
-  <testcase name="testFromSpecificationInterpolator" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0"/>
+  <testcase name="testFromSpecificationInterpolator" classname="org.apache.commons.configuration2.interpol.TestConfigurationInterpolator" time="0.001"/>
 </testsuite>
