@@ -134,12 +134,12 @@ public class JunitRunTest2 {
         //Now run the compiled files
         filetype = ".class";
         String classfiles[] = get_files(dest, filetype);
-    
+
 // for (String classFile : classFiles){
-            
+
         //System.out.println("Found: " + classFile + "\n");
     //    }
-        
+
         // We have all the class files. Now execute these one by one
         // DID NOT WORK = "'.class' expected error"
         // JUnitCore junit = new JUnitCore();
