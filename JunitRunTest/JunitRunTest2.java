@@ -13,6 +13,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 import javax.tools.Diagnostic;
+import javax.swing.JFileChooser;
 import javax.tools.DiagnosticListener;
 
 public class JunitRunTest2 {
@@ -162,24 +163,34 @@ public class JunitRunTest2 {
         //   e.printStackTrace();
         // }
         // System.out.println(cd);
+        File f = new File(dest);
+        JFileChooser chooser = new JFileChooser();
 
-        FileUtils.setCurrentDirectory(dest);
+        boolean res = setCurrentDirectory(dest);
+        System.out.println("Directory set?: " + res);
+    //     String set_path = "cd " + dest;
+    //     try{
+    //         runProcess(set_path);
+    //     }catch(Exception e) {
+    //       e.printStackTrace();
+    //   }
+        // chooser.setCurrentDirectory(f);
 
         String junit_path = home_path + "/.m2/repository/junit/junit/4.11/junit-4.11.jar:" + home_path +"/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar";
         try
         {
-            for (int i = 1; i < classfiles.length; i++)
+            for (int i = 0; i < classfiles.length; i++)
             {
                 // classfiles[i] = classfiles[i].substring(0, classfiles[i].lastIndexOf('/'));
                 int index = classfiles[i].lastIndexOf("/");
                 classfiles[i] = classfiles[i].substring(index + 1);
 
                 classfiles[i] = classfiles[i].substring(0, classfiles[i].lastIndexOf('.'));
-                System.out.println(classfiles[i]);
+                System.out.println("Currently Executing: " + classfiles[i]);
                 String eks_run = "java -javaagent:" + home_path +"/.m2/repository/org/ekstazi/org.ekstazi.core/4.1.0/org.ekstazi.core-4.1.0.jar=mode=junit -cp .:"
                                 + junit_path + " org.junit.runner.JUnitCore " + classfiles[i];
 
-                System.out.println(eks_run);
+                // System.out.println(eks_run);
                 runProcess(eks_run);
                 eks_run = "";
             }
@@ -215,17 +226,16 @@ public class JunitRunTest2 {
         for (int i = 0;i < destfiles.length;i++)
         {
             destfiles[i] = files[i].toString();
-            System.out.println(destfiles[i]);
+            // System.out.println(destfiles[i]);
         }
         return destfiles;
     }
 
     private static int runProcess(String command) throws Exception {
-      Process pro = Runtime.getRuntime().exec(command);
-    //   printLines(command + " stdout:", pro.getInputStream());
-    //   printLines(command + " stderr:", pro.getErrorStream());
+        Process pro = Runtime.getRuntime().exec(command);
          pro.waitFor();
-         System.out.println(command + " exitValue() " + pro.exitValue());
+         System.out.println(command);
+         System.out.println("exitValue() => " + pro.exitValue());
          return pro.exitValue();
     }
 
