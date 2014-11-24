@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class TestMult {
-  
+
   @Test(expected = IllegalArgumentException.class)
   public void testExceptionIsThrown() {
     MyClass tester = new MyClass();
@@ -16,5 +16,8 @@ public class TestMult {
   public void testMultiply() {
     MyClass tester = new MyClass();
     assertEquals("10 x 5 must be 50", 50, tester.multiply(10, 5));
+    assertEquals("10 x 5 must be 50", 50, tester.multiply(10, 5));
+    assertEquals("10 x 5 must be 50", 50, tester.multiply(10, 5));
+    assertEquals("10 x 5 must be 50", 50, tester.multiply(10, 5));
   }
-} 
+}

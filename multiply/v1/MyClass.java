@@ -6,4 +6,4 @@ public class MyClass {
     }
     return x / y;
   }
-} 
+}
