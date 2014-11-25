@@ -1,3 +1,7 @@
-Initially Ekstazi runs, 4067 tests on joda-time commit version f36072e1. I could find 4063 methods with signature "public void test*" in all test files. I used the command grep -rnw . -e "public void" | wc -l and then subtracted the lines containing "//". So Ekstazi is expected to run these many tests.
+Initially Ekstazi runs, 4067 tests on joda-time commit version f36072e1. This is the same revision as was used in HW7. I could find 4063 methods with signature "public void test*" in all test files. I used the command grep -rnw . -e "public void" | wc -l in the test folder and then subtracted the lines containing "//". So Ekstazi is expected to run these many tests.
 
 The issue is that even after making no changes, Ekstazi runs 2 tests in TestAllPackages in the second run.
+
+How can I find out which 2 tests were run by Ekstazi because I can not find any RUN test classes in run.info file after the second Ekstazi run?
+
+I have also checked in the run.info as joda-time-f36072e1-run.info file to SVN.

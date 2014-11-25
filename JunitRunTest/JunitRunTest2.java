@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-import org.apache.commons.io.FileUtils;
+// import org.apache.commons.io.FileUtils;
 import javax.tools.DiagnosticCollector;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
@@ -163,11 +163,11 @@ public class JunitRunTest2 {
         //   e.printStackTrace();
         // }
         // System.out.println(cd);
-        File f = new File(dest);
-        JFileChooser chooser = new JFileChooser();
+        // File f = new File(dest);
+        // JFileChooser chooser = new JFileChooser();
 
-        boolean res = setCurrentDirectory(dest);
-        System.out.println("Directory set?: " + res);
+        // boolean res = setCurrentDirectory(dest);
+        // System.out.println("Directory set?: " + res);
     //     String set_path = "cd " + dest;
     //     try{
     //         runProcess(set_path);
@@ -186,13 +186,17 @@ public class JunitRunTest2 {
                 classfiles[i] = classfiles[i].substring(index + 1);
 
                 classfiles[i] = classfiles[i].substring(0, classfiles[i].lastIndexOf('.'));
-                System.out.println("Currently Executing: " + classfiles[i]);
-                String eks_run = "java -javaagent:" + home_path +"/.m2/repository/org/ekstazi/org.ekstazi.core/4.1.0/org.ekstazi.core-4.1.0.jar=mode=junit -cp .:"
-                                + junit_path + " org.junit.runner.JUnitCore " + classfiles[i];
+
+                if (classfiles[i].toLowerCase().contains("test"))
+                {
+                    System.out.println("Currently Executing: " + classfiles[i]);
+                    String eks_run = "java -javaagent:" + home_path +"/.m2/repository/org/ekstazi/org.ekstazi.core/4.1.0/org.ekstazi.core-4.1.0.jar=mode=junit -cp .:"
+                                + dest + ":" + junit_path + " org.junit.runner.JUnitCore " + classfiles[i];
 
                 // System.out.println(eks_run);
-                runProcess(eks_run);
-                eks_run = "";
+                    runProcess(eks_run);
+                    eks_run = "";
+                }
             }
         } catch (Exception e) {
           e.printStackTrace();
@@ -232,11 +236,32 @@ public class JunitRunTest2 {
     }
 
     private static int runProcess(String command) throws Exception {
+        String remove = "rm -rf .ekstazi";
+        Process rm = Runtime.getRuntime().exec(remove);
+        rm.waitFor();
         Process pro = Runtime.getRuntime().exec(command);
-         pro.waitFor();
-         System.out.println(command);
-         System.out.println("exitValue() => " + pro.exitValue());
-         return pro.exitValue();
+        pro.waitFor();
+        //  System.out.println(command);
+        //  System.out.println("exitValue() => " + pro.exitValue());
+        BufferedReader stdInput = new BufferedReader(new
+        InputStreamReader(pro.getInputStream()));
+
+        BufferedReader stdError = new BufferedReader(new
+        InputStreamReader(pro.getErrorStream()));
+
+        // read the output from the command
+        System.out.println("Here is the standard output of the command:\n");
+        String s = null;
+        while ((s = stdInput.readLine()) != null) {
+        System.out.println(s);
+        }
+
+        // read any errors from the attempted command
+        System.out.println("Here is the standard error of the command (if any):\n");
+        while ((s = stdError.readLine()) != null) {
+            System.out.println(s);
+        }
+        return pro.exitValue();
     }
 
     private static void printLines(String name, InputStream ins) throws Exception {
@@ -248,17 +273,17 @@ public class JunitRunTest2 {
   }
 
 
-    public static boolean setCurrentDirectory(String directory_name)
-    {
-        boolean result = false;  // Boolean indicating whether directory was set
-        File    directory;       // Desired current working directory
-
-        directory = new File(directory_name).getAbsoluteFile();
-        if (directory.exists() || directory.mkdirs())
-        {
-            result = (System.setProperty("user.dir", directory.getAbsolutePath()) != null);
-        }
-
-        return result;
-    }
+    // public static boolean setCurrentDirectory(String directory_name)
+    // {
+    //     boolean result = false;  // Boolean indicating whether directory was set
+    //     File    directory;       // Desired current working directory
+    //
+    //     directory = new File(directory_name).getAbsoluteFile();
+    //     if (directory.exists() || directory.mkdirs())
+    //     {
+    //         result = (System.setProperty("user.dir", directory.getAbsolutePath()) != null);
+    //     }
+    //
+    //     return result;
+    // }
 }
