@@ -25,17 +25,17 @@ public class InheritedTest extends HelloUnitTest
     assertEquals(5, helloUnit.add(2, 3));
   }
 
-  // @Parameters
-  // public static Collection<?> regExValues()
-  // {
-  //   return Arrays.asList(new Object[][] {
-  //           { new int[] { 1, 2 }, 3 },
-  //           { new int[] { 100, 2 }, 102 },
-  //           { new int[] { Integer.MAX_VALUE, Integer.MAX_VALUE }, Integer.MAX_VALUE } });
-  // }
+  @Parameters
+  public static Collection<?> regExValues()
+  {
+    return Arrays.asList(new Object[][] {
+            { new int[] { 1, 2 }, 3 },
+            { new int[] { 100, 2 }, 102 },
+            { new int[] { Integer.MAX_VALUE, Integer.MAX_VALUE }, Integer.MAX_VALUE } });
+  }
 
   @Test
-  public void testAdd2()
+  public void testAdd3()
   {
     assertEquals(10, helloUnit.add(6, 4));
   }

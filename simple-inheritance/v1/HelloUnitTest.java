@@ -17,22 +17,22 @@ public class HelloUnitTest
   public void testAdd()
   {
     helloUnit = new HelloUnit();
-    assertEquals(5, helloUnit.add(2, 3));
+    assertEquals(7, helloUnit.add(5, 2));
   }
+  //
+  //  // this test will succeed as it does raise the expected exception
+  // @Test(expected = IndexOutOfBoundsException.class)
+  // public void testException()
+  // {
+  //   int[] array = new int[] { 1, 2 };
+  //   System.out.println("Last item in array: " + array[2]);
+  // }
 
-   // this test will succeed as it does raise the expected exception
-  @Test(expected = IndexOutOfBoundsException.class)
-  public void testException()
-  {
-    int[] array = new int[] { 1, 2 };
-    System.out.println("Last item in array: " + array[2]);
-  }
-
-  // this test will result in an error
-  @Test(expected = RemoteException.class)
-  public void testExceptionError()
-  {
-    int[] array = new int[] { 1, 2 };
-    System.out.println("Last item in array: " + array[2]);
-  }
+  // // this test will result in an error
+  // @Test(expected = RemoteException.class)
+  // public void testExceptionError()
+  // {
+  //   int[] array = new int[] { 1, 2 };
+  //   System.out.println("Last item in array: " + array[2]);
+  // }
 }

@@ -6,20 +6,20 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-@RunWith(Parameterized.class)
+// @RunWith(Parameterized.class)
 public class InheritedTest extends HelloUnitTest
 {
   int[] adds;
   int sum;
 
-  public InheritedTest(int[] adds, int sum)
-  {
-    this.adds = adds;
-    this.sum = sum;
-  }
+  // public InheritedTest(int[] adds, int sum)
+  // {
+  //   this.adds = adds;
+  //   this.sum = sum;
+  // }
 
   @Test
-  public void testAdd()
+  public void testAdd2()
   {
     helloUnit = new HelloUnit();
     assertEquals(5, helloUnit.add(2, 3));
@@ -33,10 +33,10 @@ public class InheritedTest extends HelloUnitTest
   //           { new int[] { 100, 2 }, 102 },
   //           { new int[] { Integer.MAX_VALUE, Integer.MAX_VALUE }, Integer.MAX_VALUE } });
   // }
-  
-  @Test
-  public void testAdd3()
-  {
-    assertEquals(10, helloUnit.add(6, 4));
-  }
+
+  // @Test
+  // public void testAdd3()
+  // {
+  //   assertEquals(10, helloUnit.add(6, 4));
+  // }
 }

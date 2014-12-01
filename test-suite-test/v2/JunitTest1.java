@@ -6,9 +6,8 @@ public class JunitTest1 {
    FirstDayAtSchool school = new FirstDayAtSchool();
    String[] bag = {"Books", "Notebooks", "Pens"};
 
-   @Test
    public void testPrepareMyBag() {
-      System.out.println("Inside testPrepareMyBag()");
+      System.out.println("Inside PrepareMyBag()");
       assertArrayEquals(bag, school.prepareMyBag());
    }
 }

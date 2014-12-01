@@ -28,11 +28,11 @@ public class HelloUnitTest
     System.out.println("Last item in array: " + array[2]);
   }
 
-  // this test will result in an error
-  @Test(expected = RemoteException.class)
-  public void testExceptionError()
-  {
-    int[] array = new int[] { 1, 2 };
-    System.out.println("Last item in array: " + array[2]);
-  }
+  // // this test will result in an error
+  // @Test(expected = RemoteException.class)
+  // public void testExceptionError()
+  // {
+  //   int[] array = new int[] { 1, 2 };
+  //   System.out.println("Last item in array: " + array[2]);
+  // }
 }
