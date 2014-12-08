@@ -15,7 +15,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-<!-- $Id: user_guide.xml 1617827 2014-08-13 20:15:27Z oheger $ -->
+<!-- $Id: user_guide.xml 1527241 2013-09-28 19:43:09Z oheger $ -->
 
 <document>
 
@@ -26,23 +26,23 @@
 <body>
 
     <section name="About this document">
-    <p>
-            This document describes the features of the Commons Configuration
+		<p>
+ 	 		This document describes the features of the Commons Configuration
             component starting with the very basics and up to the more advanced
             topics. If you read it in a linear way, you should get a sound
             understanding of the provided classes and the possibilities they
             offer. But you can also skip sections and jump directly to the topics
             you are most interested in.
-    </p>
+    	</p>
     </section>
 
-    <section name="Table of contents">
+	<section name="Table of contents">
     <ul>
       <li><a href="overview.html#Using_Configuration">Using Configuration</a></li>
       <ul>
         <li><a href="overview.html#Configuration_Sources">Configuration Sources</a></li>
+        <li><a href="overview.html#Mixing_Configuration_Sources">Mixing Configuration Sources</a></li>
         <li><a href="overview.html#The_Configuration_interface">The Configuration interface</a></li>
-        <li><a href="overview.html#Immutable_Configurations">Immutable Configurations</a></li>
         <li><a href="overview.html#Threading_issues">Threading issues</a></li>
       </ul>
       <li><a href="howto_basicfeatures.html#Basic_features_and_AbstractConfiguration">Basic features and AbstractConfiguration</a></li>
@@ -55,23 +55,6 @@
         <li><a href="howto_basicfeatures.html#Data_type_conversions">Data type conversions</a></li>
         <li><a href="howto_basicfeatures.html#Customizing_data_type_conversions">Customizing data type conversions</a></li>
       </ul>
-      <li><a href="howto_builders.html">Creating Configurations</a></li>
-      <ul>
-        <li><a href="howto_builders.html#Configuration_Builders">Configuration Builders</a></li>
-        <li><a href="howto_builders.html#BasicConfigurationBuilder">BasicConfigurationBuilder</a></li>
-        <li><a href="howto_builders.html#Initialization_Parameters">Initialization Parameters</a></li>
-        <li><a href="howto_builders.html#Default_Initialization_Parameters">Default Initialization Parameters</a></li>
-        <li><a href="howto_builders.html#Defining_Default_Parameters_Handlers">Defining Default Parameters Handlers</a></li>
-      </ul>
-      <li><a href="howto_filebased.html#File-based_Configurations">File-based Configurations</a></li>
-      <ul>
-        <li><a href="howto_filebased.html#FileBasedConfigurationBuilder">FileBasedConfigurationBuilder</a></li>
-        <li><a href="howto_filebased.html#Making_it_easier">Making it easier</a></li>
-        <li><a href="howto_filebased.html#File_Operations_on_Configurations">File Operations on Configurations</a></li>
-        <li><a href="howto_filebased.html#Customizing_File_Access">Customizing File Access</a></li>
-        <li><a href="howto_filebased.html#File_Systems">File Systems</a></li>
-        <li><a href="howto_filebased.html#File_Location_Strategies">File Location Strategies</a></li>
-      </ul>
       <li><a href="howto_properties.html#Properties_files">Properties files</a></li>
       <ul>
         <li><a href="howto_properties.html#Using_PropertiesConfiguration">Using PropertiesConfiguration</a></li>
@@ -81,40 +64,28 @@
         <li><a href="howto_properties.html#Special_Characters_and_Escaping">Special Characters and Escaping</a></li>
         <li><a href="howto_properties.html#Layout_Objects">Layout Objects</a></li>
         <li><a href="howto_properties.html#Custom_properties_readers_and_writers">Custom properties readers and writers</a></li>
-        <li><a href="howto_properties.html#Builder_Configuration_Related_to_Properties_Files">Builder Configuration Related to Properties Files</a></li>
       </ul>
-      <li><a href="howto_hierarchical.html#Hierarchical_Configurations">Hierarchical Configurations</a></li>
+      <li><a href="howto_filebased.html#File-based_Configurations">File-based Configurations</a></li>
       <ul>
-        <li><a href="howto_hierarchical.html#Accessing_properties_in_hierarchical_configurations">Accessing properties in hierarchical configurations</a></li>
-        <li><a href="howto_hierarchical.html#Complex_hierarchical_structures">Complex hierarchical structures</a></li>
-        <li><a href="howto_hierarchical.html#Accessing_structured_properties">Accessing structured properties</a></li>
-        <li><a href="howto_hierarchical.html#Sub_Configurations">Sub Configurations</a></li>
-        <li><a href="howto_hierarchical.html#Adding_new_properties">Adding new properties</a></li>
-        <li><a href="howto_hierarchical.html#Escaping_special_characters">Escaping special characters</a></li>
-        <li><a href="howto_hierarchical.html#Internal_Representation">Internal Representation</a></li>
-        <li><a href="howto_hierarchical.html#Expression_engines">Expression engines</a></li>
+        <li><a href="howto_filebased.html#Specifying_the_file">Specifying the file</a></li>
+        <li><a href="howto_filebased.html#Loading">Loading</a></li>
+        <li><a href="howto_filebased.html#Saving">Saving</a></li>
+        <li><a href="howto_filebased.html#Automatic_Saving">Automatic Saving</a></li>
+        <li><a href="howto_filebased.html#Automatic_Reloading">Automatic Reloading</a></li>
+      </ul>
+      <li><a href="howto_xml.html#Hierarchical_properties">Hierarchical properties</a></li>
+      <ul>
+        <li><a href="howto_xml.html#Accessing_properties_in_hierarchical_configurations">Accessing properties in hierarchical configurations</a></li>
+        <li><a href="howto_xml.html#Complex_hierarchical_structures">Complex hierarchical structures</a></li>
+        <li><a href="howto_xml.html#Accessing_structured_properties">Accessing structured properties</a></li>
+        <li><a href="howto_xml.html#Adding_new_properties">Adding new properties</a></li>
+        <li><a href="howto_xml.html#Escaping_special_characters">Escaping dot characters in property names</a></li>
+        <li><a href="howto_xml.html#Expression_engines">Expression engines</a></li>
         <ul>
-          <li><a href="howto_hierarchical.html#The_default_expression_engine">The default expression engine</a></li>
-          <li><a href="howto_hierarchical.html#The_XPATH_expression_engine">The XPATH expression engine</a></li>
+          <li><a href="howto_xml.html#The_default_expression_engine">The default expression engine</a></li>
+          <li><a href="howto_xml.html#The_XPATH_expression_engine">The XPATH expression engine</a></li>
         </ul>
-        <li><a href="howto_hierarchical.html#Builder_Configuration_Related_to_Hierarchical_Configurations">Builder Configuration Related to Hierarchical Configurations</a></li>
-      </ul>
-      <li><a href="howto_xml.html">XML Configurations</a></li>
-      <ul>
         <li><a href="howto_xml.html#Validation_of_XML_configuration_files">Validation of XML configuration files</a></li>
-        <li><a href="howto_xml.html#Default_Entity_Resolution">Default Entity Resolution</a></li>
-        <li><a href="howto_xml.html#Enhanced_Entity_Resolution">Enhanced Entity Resolution</a></li>
-        <li><a href="howto_xml.html#Extending_Validation_and_Entity_Resolution">Extending Validation and Entity Resolution</a></li>
-        <li><a href="howto_xml.html#Builder_Configuration_Related_to_XML_Configurations">Builder Configuration Related to XML Configurations</a></li>
-      </ul>
-      <li><a href="howto_reloading.html">Automatic Reloading of Configuration Sources</a></li>
-      <ul>
-        <li><a href="howto_reloading.html#Components_for_Reloading">Components for Reloading</a></li>
-        <li><a href="howto_reloading.html#Reloading_File-based_Configurations">Reloading File-based Configurations</a></li>
-        <li><a href="howto_reloading.html#Builder_Configuration_Related_to_Reloading">Builder Configuration Related to Reloading</a></li>
-        <li><a href="howto_reloading.html#Generic_Reloading_Support">Generic Reloading Support</a></li>
-        <li><a href="howto_reloading.html#Reloading_Checks_on_Builder_Access">Reloading Checks on Builder Access</a></li>
-        <li><a href="howto_reloading.html#Managed_Reloading">Managed Reloading</a></li>
       </ul>
       <li><a href="howto_compositeconfiguration.html#Composite_Configuration_Details">Composite Configuration Details</a></li>
       <ul>
@@ -135,35 +106,29 @@
         <li><a href="howto_beans.html#Constructor_arguments">Constructor arguments</a></li>
         <li><a href="howto_beans.html#Extending_the_Basic_Mechanism">Extending the Basic Mechanism</a></li>
       </ul>
-      <li><a href="howto_combinedbuilder.html#Combining_Configuration_Sources">Combining Configuration Sources</a></li>
+      <li><a href="howto_configurationbuilder.html#Using_DefaultConfigurationBuilder">Using DefaultConfigurationBuilder</a></li>
       <ul>
-        <li><a href="howto_combinedbuilder.html#The_configuration_definition_file">The configuration definition file</a></li>
-        <li><a href="howto_combinedbuilder.html#Setting_up_a_CombinedConfigurationBuilder">Setting up a CombinedConfigurationBuilder</a></li>
-        <li><a href="howto_combinedbuilder.html#Overriding_properties">Overriding properties</a></li>
-        <li><a href="howto_combinedbuilder.html#Optional_configuration_sources">Optional configuration sources</a></li>
-        <li><a href="howto_combinedbuilder.html#Union_configuration">Union configuration</a></li>
-        <li><a href="howto_combinedbuilder.html#Configuration_definition_file_reference">Configuration definition file reference</a></li>
-        <li><a href="howto_combinedbuilder.html#Reloading_Support">Reloading Support</a></li>
-        <li><a href="howto_combinedbuilder.html#An_example">An example</a></li>
-        <li><a href="howto_combinedbuilder.html#Extending_the_configuration_definition_file_format">Extending the configuration definition file format</a></li>
-        <li><a href="howto_combinedbuilder.html#Builder_Configuration_Related_to_Combined_Configurations">Builder Configuration Related to Combined Configurations</a></li>
+        <li><a href="howto_configurationbuilder.html#The_configuration_definition_file">The configuration definition file</a></li>
+        <li><a href="howto_configurationbuilder.html#Setting_up_a_DefaultConfigurationBuilder">Setting up a ConfigurationFactory</a></li>
+        <li><a href="howto_configurationbuilder.html#Overriding_properties">Overriding properties</a></li>
+        <li><a href="howto_configurationbuilder.html#Optional_configuration_sources">Optional configuration sources</a></li>
+        <li><a href="howto_configurationbuilder.html#Union_configuration">Union configuration</a></li>
+        <li><a href="howto_configurationbuilder.html#Configuration_definition_file_reference">Configuration definition file reference</a></li>
+        <li><a href="howto_configurationbuilder.html#An_example">An example</a></li>
+        <li><a href="howto_configurationbuilder.html#Extending_the_configuration_definition_file_format">Extending the configuration definition file format</a></li>
       </ul>
       <li><a href="howto_multitenant.html#Multi-tenant Configurations">Multi-tenant Configurations</a></li>
       <ul>
-        <li><a href="howto_multitenant.html#MultiFileConfigurationBuilder">MultiFileConfigurationBuilder</a></li>
+        <li><a href="howto_multitenant.html#MultiFileHierarchicalConfiguration">MultiFileHierarchicalConfiguration</a></li>
         <li><a href="howto_multitenant.html#DynamicCombinedConfiguration">DynamicCombinedConfiguration</a></li>
         <li><a href="howto_multitenant.html#Sample Configuration">Sample Configuration</a></li>
-        <li><a href="howto_multitenant.html#Builder_Configuration_Related_to_Multi-file_Configurations">Builder Configuration Related to Multi-file Configurations</a></li>
         <li><a href="howto_multitenant.html#PatternSubtreeConfigurationWrapper">PatternSubtreeConfigurationWrapper</a></li>
       </ul>
-      <li><a href="howto_events.html#Events">Events</a></li>
+      <li><a href="howto_events.html#Configuration_Events">Configuration Events</a></li>
       <ul>
-        <li><a href="howto_events.html#Event_Sources_and_Listeners">Event Sources and Listeners</a></li>
-        <li><a href="howto_events.html#The_Hierarchy_of_Events">The Hierarchy of Events</a></li>
-        <li><a href="howto_events.html#Configuration_Update_Events">Configuration Update Events</a></li>
-        <li><a href="howto_events.html#Configuration_Error_Events">Configuration Error Events</a></li>
-        <li><a href="howto_events.html#Configuration_Builders_and_Events">Configuration Builders and Events</a></li>
-        <li><a href="howto_events.html#Reloading_Events">Reloading Events</a></li>
+        <li><a href="howto_events.html#Configuration_listeners">Configuration listeners</a></li>
+        <li><a href="howto_events.html#An_example">An example</a></li>
+        <li><a href="howto_events.html#Error_listeners">Error listeners</a></li>
       </ul>
       <li><a href="howto_utilities.html#Utility_classes_and_Tips_and_Tricks">Utility classes and Tips and Tricks</a></li>
       <ul>
@@ -172,7 +137,12 @@
         <li><a href="howto_utilities.html#Converting_between_properties_and_configurations">Converting between properties and configurations</a></li>
         <li><a href="howto_utilities.html#Interpolation_of_all_variables">Interpolation of all variables</a></li>
         <li><a href="howto_utilities.html#Handling_of_runtime_exceptions">Handling of runtime exceptions</a></li>
-        <li><a href="howto_utilities.html#Wrapping_Configuration_Builders">Wrapping Configuration Builders</a></li>
+      </ul>
+      <li><a href="howto_filesystems.html">Access to Files</a></li>
+      <ul>
+        <li><a href="howto_filesystems.html#File_Systems#FileHandler_and_FileLocator">FileHandler and FileLocator</a></li>
+        <li><a href="howto_filesystems.html#File_Systems#File_Systems">File Systems</a></li>
+        <li><a href="howto_filesystems.html#File_Systems#File_Location_Strategies">File Location Strategies</a></li>
       </ul>
       <li><a href="howto_concurrency.html">Configurations and Concurrent Access</a></li>
       <ul>

@@ -20,12 +20,12 @@
   configuration sources created by a DefaultConfigurationBuilder.
   This configuration definition file for a DefaultConfigurationBuilder
   references multiple sources which contain variable references.
-  $Id: testInterpolationBuilder.xml 1624753 2014-09-13 15:36:51Z oheger $
+  $Id: testInterpolationBuilder.xml 1426821 2012-12-29 20:16:40Z oheger $
 -->
 <configuration>
   <system/>
   <properties fileName="testInterpolation.properties"/>
   <xml fileName="${testXmlFile}" config-name="test">
-    <expressionEngine config-class="org.apache.commons.configuration2.tree.xpath.XPathExpressionEngine"/>
+    <expressionEngine config-class="org.apache.commons.configuration.tree.xpath.XPathExpressionEngine"/>
   </xml>
 </configuration>

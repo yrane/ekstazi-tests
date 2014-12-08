@@ -13,8 +13,7 @@ public class ThreadMain
         public void run() {
             try {
                 Thread.sleep(count);
-                System.out.println(
-                "Delayed Hello World");
+                System.out.println("Delayed Hello World");
 
             } catch(InterruptedException e) {
                 e.printStackTrace();

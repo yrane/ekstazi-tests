@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.configuration.builder.combined.TestReloadingCombinedConfigurationBuilder
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.494 sec - in org.apache.commons.configuration.builder.combined.TestReloadingCombinedConfigurationBuilder

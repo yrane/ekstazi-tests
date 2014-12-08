@@ -25,8 +25,8 @@ public class ParameterizedTest {
 	public static Collection<Integer[]> addedNumbers() {
 		return Arrays.asList(new Integer[][] { { 3, 1, 2 }, { 5, 2, 3 },
 				{ 7, 3, 4 }, { 9, 4, 5 }, });
-	
 
+	}
 	@Test
 	public void sum() {
 		Addition add = new Addition();

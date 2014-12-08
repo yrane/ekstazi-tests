@@ -15,7 +15,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-<!-- $Id: howto_beans.xml 1624753 2014-09-13 15:36:51Z oheger $ -->
+<!-- $Id: howto_beans.xml 1520799 2013-09-07 19:45:22Z oheger $ -->
 
 <document>
 
@@ -24,12 +24,12 @@
  </properties>
 
 <body>
-    <section name="Declaring and Creating Beans">
+	<section name="Declaring and Creating Beans">
     <p>
       Often it is good practice to make heavy use of Java interfaces and program
       an application or components against these interfaces rather than concrete
       implementation classes. This makes it possible to switch to different implementations
-      without having to modify calling code. However, the problem remains how a
+      without having to modify calling code. However the problem remains how a
       concrete implementation of an interface is obtained. Simply using the
       <b>new</b> operator on a specific implementation class would somehow break
       the interface concept because then the code would have an explicit reference
@@ -48,7 +48,8 @@
     <p>
       <em>Note: The concept of defining service objects in configuration files
       and let them be created by a special container has grown popular these
-      days. Especially IoC containers like <a href="http://www.springframework.org/">Spring</a> offer wide
+      days. Especially IoC containers like <a href="http://jakarta.apache.org/hivemind/">HiveMind</a>
+      or <a href="http://www.springframework.org/">Spring</a> offer wide
       functionality related to this topic. Commons Configuration is not and has
       no ambitions to become an IoC container. The provided functionality for
       declaring and creating beans is very basic and limited compared to the
@@ -64,26 +65,26 @@
         Beans (we use the term <em>bean</em> here to name any plain old Java
         object that is defined in a configuration file and can be instantiated
         by Commons Configuration) are defined in configuration files in a specific
-        format, a so-called <em>Bean declaration</em>. Such a declaration contains
+        format, a so called <em>Bean declaration</em>. Such a declaration contains
         all information needed to create an instance of this bean class, e.g.
-        the fully-qualified name of the class and initialization parameters. We will
+        the full qualified name of the class and initialization parameters. We will
         explain how a bean declaration looks like in short.
       </p>
       <p>
         On the Java side three entities are involved in the creation of a bean:
         <ul>
           <li>A <em>bean factory</em>: This is an object that implements the
-          <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanFactory.html">BeanFactory</a></code>
+          <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanFactory.html">BeanFactory</a></code>
           interface and knows how to create an instance of a bean class. In most
           cases calling code does not directly deal with a bean factory.</li>
           <li>An implementation of the
-          <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanDeclaration.html">BeanDeclaration</a></code>
+          <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanDeclaration.html">BeanDeclaration</a></code>
           interface. This object knows how the bean declaration in the configuration
           file is organized and how the needed information can be extracted. So
           the way the bean is declared in the configuration file must match the
           expectations of this object.</li>
           <li>The helper class
-          <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanHelper.html">BeanHelper</a></code>
+          <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanHelper.html">BeanHelper</a></code>
           brings all these together and performs the bean creation operation.
           Usually client code will create a <code>BeanDeclaration</code> object
           from a <code>Configuration</code> implementation and then pass it to
@@ -94,7 +95,7 @@
         provided, which in many cases can be used out of the box.
       </p>
       </subsection>
-
+      
       <subsection name="An Example">
       <p>
         After this theory let's get into practice using an example. Consider a
@@ -121,13 +122,13 @@ public class DefaultWindowManager implements WindowManager
     private boolean resizable;
     // do windows have a close button?
     private boolean closable;
-
+    
     // Default size of new windows
     private int defaultWidth;
     private int defaultHeight;
-
+    
     WindowStyleDefinition styleDefinition;
-
+    
     // getters and setters ommitted, also the WindowManager methods
 }
 ]]></source>
@@ -159,7 +160,7 @@ public class DefaultWindowManager implements WindowManager
         <code>windowManager</code> element and including its sub elements. Note
         the following points:
         <ul>
-          <li>The (fully-qualified) class of the bean is specified using the
+          <li>The (fully qualified) class of the bean is specified using the
           <code>config-class</code> attribute. (Attributes starting with the
           prefix &quot;config-&quot; are reserved; they contain special meta
           data for the bean creation process.)</li>
@@ -180,23 +181,18 @@ public class DefaultWindowManager implements WindowManager
         This is demonstrated in the code fragment below:
       </p>
 <source><![CDATA[
-Parameters params = new Parameters();
-FileBasedConfigurationBuilder<XMLConfiguration> builder =
-    new FileBasedConfigurationBuilder<XMLConfiguration>(XMLConfiguration.class)
-    .configure(params.xml()
-        .setFileName("windowconfig.xml"));
-XMLConfiguration config = builder.getConfiguration();
+XMLConfiguration config = new XMLConfiguration("windowconfig.xml");
 BeanDeclaration decl = new XMLBeanDeclaration(config, "gui.windowManager");
 WindowManager wm = (WindowManager) BeanHelper.INSTANCE.createBean(decl);
 ]]></source>
       <p>
         This fragment loads the configuration file using a <code>XMLConfiguration</code>
         object. Then a bean declaration object is created, in this case an
-        instance of the <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/XMLBeanDeclaration.html">XMLBeanDeclaration</a></code>
+        instance of the <code><a href="../apidocs/org/apache/commons/configuration/beanutils/XMLBeanDeclaration.html">XMLBeanDeclaration</a></code>
         class, which can deal with bean declarations in XML documents. This
         declaration is passed to the <code>createBean()</code> method of
         the default instance of the
-        <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanHelper.html">BeanHelper</a></code>
+        <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanHelper.html">BeanHelper</a></code>
         class, which returns the new bean instance.
       </p>
       <p>
@@ -212,7 +208,7 @@ WindowManager wm = (WindowManager) BeanHelper.INSTANCE.createBean(decl);
           <code>BeanFactory</code> objects that are registered under a specific
           key. The <code>BeanDeclaration</code> can contain the key of the
           <code>BeanFactory</code> to be used. Please refer to the
-          JavaDocs of <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/XMLBeanDeclaration.html">
+          JavaDocs of <code><a href="../apidocs/org/apache/commons/configuration/beanutils/XMLBeanDeclaration.html">
           XMLBeanDeclaration</a></code> for further information.</li>
           <li>When a <code>BeanHelper</code> object is constructed a default
           <code>BeanFactory</code> is set. This one is used if no specific
@@ -222,7 +218,7 @@ WindowManager wm = (WindowManager) BeanHelper.INSTANCE.createBean(decl);
         default <code>BeanHelper</code> instance which is available via the
         static <code>INSTANCE</code> member field (as shown in the example
         fragment above). This instance uses a
-        <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/DefaultBeanFactory.html">
+        <code><a href="../apidocs/org/apache/commons/configuration/beanutils/DefaultBeanFactory.html">
         DefaultBeanFactory</a></code> object as bean factory.
         Otherwise, specialized <code>BeanHelper</code>
         instances can be created that are configured with other bean factories.
@@ -245,7 +241,7 @@ WindowManager wm = (WindowManager) BeanHelper.INSTANCE.createBean(decl);
         In the examples so far we assumed that beans are created using their
         standard constructor. This is appropriate for classes conforming to the
         Java Beans specification which requires bean classes to have such a
-        no-argument constructor. <em>Commons Configuration</em> also supports invoking
+        no-argument constructor. Commons Configuration also supports invoking
         an arbitrary constructor passing in the corresponding constructor
         arguments. Let's extend the example from the previous section and assume
         that the <code>WindowStyleDefinition</code> class is now an immutable
@@ -268,7 +264,7 @@ public class WindowStyleDefinition
         In order to create an instance of <code>WindowStyleDefinition</code>,
         we have to pass the foreground and background colors and a standard
         font to the constructor. The colors are simple strings while a font is
-        again a complex object. The following code fragement shows the complete
+        again a complex object. The following code fragement shows the complete 
         bean declaration for this scenario:
       </p>
 <source><![CDATA[
@@ -311,7 +307,7 @@ public class WindowStyleDefinition
         the constructor.
       </p>
       <p>
-        <em>Commons Configuration</em> uses a pretty simple algorithm to determine the
+        Commons Configuration uses a pretty simple algorithm to determine the
         constructor to be invoked: it is mainly based on the number of
         constructor arguments. This works as expected as long as there are not
         multiple constructors with the same number of arguments. If this is
@@ -327,7 +323,7 @@ public class MyBean
     {
         ...
     }
-
+    
     public MyBean(int ivalue)
     {
         ...
@@ -379,7 +375,7 @@ public class MyBean
 
       <subsection name="Extending the Basic Mechanism">
       <p>
-        As was pointed out in the introduction of this chapter, support for creating
+        As was pointed out in the introduction of this chapter support for creating
         beans is focused on the basics. But there are some possibilities of hooking
         in and add custom extensions. This can be done in the following ways:
         <ul>
@@ -393,7 +389,7 @@ public class MyBean
         than the ones supported by the available default implementations. Then it
         is the responsibility of your implementation to parse the configuration
         data and extract the required information to create the bean. Basically
-        your <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanDeclaration.html">BeanDeclaration</a></code>
+        your <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanDeclaration.html">BeanDeclaration</a></code>
         implementation must be able to provide the following data:
         <ul>
           <li>The name of the class for which an instance is to be created.</li>
@@ -420,7 +416,7 @@ public class MyBean
         allows you to adapt the format of bean declarations in configuration files,
         you can manipulate the bean creation mechanism itself by creating a
         specialized implementation of the
-        <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanFactory.html">BeanFactory</a></code>
+        <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanFactory.html">BeanFactory</a></code>
         interface. For this purpose the following steps are necessary:
         <ol>
           <li>Create a class implementing the <code>BeanFactory</code> interface.
@@ -443,7 +439,7 @@ public class MyBean
       <p>
         We start with the creation of the factory class. The basic idea is that
         the functionality for creating and initializing beans is already provided
-        by the <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/DefaultBeanFactory.html">DefaultBeanFactory</a></code>
+        by the <code><a href="../apidocs/org/apache/commons/configuration/beanutils/DefaultBeanFactory.html">DefaultBeanFactory</a></code>
         class, so we extend this class. Our implementation only has to deal with
         the singleton stuff: We keep a map that stores already created bean
         instances and can be accessed by the name of their classes. In the
@@ -460,14 +456,14 @@ public class MyBean
 public class SingletonBeanFactory extends DefaultBeanFactory
 {
     /** A map for the so far created instances.*/
-    private final Map<String, Object> beans;
-
+    private final Map beans;
+    
     public SingletonBeanFactory()
     {
         super();
-        beans = new HashMap<String, Object>();
+        beans = new HashMap();
     }
-
+    
     // Creates the bean. Checks if already an instance exists.
     public synchronized Object createBean(BeanCreationContext bcc) throws Exception
     {
@@ -490,7 +486,7 @@ public class SingletonBeanFactory extends DefaultBeanFactory
 ]]></source>
       <p>
         The main method to define is <code>createBean()</code>. It is passed
-        a <code><a href="../apidocs/org/apache/commons/configuration2/beanutils/BeanCreationContext.html">
+        a <code><a href="../apidocs/org/apache/commons/configuration/beanutils/BeanCreationContext.html">
         BeanCreationContext</a></code> object which contains all information
         required for creating a bean (e.g. via reflection).
         Note the <b>synchronized</b> key word, which is necessary because the
@@ -534,7 +530,7 @@ BeanHelper.INSTANCE.registerBeanFactory("SINGLETON", new SingletonBeanFactory())
       <p>
         Alternatively, a separate <code>BeanHelper</code> instance can be
         created passing in the new factory object as its default bean factory.
-        In the bean declarations, it is then no longer necessary to refer to
+        In the bean declarations, it is then no longer necessary to refer to a
         a specific bean factory. Below is an example showing this approach:
       </p>
 <source><![CDATA[

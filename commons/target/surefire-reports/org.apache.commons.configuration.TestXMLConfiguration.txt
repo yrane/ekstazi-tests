@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.configuration.TestXMLConfiguration
+-------------------------------------------------------------------------------
+Tests run: 92, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.53 sec - in org.apache.commons.configuration.TestXMLConfiguration

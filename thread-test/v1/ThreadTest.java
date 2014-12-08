@@ -9,15 +9,4 @@
         System.out.println("Goodbye, World");     //3
     }
 
-    // public static void main (String[] args) {
-    //     String[] name =
-    //         { BadExampleTest.class.getName() };
-    //
-    //     junit.textui.TestRunner.main(name);
-    // }
-
-//     public static Test suite() {
-//         return new TestSuite(
-//             BadExampleTest.class);
-//     }
 }

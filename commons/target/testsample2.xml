@@ -16,11 +16,11 @@
    limitations under the License.
 --><Employees xmlns="http://commons.apache.org/employee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://commons.apache.org/employee http://commons.apache.org/sample.xsd">
 <Employee attr1="1,2,3" attr2="one, two, three">
-<SSN>555121211</SSN>
-<Name>John Doe</Name>
-<DateOfBirth>1975-05-15</DateOfBirth>
-<EmployeeType>Exempt</EmployeeType>
-<Salary>100,000</Salary>
+    <SSN>555121211</SSN>
+    <Name>John Doe</Name>
+    <DateOfBirth>1975-05-15</DateOfBirth>
+    <EmployeeType>Exempt</EmployeeType>
+    <Salary>100,000</Salary>
 <text>a,b,d</text>
-</Employee>
+  </Employee>
 </Employees>

@@ -17,15 +17,15 @@
 -->
 <!-- Test configuration definition file that explicitly defines the result
      configuration object.
-     $Id: testCCResultClass.xml 1624753 2014-09-13 15:36:51Z oheger $
+     $Id: testCCResultClass.xml 1422690 2012-12-16 21:13:30Z oheger $
 -->
 
 <configuration>
   <header>
     <result throwExceptionOnMissing="true"
-            config-class="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilder$CombinedConfigurationTestImpl">
-      <nodeCombiner config-class="org.apache.commons.configuration2.tree.OverrideCombiner"/>
+            config-class="org.apache.commons.configuration.builder.combined.TestCombinedConfigurationBuilder$CombinedConfigurationTestImpl">
+      <nodeCombiner config-class="org.apache.commons.configuration.tree.OverrideCombiner"/>
     </result>
-  </header>
+  </header>  
   <xml fileName="test.xml" config-name="xml"/>
 </configuration>

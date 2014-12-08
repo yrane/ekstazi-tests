@@ -16,35 +16,35 @@
    limitations under the License.
 -->
 <!-- Test configuration definition for testing DynamicCombinedConfiguration.
-     $Id: testMultiTenentConfigurationBuilder4.xml 1624753 2014-09-13 15:36:51Z oheger $
+     $Id: testMultiTenentConfigurationBuilder4.xml 1502872 2013-07-13 19:45:55Z oheger $
 -->
 <configuration>
   <header>
     <result loggerName="TestLogger"
-            config-class="org.apache.commons.configuration2.DynamicCombinedConfiguration"
+            config-class="org.apache.commons.configuration.DynamicCombinedConfiguration"
             keyPattern="$${test:Id}">
-      <nodeCombiner config-class="org.apache.commons.configuration2.tree.MergeCombiner"/>
+      <nodeCombiner config-class="org.apache.commons.configuration.tree.MergeCombiner"/>
       <expressionEngine
-          config-class="org.apache.commons.configuration2.tree.xpath.XPathExpressionEngine"/>
+          config-class="org.apache.commons.configuration.tree.xpath.XPathExpressionEngine"/>
     </result>
     <lookups>
       <lookup config-prefix="test"
-              config-class="org.apache.commons.configuration2.TestDynamicCombinedConfiguration$ThreadLookup"/>
+              config-class="org.apache.commons.configuration.TestDynamicCombinedConfiguration$ThreadLookup"/>
     </lookups>
     <entity-resolver catalogFiles="catalog.xml"/>
   </header>
   <override>
-    <multiFile filePattern="testMultiConfiguration_$${test:Id}.xml"
+    <multiXml filePattern="testMultiConfiguration_$${test:Id}.xml"
                config-name="clientConfig" config-optional="true"
                config-forceCreate="true"
                schemaValidation="true">
        <expressionEngine
-          config-class="org.apache.commons.configuration2.tree.xpath.XPathExpressionEngine"/>
-    </multiFile>
+          config-class="org.apache.commons.configuration.tree.xpath.XPathExpressionEngine"/>
+    </multiXml>
     <xml fileName="testMultiConfiguration_default.xml"
          config-name="defaultConfig" schemaValidation="true">
       <expressionEngine
-          config-class="org.apache.commons.configuration2.tree.xpath.XPathExpressionEngine"/>
+          config-class="org.apache.commons.configuration.tree.xpath.XPathExpressionEngine"/>
     </xml>
   </override>
 </configuration>

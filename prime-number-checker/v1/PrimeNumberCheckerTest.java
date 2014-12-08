@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Collection;
- 
+
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.runners.Parameterized;
@@ -19,7 +19,7 @@ public class PrimeNumberCheckerTest {
       primeNumberChecker = new PrimeNumberChecker();
    }
 
-   public PrimeNumberCheckerTest(Integer inputNumber, 
+   public PrimeNumberCheckerTest(Integer inputNumber,
       Boolean expectedResult) {
       this.inputNumber = inputNumber;
       this.expectedResult = expectedResult;
@@ -36,11 +36,11 @@ public class PrimeNumberCheckerTest {
       });
    }
 
- 
+
    @Test
    public void testPrimeNumberChecker() {
       System.out.println("Parameterized Number is : " + inputNumber);
-      assertEquals(expectedResult, 
+      assertEquals(expectedResult,
       primeNumberChecker.validate(inputNumber));
    }
 }

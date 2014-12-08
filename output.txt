@@ -1,0 +1,248 @@
+Project: annotation-test
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project:anonymous-class-test Error: Compilation Failed in folder:v1
+
+Project: anonymous-class-test
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project:anonymous-test-small Error: Compilation Failed in folder:v1
+
+Project: anonymous-test-small
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: ArrayEqualTest
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: arrayList-test
+Expected Tests: 3	Actual Tests: 3
+Ekstazi Result: Success!
+
+Project: AssertFalseTest
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: AssertNotNullTest
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project:assertThatTest Error: Compilation Failed in folder:v1
+
+Project:assertThatTest Error: Compilation Failed in folder:v2
+
+Project:bit-operator-test Error: Compilation Failed in folder:v1
+
+Project:bit-operator-test Error: Compilation Failed in folder:v2
+
+Project: change-access-modifier
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: changed-test-method-body
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project:class-inheritance Error: Compilation Failed in folder:v1
+
+Project:class-inheritance Error: Compilation Failed in folder:v2
+
+Project: commented-code
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: constructor-test-suite
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: constructor-test-suite-changed
+Expected Tests: 4	Actual Tests: 4
+Ekstazi Result: Success!
+
+Project: coverage-testing
+Expected Tests: 8	Actual Tests: 8
+Ekstazi Result: Success!
+
+Project: constructor-test
+Expected Tests: 4	Actual Tests: 4
+Ekstazi Result: Success!
+
+Project: employee-business-details
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project:enum-test Error: Compilation Failed in folder:v1
+
+Project:enum-test Error: Compilation Failed in folder:v2
+
+Project: find-max
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: generic-bubble-sort
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: ignore-tag
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: infinite-loop
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: inheritance-test
+Expected Tests: 12	Actual Tests: 12
+Ekstazi Result: Success!
+
+Project: inheritance-test-2
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: interface-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: interface-test-class
+Expected Tests: 3	Actual Tests: 3
+Ekstazi Result: Success!
+
+Project: junit-rules-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: map-test
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: max-cube-reverse
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: mean-test
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: multiply
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: multiply2
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: multiply3
+Expected Tests: 3	Actual Tests: 3
+Ekstazi Result: Success!
+
+Project: multiply3_2testclassfor1class
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: multiply3_all_separate_classes
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: multiply3_separate_test_classes
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: myStack-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: nothing-changed
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: object-invariant
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: ordering-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: override-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: parameterized-test
+Expected Tests: 4	Actual Tests: 4
+Ekstazi Result: Success!
+
+Project: prime-number-2classes
+Expected Tests: 3	Actual Tests: 3
+Ekstazi Result: Success!
+
+Project: prime-number-checker
+Expected Tests: 5	Actual Tests: 5
+Ekstazi Result: Success!
+
+Project: simple-inheritance
+Expected Tests: 11	Actual Tests: 11
+Ekstazi Result: Success!
+
+Project: string-concatenation
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: switch-test
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: test-assertions
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: testing-input-component
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: testing-output-component
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: test-interface-itself
+Expected Tests: 4	Actual Tests: 4
+Ekstazi Result: Success!
+
+Project: test-runner-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: test-subclass
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: test-suite-test
+Expected Tests: 2	Actual Tests: 2
+Ekstazi Result: Success!
+
+Project: thread-test
+Expected Tests: 1	Actual Tests: 0
+Ekstazi Result: Fail!
+
+Project: triangle-test-comment-imports-ignored
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project: utility-class-static-only
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+
+Project: test-variable-name-change
+Expected Tests: 0	Actual Tests: 0
+Ekstazi Result: Success!
+
+Project:theory-test Error: Compilation Failed in folder:v1
+
+Project:theory-test Error: Compilation Failed in folder:v2
+
+Project: test-method-name-change
+Expected Tests: 1	Actual Tests: 1
+Ekstazi Result: Success!
+

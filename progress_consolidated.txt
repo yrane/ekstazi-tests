@@ -1,0 +1,39 @@
+1. When we add or remove @ignore tag, even though it is a change, Ekstazi does not run the @ignore tests.
+Script: java JunitFramework_single annotation-test
+
+2. We have added test case for @Theory to understand it's difference from @Paramaterized tests.
+3. The tests are run on reordering of arguments irrespective of the change in results.
+4. Understood how Ekstazi runs for superclass-subclass scenarios. It was running the correct number of tests when methods are overridden and not overridden.
+5. In joda-time, I was able to find 4063 test methods in the test directory. So, Ekstazi correctly runs the large number of tests as expected in the first run.
+6. We added the testcase covering the scenario where local variable name is changed, comments and empty lines are added and it results in same compiled output. We also added a testcase where local method name is changed. And as we thought, compiled output is changed when we change only its method name and not local variable name. This answers the questions 2 in progress report 3.
+
+7.
+Test Suite Case: 1 (extends TestCase)
+joda-time: runs Junit tests by extending TestCase instead of @Test:
+Tests run: 4067, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.122 sec - in org.joda.time.TestAllPackages
+Run second time with Ekstazi:
+0 tests run
+
+We replicated same test suite construct(extends TestCase) in small test namely constructor-test-suite and got the same results.
+script: java JunitFramework constructor-test-suite
+
+When even a single test is modified in joda-time, all tests are run again via the test suite.
+We got the same results in a small test namely constructor-test-suite-changed and got the same results.
+script: java JunitFramework constructor-test-suite-changed
+
+Test Suite Case: 2 (@Test)
+Now we made another test suite case in which we added @Test instead of extending TestCase.
+However, in this case even if changes are NOT made, Ekstazi always runs the test suite.
+script: java JunitFramework test-suite-test
+
+We explored and found out that "extends TestCase" was used in older Junit versions but to replicate results like joda-time, we created such a test case.
+Newer version of Junit which we have been using for our tests uses @Test. Hence we are not sure what results are desirable from Ekstazi.
+
+8. We have created test cases for regular cases with class hierarchy (classes/subclasses/superclasses, interfaces, annotations, enums). Then we also tried to check whether Ekstazi supports parallel execution.
+
+
+JunitFramework:
+1. Added functionality to the framework of considering only test suite classes if present for performing tests i.e. ignoring other test files present in the directory (no duplicates as was happening in run-test script).
+2. Automated framework to run all test cases we have added.
+3. Renamed the framework to JunitFramework.java
+4. There is also a program available to test individual project folders by the name JunitFramework_single.java.

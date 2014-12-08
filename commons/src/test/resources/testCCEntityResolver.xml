@@ -17,13 +17,13 @@
 -->
 <!-- Test configuration definition file that contains a declaration of an
      entity resolver.
-     $Id: testCCEntityResolver.xml 1624753 2014-09-13 15:36:51Z oheger $
+     $Id: testCCEntityResolver.xml 1426025 2012-12-26 21:02:07Z oheger $
 -->
 
 <configuration>
   <header>
     <entity-resolver
-      config-class="org.apache.commons.configuration2.builder.combined.TestCombinedConfigurationBuilder$EntityResolverWithPropertiesTestImpl"/>
+      config-class="org.apache.commons.configuration.builder.combined.TestCombinedConfigurationBuilder$EntityResolverWithPropertiesTestImpl"/>
   </header>
   <xml fileName="test.xml" config-name="xml"/>
 </configuration>

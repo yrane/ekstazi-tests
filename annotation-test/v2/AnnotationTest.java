@@ -6,7 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 public class AnnotationTest {
-	
+
    @BeforeClass
    public static void beforeClass() {
       System.out.println("in before class");
@@ -21,21 +21,20 @@ public class AnnotationTest {
    public void before() {
       System.out.println("in before");
    }
-	
+
    @After
    public void after() {
       System.out.println("in after");
    }
-	
-@Ignore
+
+   @Ignore
    @Test
    public void test() {
       System.out.println("in test");
    }
-	
+
    @Ignore
    public void ignoreTest() {
       System.out.println("in ignore test");
    }
 }
-
